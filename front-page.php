@@ -56,7 +56,7 @@ get_header(); ?>
 
 				<section class="fourth-container">
 					<div class="photo-container">
-						<img alt="Info icon" src="<?php echo get_template_directory_uri() . '/assets/caravel-content-1.png'?>"
+						<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/caravel-content-1.png'?>"
 						/>
 					</div>
 				</section>
