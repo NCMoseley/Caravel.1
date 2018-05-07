@@ -26,7 +26,7 @@ get_header(); ?>
 					</div>
 				</div>
 				  <div class="box2">
-						<h4 class="we-specialize-blurb">We specialize in custom Websites built with Wordpress</h4>
+						<h4 class="we-specialize-blurb">We specialize in custom Websites built with <span>WordPress</span>. They are designed to be clean, simple and future proof. We have helped our clients realize their online voice and increased traffic, conversion and ranking.</h4>
 						<!-- <picture>
 							<source srcset="<?php echo get_template_directory_uri() . '/assets/'?>">
 							<img srcset="<?php echo get_template_directory_uri() . '/assets/'?>" >

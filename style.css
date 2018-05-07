@@ -666,18 +666,18 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.header-container {
+.home .header-container {
   padding: 5%;
   margin-bottom: 20%; }
-  .header-container h1 {
+  .home .header-container h1 {
     font-family: Playfair Display, serif;
     font-size: 72px;
     padding: 10% 10% 0 10%; }
-  .header-container p {
+  .home .header-container p {
     max-width: 80%;
     padding-left: 10%; }
 
-.second-container {
+.home .second-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -686,7 +686,7 @@ object {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.box1 {
+.home .box1 {
   background-color: #F7F7F7;
   width: 40%;
   height: 500px;
@@ -699,7 +699,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .box1 .dots {
+  .home .box1 .dots {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -707,11 +707,11 @@ object {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row; }
-    .box1 .dots p {
+    .home .box1 .dots p {
       color: orangered;
       padding: 10px; }
 
-.dots {
+.home .dots {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -720,7 +720,7 @@ object {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.scroll {
+.home .scroll {
   position: absolute;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
@@ -741,13 +741,13 @@ object {
   color: blue;
   padding-left: 90px; }
 
-.scroll-blue-line {
+.home .scroll-blue-line {
   height: 2px;
   width: 150px;
   background-color: blue;
   margin-right: 20px; }
 
-.services-container {
+.home .services-container {
   height: 900px;
   background-color: #F7F7F7;
   padding: 15%;
@@ -755,7 +755,7 @@ object {
   -ms-flex-item-align: center;
       align-self: center; }
 
-.box2 {
+.home .box2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -765,25 +765,27 @@ object {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  .box2 h4 {
-    font-size: 26px;
+  .home .box2 h4 {
+    font-size: 20px;
     font-weight: 100; }
+  .home .box2 span {
+    color: blue; }
 
-.find-out-container {
+.home .find-out-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
-  .find-out-container .find-out-blurb {
+  .home .find-out-container .find-out-blurb {
     line-height: 4; }
-    .find-out-container .find-out-blurb div {
+    .home .find-out-container .find-out-blurb div {
       background-color: blue;
       height: 2px;
       width: 211px; }
 
-.title-paragraph-container {
+.home .title-paragraph-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -791,16 +793,16 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
-  .title-paragraph-container h2 {
+  .home .title-paragraph-container h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 100;
     padding: 20px;
     font-size: 60px; }
-  .title-paragraph-container p {
+  .home .title-paragraph-container p {
     -ms-flex-item-align: center;
         align-self: center; }
 
-.bullet-container {
+.home .bullet-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -813,7 +815,7 @@ object {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 3; }
 
-.bullet-point {
+.home .bullet-point {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -821,11 +823,11 @@ object {
       -ms-flex-align: center;
           align-items: center; }
 
-.bullet-blue-line {
+.home .bullet-blue-line {
   height: 5px;
   width: 10px;
   background-color: blue;
   margin-right: 10px; }
 
-.photo-container img {
+.home .photo-container img {
   width: 100%; }
