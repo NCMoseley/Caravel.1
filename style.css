@@ -689,9 +689,27 @@ object {
 .box1 {
   background-color: #F7F7F7;
   width: 40%;
-  height: 500px; }
-  .box1 p {
-    color: orangered; }
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .box1 .dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .box1 .dots p {
+      color: orangered;
+      padding: 10px; }
 
 .dots {
   display: -webkit-box;
@@ -703,6 +721,7 @@ object {
           flex-direction: row; }
 
 .scroll {
+  position: absolute;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   display: -webkit-box;
@@ -718,7 +737,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: monospace;
+  font-weight: 100;
   color: blue;
   padding-left: 90px; }
 
@@ -736,6 +755,20 @@ object {
   -ms-flex-item-align: center;
       align-self: center; }
 
+.box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .box2 h4 {
+    font-size: 26px;
+    font-weight: 100; }
+
 .find-out-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -747,7 +780,7 @@ object {
     line-height: 4; }
     .find-out-container .find-out-blurb div {
       background-color: blue;
-      height: 5px;
+      height: 2px;
       width: 211px; }
 
 .title-paragraph-container {

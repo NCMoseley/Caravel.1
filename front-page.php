@@ -19,8 +19,8 @@ get_header(); ?>
 				</section>
 
 				<section class="second-container">
-				<div class="box1">
 					<div class="scroll"><div class="scroll-blue-line"></div>SCROLL</div>
+				<div class="box1">
 					<div class="dots">
 					<p>●</p><p>●</p><p>●</p>
 					</div>
