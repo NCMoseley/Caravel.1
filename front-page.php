@@ -17,7 +17,7 @@ get_header(); ?>
 							<h1>Simple, Powerful &
 								<br>Efficient Websites.</h1>
 							<p>We build modern websites for the next generation of businesses and individuals.
-								<br> No fluff, no over design, no bloat. Fast, elegant, and precisely what you need. We will get you where you need to
+								 No fluff, no over design, no bloat. Fast, elegant, and precisely what you need. We will get you where you need to
 								be.
 								<strong> Set sail!
 									<strong>

@@ -694,6 +694,7 @@ object {
       font-size: 72px;
       width: 60%; }
     .home .seans-code .header-container p {
+      font-size: 28px !important;
       max-width: 40%; }
   .home .second-container {
     display: -webkit-box;
