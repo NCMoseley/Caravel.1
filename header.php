@@ -13,6 +13,7 @@
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
     <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
 	<?php wp_head(); ?>
@@ -23,13 +24,11 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html('Skip to content'); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
-				<div class="site-branding">
-					<!-- <h1 class="site-title screen-reader-text"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-					<p class="site-description"><?php bloginfo('description'); ?></p> -->
-				</div><!-- .site-branding -->
-
+			
+			
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html('Primary Menu'); ?></button>
+				<div class="header-menu-logo"></div>
+				
 					<?php wp_nav_menu(array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' )); ?>
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->

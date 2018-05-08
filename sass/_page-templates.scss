@@ -2,22 +2,42 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+// Header
+.header-menu-logo {
+  height: 48px;
+  width: 200px;
+  background: url("../../assets/Caravel-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+  position: fixed;
+  top: 46px;
+  left: 128px;
+  z-index: 1000;
+}
+
+.main-navigation {
+  position: fixed;
+}
+
 /* Front page */
 
 .home {
-  .header-container {
-    padding: 5%;
-    margin-bottom: 20%;
-    h1 {
-      font-family: Playfair Display, serif;
-      font-size: 72px;
-      padding: 10% 10% 0 10%;
+  // SEANS CODE
+  .seans-code {
+    .header-container {
+      padding: 208px 128px;
+      margin-bottom: 128px;
+      h1 {
+        font-family: Playfair Display, serif;
+        font-size: 72px;
+        width: 60%;
+      }
+      p {
+        max-width: 60%;
+      }
     }
-    p {
-      max-width: 80%;
-      padding-left: 10%;
-    }
-  }
+  } // SEANS CODE
   .second-container {
     display: flex;
     flex-direction: row;
@@ -72,7 +92,7 @@
     justify-content: space-around;
     h4 {
       font-size: 20px;
-      font-weight: 100; // font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100;
     }
     span {
       color: blue;
@@ -107,7 +127,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 3;
   }
   .bullet-point {
@@ -124,5 +143,36 @@
     img {
       width: 100%;
     }
+  }
+  .team-wrapper {
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 100;
+      text-align: left;
+      margin-left: 20%;
+    }
+    p {
+      max-width: 60%;
+      margin: 0 auto;
+      font-weight: 100;
+    }
+  }
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    p {
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+  .team-single {
+    width: 40%;
+    padding: 5%;
+  }
+  .position {
+    color: blue;
+    font-weight: 100;
   }
 }
