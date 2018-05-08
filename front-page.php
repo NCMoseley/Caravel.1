@@ -182,7 +182,7 @@ get_header(); ?>
 								electromagnetic consequences drumming orbit catalytic psilocybin</p>
 						</div>
 					</div>
-					<div class="team-third-row">
+					<!-- <div class="team-third-row">
 						<div class="team-single">
 							<img alt="Matt-photo" src="<?php echo get_template_directory_uri() . '/assets/Matt.jpg'?>" />
 							<h3 class="position">Matt Stobo</br> - Lead Designer</h3>
@@ -192,9 +192,9 @@ get_header(); ?>
 						<div class="team-single">
 							<img alt="Narmeen-photo" src="<?php echo get_template_directory_uri() . '/assets/Narmeen.jpg'?>" />
 							<h3 class="position">Narmeen Fazwani</br> - Sr. Designer</h3>
-							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaismelectromagnetic consequences drumming orbit catalytic psilocybin</p>
+							<p>Narmeen Fazwani is a recent graduate from the Full Stack Marketing program at RED Academy. Prior to RED, Narmeen has an Undergraduate and a Postgraduate degree in Brand Management from the UK. Narmeen recently moved to Vancouver and plans to be a part of the fast growing tech industry in the city.</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 </div>
