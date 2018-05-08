@@ -912,6 +912,20 @@ object {
       flex-wrap: wrap;
   padding-left: 15%; }
 
+.home .team-third-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .home .team-single {
   width: 40%;
   padding: 5%; }
