@@ -10,15 +10,15 @@ get_header(); ?>
 	
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+		<div class="seans-code">
 			<section class="content-wrapper">
 				<section class="hero-container">
 					<div class="header-container">
-						<h1 class="">Simple, Powerful & Efficient Websites</h1>
-						<p>hyper-global invariant anything explore architectonics paradigm eschatology linguistics psychedelic science redefine control mathematics disbelief philosophy monotheism unfolding archetype diversion shamanistic origin amphetamine possible field transformation primate</p>
-					</div>
+						<h1>Simple, Powerful & <br>Efficient Websites.</h1>
+						<p>We build modern websites for the next generation of businesses and individuals.
+		 <br> No fluff, no over design, no bloat. Fast, elegant, and precisely what you need. We will get you where you need to be.<strong> Set sail!<strong></p>			</div>
 				</section>
-
+		</div>
 				<section class="second-container">
 					<div class="scroll"><div class="scroll-blue-line"></div>SCROLL</div>
 				<div class="box1">

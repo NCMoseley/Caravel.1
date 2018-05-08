@@ -665,17 +665,31 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.header-menu-logo {
+  height: 48px;
+  width: 200px;
+  background: url("../../assets/Caravel-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+  position: fixed;
+  top: 46px;
+  left: 128px;
+  z-index: 1000; }
+
+.main-navigation {
+  position: fixed; }
+
 /* Front page */
-.home .header-container {
-  padding: 5%;
-  margin-bottom: 20%; }
-  .home .header-container h1 {
+.home .seans-code .header-container {
+  padding: 208px 128px;
+  margin-bottom: 128px; }
+  .home .seans-code .header-container h1 {
     font-family: Playfair Display, serif;
     font-size: 72px;
-    padding: 10% 10% 0 10%; }
-  .home .header-container p {
-    max-width: 80%;
-    padding-left: 10%; }
+    width: 60%; }
+  .home .seans-code .header-container p {
+    max-width: 60%; }
 
 .home .second-container {
   display: -webkit-box;
