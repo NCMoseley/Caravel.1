@@ -55,11 +55,31 @@ get_header(); ?>
 					</div>
 				</section>
 
-				<section class="fourth-container">
-					<div class="photo-container">
-						<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/caravel-content-1.png'?>"
-						/>
+				<section class="carousel-container">
+					<div class="carousel">
+
 					</div>
+					<div class="our-work">
+						<h2 class="text-secondary">Our Work</h2>
+
+					</div>
+
+					<!-- Set up your HTML -->
+			<div class="owl-carousel owl-theme">
+    		<div class="item"><h4>1</h4></div>
+    		<div class="item"><h4>2</h4></div>
+    		<div class="item"><h4>3</h4></div>
+    		<div class="item"><h4>4</h4></div>
+    		<div class="item"><h4>5</h4></div>
+    		<div class="item"><h4>6</h4></div>
+    		<div class="item"><h4>7</h4></div>
+    		<div class="item"><h4>8</h4></div>
+    		<div class="item"><h4>9</h4></div>
+    		<div class="item"><h4>10</h4></div>
+    		<div class="item"><h4>11</h4></div>
+    		<div class="item"><h4>12</h4></div>
+			</div>
+
 				</section>
 
 				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin dominant evolution believe attractor featureless relationships imparted trajectory existence medium random geological reductionist</p>
