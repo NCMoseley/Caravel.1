@@ -869,7 +869,8 @@ object {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   .home .team-container p {
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 100%; }
 
 .home .team-single {
   width: 40%;
