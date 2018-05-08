@@ -19,9 +19,6 @@
   position: fixed;
 }
 
-
-
-
 /* Front page */
 
 .home {
@@ -41,17 +38,12 @@
     }
   }
 }
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-  // SEANS CODE
+/* Front page */
   .second-container {
     display: flex;
     flex-direction: row;
@@ -106,7 +98,7 @@
     justify-content: space-around;
     h4 {
       font-size: 20px;
-      font-weight: 100; // font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100;
     }
     span {
       color: blue;
@@ -141,7 +133,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 3;
   }
   .bullet-point {
@@ -159,4 +150,36 @@
       width: 100%;
     }
   }
+  .team-wrapper {
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 100;
+      text-align: left;
+      margin-left: 20%;
+    }
+    p {
+      max-width: 60%;
+      margin: 0 auto;
+      font-weight: 100;
+    }
+  }
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    p {
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+  .team-single {
+    width: 40%;
+    padding: 5%;
+  }
+  .position {
+    color: blue;
+    font-weight: 100;
+  }
 }
+
