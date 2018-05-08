@@ -152,7 +152,7 @@ get_header(); ?>
 
 			<section class="team-wrapper">
 				<h1>The Team</h1>
-				<p>Don't be fooled by the smiles, these Navy Seals are not guys you would want to get stuck with in a dark alley.s</p>
+				<p>Don't be fooled by the smiles, these Navy Seals are not guys you would want to get stuck with in a dark alley.</p>
 				<div class="team-container">
 					<div class="team-top-row">
 						<div class="team-single">
