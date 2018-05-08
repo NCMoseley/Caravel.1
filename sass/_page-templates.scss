@@ -1,8 +1,8 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-
 // Header
+
 .header-menu-logo {
   height: 48px;
   width: 200px;
@@ -15,7 +15,6 @@
   left: 128px;
   z-index: 1000;
 }
-
 .main-navigation {
   position: fixed;
 }
@@ -23,21 +22,29 @@
 /* Front page */
 
 .home {
+
   // SEANS CODE
   .seans-code {
-    .header-container {
-      padding: 208px 128px;
-      margin-bottom: 128px;
-      h1 {
-        font-family: Playfair Display, serif;
-        font-size: 72px;
-        width: 60%;
-      }
-      p {
-        max-width: 60%;
-      }
+  .header-container {
+    padding: 208px 128px;
+    margin-bottom: 128px;
+    h1 {
+      font-family: Playfair Display, serif;
+      font-size: 72px;
+      width: 60%;
     }
-  } // SEANS CODE
+    p {
+      font-size: 28px !important;
+      max-width: 40%;
+    }
+  }
+}
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+
+/* Front page */
   .second-container {
     display: flex;
     flex-direction: row; /////
