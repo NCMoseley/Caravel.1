@@ -698,11 +698,17 @@ object {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #f7f7f7;
+  margin-left: 14%;
+  position: relative; }
 
 .home .box1 {
-  background-color: #F7F7F7;
-  width: 40%;
+  background-color: #f7f7f7;
+  width: 30%;
   height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -736,6 +742,7 @@ object {
 
 .home .scroll {
   position: absolute;
+  left: -100px;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   display: -webkit-box;
@@ -762,10 +769,10 @@ object {
   margin-right: 20px; }
 
 .home .services-container {
-  height: 900px;
-  background-color: #F7F7F7;
+  height: 700px;
+  background-color: #f7f7f7;
   padding: 15%;
-  padding-top: 25%;
+  padding-top: 10%;
   -ms-flex-item-align: center;
       align-self: center; }
 
@@ -778,10 +785,16 @@ object {
       -ms-flex-direction: column;
           flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  width: 50%; }
   .home .box2 h4 {
     font-size: 20px;
-    font-weight: 100; }
+    font-weight: 100;
+    max-width: 70%; }
   .home .box2 span {
     color: blue; }
 
@@ -789,9 +802,10 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 25%; }
   .home .find-out-container .find-out-blurb {
     line-height: 4; }
     .home .find-out-container .find-out-blurb div {
@@ -803,10 +817,8 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
   .home .title-paragraph-container h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 100;
@@ -814,7 +826,9 @@ object {
     font-size: 60px; }
   .home .title-paragraph-container p {
     -ms-flex-item-align: center;
-        align-self: center; }
+        align-self: center;
+    max-width: 60%;
+    margin-top: 30px; }
 
 .home .bullet-container {
   display: -webkit-box;
@@ -837,7 +851,7 @@ object {
           align-items: center; }
 
 .home .bullet-blue-line {
-  height: 5px;
+  height: 3px;
   width: 10px;
   background-color: blue;
   margin-right: 10px; }

@@ -63,7 +63,7 @@ gulp.task('browser-sync', function () {
   ];
 
   browserSync.init(files, {
-    proxy: 'localhost:8888/caravel'
+    proxy: 'localhost:8888/htdocs/caravel'
   });
 
   gulp.watch(files).on('change', browserSync.reload);
