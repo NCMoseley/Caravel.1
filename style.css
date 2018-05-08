@@ -234,7 +234,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -826,7 +826,6 @@ object {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-family: Arial, Helvetica, sans-serif;
   line-height: 3; }
 
 .home .bullet-point {
@@ -845,3 +844,37 @@ object {
 
 .home .photo-container img {
   width: 100%; }
+
+.home .team-wrapper h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 20%; }
+
+.home .team-wrapper p {
+  max-width: 60%;
+  margin: 0 auto;
+  font-weight: 100; }
+
+.home .team-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .home .team-container p {
+    margin: 0 auto; }
+
+.home .team-single {
+  width: 40%;
+  padding: 5%; }
+
+.home .position {
+  color: blue;
+  font-weight: 100; }
