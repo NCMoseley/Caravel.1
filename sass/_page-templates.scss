@@ -1,23 +1,57 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+// Header
+
+.header-menu-logo {
+  height: 48px;
+  width: 200px;
+  background: url("../../assets/Caravel-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+  position: fixed;
+  top: 46px;
+  left: 128px;
+  z-index: 1000;
+}
+.main-navigation {
+  position: fixed;
+}
+
+
+
 
 /* Front page */
 
 .home {
+
+  // SEANS CODE
+  .seans-code {
   .header-container {
-    padding: 5%;
-    margin-bottom: 20%;
+    padding: 208px 128px;
+    margin-bottom: 128px;
     h1 {
       font-family: Playfair Display, serif;
       font-size: 72px;
-      padding: 10% 10% 0 10%;
+      width: 60%;
     }
     p {
-      max-width: 80%;
-      padding-left: 10%;
+      max-width: 60%;
     }
   }
+}
+
+
+
+
+
+
+
+
+
+
+  // SEANS CODE
   .second-container {
     display: flex;
     flex-direction: row;
