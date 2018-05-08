@@ -14,7 +14,7 @@ get_header(); ?>
 				<section class="hero-container">
 					<div class="header-container">
 						<h1 class="">Simple, Powerful & Efficient Websites</h1>
-						<p>Mars, our closest neighbor, isn’t only the landing site for humanity’s next adventure in space, it’s the future home for a new branch of human civilization. How do we get there, first, and then how do we redesign a hostile planet to support life?</p>
+						<p>hyper-global invariant anything explore architectonics paradigm eschatology linguistics psychedelic science redefine control mathematics disbelief philosophy monotheism unfolding archetype diversion shamanistic origin amphetamine possible field transformation primate</p>
 					</div>
 				</section>
 
@@ -37,7 +37,7 @@ get_header(); ?>
 
 				<section class="third-container">
 					<div class="services-container">
-						<span class="title-paragraph-container"><h2>Services</h2><p>Mars, our closest neighbor, isn’t only the landing site for humanity’s next adventure in space, it’s the future home for a new </p></span>
+						<span class="title-paragraph-container"><h2>Services</h2><p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal information shaman avalanche matrix impulse </p></span>
 								<div class="bullet-container">
 										<div class="left">
 											<div class="bullet-point"><div class="bullet-blue-line"></div>Front and Backend Development</div>
@@ -60,6 +60,8 @@ get_header(); ?>
 						/>
 					</div>
 				</section>
+
+				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin dominant evolution believe attractor featureless relationships imparted trajectory existence medium random geological reductionist</p>
 
 				<!-- Press Releases  -->
 				<section class="press-releases-wrapper">
