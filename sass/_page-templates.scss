@@ -157,6 +157,10 @@
     }
   }
   .team-wrapper {
+    width: 80%;
+    margin-right: 20%;
+    padding: 3%;
+    background-color: #f7f7f7;
     h1 {
       font-family: 'Playfair Display', serif;
       font-weight: 100;
@@ -182,9 +186,8 @@
       max-width: 100%;
     }
     img {
-      width: 75%;
+      width: 150%;
       height: auto;
-      ;
     }
   }
   .team-top-row {
