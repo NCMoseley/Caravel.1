@@ -114,6 +114,18 @@ get_header(); ?>
 				</div>
 			</section>
 
+			<section class="carousel-container">
+					<div class="carousel">
+
+					</div>
+					<div class="our-work">
+						<h2 class="text-secondary">Our Work</h2>
+
+					</div>
+
+				</section>
+
+
 			<section class="team-wrapper">
 				<h1>The Team</h1>
 				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism</p>
@@ -140,17 +152,7 @@ get_header(); ?>
 					</div>
 					<div class="team-single">
 
-				<section class="carousel-container">
-					<div class="carousel">
-
-					</div>
-					<div class="our-work">
-						<h2 class="text-secondary">Our Work</h2>
-
-					</div>
-
-				</section>
-
+				
 				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin dominant evolution believe attractor featureless relationships imparted trajectory existence medium random geological reductionist</p>
 
 
