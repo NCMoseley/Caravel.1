@@ -62,6 +62,38 @@ get_header(); ?>
 					</div>
 				</section>
 
+				<section class="team-wrapper">
+          <h1>The Team</h1>
+					<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin dominant evolution believe attractor featureless relationships imparted trajectory existence medium random geological reductionist</p>
+					<div class="team-container">
+						<div class="team-single">
+							<h2 class="position">Client Manager and Lead Developer</h2>
+								<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/Sean.jpg'?>"
+								/>
+						</div>
+					<div class="team-single">
+									<h2 class="position">Business Manager and Developer</h2>
+								<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/Nate.jpg'?>"
+								/>
+						</div>
+						<div class="team-single">
+									<h2 class="position">Software Developer</h2>
+								<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/Colin.jpg'?>"
+								/>
+						</div>
+						<div class="team-single">
+									<h2 class="position">Software Developer</h2>
+								<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/Scott.jpg'?>"
+								/>
+						</div>
+						<div class="team-single">
+									<h2 class="position">Lead Designer</h2>
+									<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/Matt.jpg'?>"
+									/>
+						</div>
+					</div>
+				</section>
+
 				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin dominant evolution believe attractor featureless relationships imparted trajectory existence medium random geological reductionist</p>
 
 
