@@ -97,81 +97,102 @@ get_header(); ?>
 						<img alt="packwest-photo" src="<?php echo get_template_directory_uri() . '/assets/Packwest.png'?>" />
 					</a>
 				</div>
-									<!-- Set up your HTML -->
+				<!-- Set up your HTML -->
 				<div class="owl-carousel owl-theme">
-    			<div class="item"><h4>1</h4></div>
-    			<div class="item"><h4>2</h4></div>
-    			<div class="item"><h4>3</h4></div>
-    			<div class="item"><h4>4</h4></div>
-    			<div class="item"><h4>5</h4></div>
-    			<div class="item"><h4>6</h4></div>
-    			<div class="item"><h4>7</h4></div>
-    			<div class="item"><h4>8</h4></div>
-    			<div class="item"><h4>9</h4></div>
-    			<div class="item"><h4>10</h4></div>
-    			<div class="item"><h4>11</h4></div>
-    			<div class="item"><h4>12</h4></div>
+					<div class="item">
+						<h4>1</h4>
+					</div>
+					<div class="item">
+						<h4>2</h4>
+					</div>
+					<div class="item">
+						<h4>3</h4>
+					</div>
+					<div class="item">
+						<h4>4</h4>
+					</div>
+					<div class="item">
+						<h4>5</h4>
+					</div>
+					<div class="item">
+						<h4>6</h4>
+					</div>
+					<div class="item">
+						<h4>7</h4>
+					</div>
+					<div class="item">
+						<h4>8</h4>
+					</div>
+					<div class="item">
+						<h4>9</h4>
+					</div>
+					<div class="item">
+						<h4>10</h4>
+					</div>
+					<div class="item">
+						<h4>11</h4>
+					</div>
+					<div class="item">
+						<h4>12</h4>
+					</div>
 				</div>
 			</section>
 
 			<section class="carousel-container">
-					<div class="carousel">
+				<div class="carousel">
 
-					</div>
-					<div class="our-work">
-						<h2 class="text-secondary">Our Work</h2>
+				</div>
+				<div class="our-work">
+					<h2 class="text-secondary">Our Work</h2>
 
-					</div>
+				</div>
 
-				</section>
+			</section>
 
 
 			<section class="team-wrapper">
 				<h1>The Team</h1>
 				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism</p>
 				<div class="team-container">
-					<div class="team-single">
+					<div class="team-top-row">
+						<div class="team-single">
+							<img alt="Sean-photo" src="<?php echo get_template_directory_uri() . '/assets/Sean.jpg'?>" />
+							<h3 class="position">Sean Stobo</br> - Client Manager and Lead Developer</h3>
+							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
+								electromagnetic consequences drumming orbit catalytic psilocybin</p>
+						</div>
 
-						<img alt="Sean-photo" src="<?php echo get_template_directory_uri() . '/assets/Sean.jpg'?>" />
-						<h3 class="position">Client Manager and Lead Developer</h3>
-						<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
-							electromagnetic consequences drumming orbit catalytic psilocybin</p>
+						<div class="team-single">
+							<img alt="Nate-photo" src="<?php echo get_template_directory_uri() . '/assets/Nate.jpg'?>" />
+							<h3 class="position">Nathan Moseley</br> - Business Manager and Developer</h3>
+							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
+								electromagnetic consequences drumming orbit catalytic psilocybin</p>
+						</div>
+					</div>
+					<div class="team-second-row">
+						<div class="team-single">
+							<img alt="Colin-photo" src="<?php echo get_template_directory_uri() . '/assets/Colin.jpg'?>" />
+							<h3 class="position">Colin Matson-Jones</br> - Software Developer</h3>
+							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
+								electromagnetic consequences drumming orbit catalytic psilocybin</p>
+						</div>
+						<div class="team-single">
+							<img alt="Scott-photo" src="<?php echo get_template_directory_uri() . '/assets/Scott.jpg'?>" />
+							<h3 class="position">Scott Livingstone</br> - Software Developer</h3>
+							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
+								electromagnetic consequences drumming orbit catalytic psilocybin</p>
+						</div>
 					</div>
 					<div class="team-single">
-						<img alt="Nate-photo" src="<?php echo get_template_directory_uri() . '/assets/Nate.jpg'?>" />
-						<h3 class="position">Business Manager and Developer</h3>
-						<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
-							electromagnetic consequences drumming orbit catalytic psilocybin</p>
-					</div>
-					<div class="team-single">
-
-						<img alt="Colin-photo" src="<?php echo get_template_directory_uri() . '/assets/Colin.jpg'?>" />
-						<h3 class="position">Software Developer</h3>
-						<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
-							electromagnetic consequences drumming orbit catalytic psilocybin</p>
-					</div>
-					<div class="team-single">
-
-						<img alt="Scott-photo" src="<?php echo get_template_directory_uri() . '/assets/Scott.jpg'?>" />
-						<h3 class="position">Software Developer</h3>
-						<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
-							electromagnetic consequences drumming orbit catalytic psilocybin</p>
-					</div>
-					<div class="team-single">
-
 						<img alt="Matt-photo" src="<?php echo get_template_directory_uri() . '/assets/Matt.jpg'?>" />
-						<h3 class="position">Lead Designer</h3>
+						<h3 class="position">Matt Stobo</br> - Lead Designer</h3>
 						<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
 							electromagnetic consequences drumming orbit catalytic psilocybin</p>
 					</div>
 				</div>
 			</section>
 
-			<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
-				electromagnetic consequences drumming orbit catalytic psilocybin dominant evolution believe attractor featureless relationships
-				imparted trajectory existence medium random geological reductionist</p>
-
-
+	
 			<!-- Press Releases  -->
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>

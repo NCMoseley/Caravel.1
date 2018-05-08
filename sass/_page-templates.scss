@@ -158,14 +158,40 @@
     }
   }
   .team-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    background: url("../../assets/3dots.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset; // background-position-x: 56px; 
+    // background-position-y: 850px;
+    background-position-y: 50%;
+    background-position-x: 9%;
     p {
       margin: 0 auto;
       max-width: 100%;
     }
+    img {
+      width: 75%;
+      height: auto;
+      ;
+    }
+  }
+  .team-top-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 15%;
+  }
+  .team-second-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15%;
   }
   .team-single {
     width: 40%;

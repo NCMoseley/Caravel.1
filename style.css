@@ -857,6 +857,20 @@ object {
   font-weight: 100; }
 
 .home .team-container {
+  background: url("../../assets/3dots.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-position-y: 50%;
+  background-position-x: 9%; }
+  .home .team-container p {
+    margin: 0 auto;
+    max-width: 100%; }
+  .home .team-container img {
+    width: 75%;
+    height: auto; }
+
+.home .team-top-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -867,10 +881,22 @@ object {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-  .home .team-container p {
-    margin: 0 auto;
-    max-width: 100%; }
+      flex-wrap: wrap;
+  padding-right: 15%; }
+
+.home .team-second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 15%; }
 
 .home .team-single {
   width: 40%;
