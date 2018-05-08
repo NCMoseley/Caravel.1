@@ -1,8 +1,8 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-// Header
 
+// Header
 .header-menu-logo {
   height: 48px;
   width: 200px;
@@ -15,6 +15,7 @@
   left: 128px;
   z-index: 1000;
 }
+
 .main-navigation {
   position: fixed;
 }
@@ -22,29 +23,26 @@
 /* Front page */
 
 .home {
-
   // SEANS CODE
   .seans-code {
-  .header-container {
-    padding: 208px 128px;
-    margin-bottom: 128px;
-    h1 {
-      font-family: Playfair Display, serif;
-      font-size: 72px;
-      width: 60%;
-    }
-    p {
-      font-size: 28px !important;
-      max-width: 40%;
+    .header-container {
+      padding: 208px 128px;
+      margin-bottom: 128px;
+      h1 {
+        font-family: Playfair Display, serif;
+        font-size: 72px;
+        width: 60%;
+      }
+      p {
+        font-size: 28px !important;
+        max-width: 40%;
+      }
     }
   }
-}
-/*--------------------------------------------------------------
+  /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-
-
-/* Front page */
+  /* Front page */
   .second-container {
     display: flex;
     flex-direction: row; /////
@@ -163,12 +161,20 @@
       width: 100%;
     }
   }
+  .team-background {
+    background-color: #000;
+  }
   .team-wrapper {
+    width: 95%;
+    margin-right: 10%;
+    padding: 3%;
+    background-color: #f7f7f7;
     h1 {
       font-family: 'Playfair Display', serif;
       font-weight: 100;
       text-align: left;
       margin-left: 20%;
+      font-size: 48px;
     }
     p {
       max-width: 60%;
@@ -182,16 +188,15 @@
     background-repeat: no-repeat;
     background-position: unset; // background-position-x: 56px; 
     // background-position-y: 850px;
-    background-position-y: 50%;
+    background-position-y: 63%;
     background-position-x: 9%;
     p {
       margin: 0 auto;
       max-width: 100%;
     }
     img {
-      width: 75%;
+      width: 150%;
       height: auto;
-      ;
     }
   }
   .team-top-row {
@@ -209,11 +214,11 @@
     padding-left: 15%;
   }
   .team-third-row {
-    // todo: mix Matt
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
-    flex-wrap: wrap; // padding-left: 15%;
+    flex-wrap: wrap;
+    padding-right: 15%;
   }
   .team-single {
     width: 40%;
