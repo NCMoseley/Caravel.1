@@ -6,7 +6,7 @@
 .header-menu-logo {
   height: 48px;
   width: 200px;
-  background: url("../../assets/Caravel-logo.png");
+  background: url('../../assets/Caravel-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   color: black;
@@ -48,10 +48,15 @@
   .second-container {
     display: flex;
     flex-direction: row;
+    /////
+    justify-content: flex-start;
+    background-color: #f7f7f7; //
+    margin-left: 14%; //
+    position: relative;
   }
   .box1 {
-    background-color: #F7F7F7;
-    width: 40%;
+    background-color: #f7f7f7;
+    width: 30%; ///
     height: 500px;
     display: flex;
     justify-content: center;
@@ -71,6 +76,7 @@
   }
   .scroll {
     position: absolute;
+    left: -100px;
     transform: rotate(-90deg);
     display: flex;
     flex-direction: row;
@@ -87,19 +93,23 @@
     margin-right: 20px;
   }
   .services-container {
-    height: 900px;
-    background-color: #F7F7F7;
+    height: 700px;
+    background-color: #f7f7f7;
     padding: 15%;
-    padding-top: 25%;
+    padding-top: 10%;
     align-self: center;
   }
   .box2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    width: 50%;
     h4 {
       font-size: 20px;
       font-weight: 100;
+      max-width: 70%;
     }
     span {
       color: blue;
@@ -107,7 +117,8 @@
   }
   .find-out-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-right: 25%;
     .find-out-blurb {
       line-height: 4;
       div {
@@ -119,7 +130,7 @@
   }
   .title-paragraph-container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     h2 {
       font-family: 'Playfair Display', serif;
       font-weight: 100;
@@ -128,6 +139,8 @@
     }
     p {
       align-self: center;
+      max-width: 60%;
+      margin-top: 30px;
     }
   }
   .bullet-container {
@@ -141,7 +154,7 @@
     align-items: center;
   }
   .bullet-blue-line {
-    height: 5px;
+    height: 3px;
     width: 10px;
     background-color: blue;
     margin-right: 10px;
@@ -165,14 +178,40 @@
     }
   }
   .team-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    background: url("../../assets/3dots.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset; // background-position-x: 56px; 
+    // background-position-y: 850px;
+    background-position-y: 50%;
+    background-position-x: 9%;
     p {
       margin: 0 auto;
       max-width: 100%;
     }
+    img {
+      width: 75%;
+      height: auto;
+      ;
+    }
+  }
+  .team-top-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 15%;
+  }
+  .team-second-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15%;
   }
   .team-single {
     width: 40%;
@@ -183,4 +222,7 @@
     font-weight: 100;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a31c63acbeec18cea5d40e779cea2364cb35421
