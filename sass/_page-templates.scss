@@ -47,8 +47,7 @@
 /* Front page */
   .second-container {
     display: flex;
-    flex-direction: row;
-    /////
+    flex-direction: row; /////
     justify-content: flex-start;
     background-color: #f7f7f7; //
     margin-left: 14%; //
@@ -178,10 +177,6 @@
     }
   }
   .team-container {
-    // display: flex;
-    // justify-content: space-around;
-    // flex-direction: row;
-    // flex-wrap: wrap;
     background: url("../../assets/3dots.png");
     background-size: auto;
     background-repeat: no-repeat;
@@ -213,6 +208,13 @@
     flex-wrap: wrap;
     padding-left: 15%;
   }
+  .team-third-row {
+    // todo: mix Matt
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; // padding-left: 15%;
+  }
   .team-single {
     width: 40%;
     padding: 5%;
@@ -221,8 +223,3 @@
     color: blue;
     font-weight: 100;
   }
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> 7a31c63acbeec18cea5d40e779cea2364cb35421

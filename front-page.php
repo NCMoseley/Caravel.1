@@ -152,7 +152,7 @@ get_header(); ?>
 
 			<section class="team-wrapper">
 				<h1>The Team</h1>
-				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism</p>
+				<p>Don't be fooled by the smiles, these Navy Seals are not guys you would want to get stuck with in a dark alley.</p>
 				<div class="team-container">
 					<div class="team-top-row">
 						<div class="team-single">
@@ -165,8 +165,7 @@ get_header(); ?>
 						<div class="team-single">
 							<img alt="Nate-photo" src="<?php echo get_template_directory_uri() . '/assets/Nate.jpg'?>" />
 							<h3 class="position">Nathan Moseley</br> - Business Manager and Developer</h3>
-							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
-								electromagnetic consequences drumming orbit catalytic psilocybin</p>
+							<p>Nathan comes from a diverse background, and has recently learned that he loves to build Apps. He also enjoys extreme sports and a great Latte.</p>
 						</div>
 					</div>
 					<div class="team-second-row">
@@ -183,16 +182,18 @@ get_header(); ?>
 								electromagnetic consequences drumming orbit catalytic psilocybin</p>
 						</div>
 					</div>
-					<div class="team-single">
-						<img alt="Matt-photo" src="<?php echo get_template_directory_uri() . '/assets/Matt.jpg'?>" />
-						<h3 class="position">Matt Stobo</br> - Lead Designer</h3>
-						<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
-							electromagnetic consequences drumming orbit catalytic psilocybin</p>
+					<div class="team-third-row">
+						<div class="team-single">
+							<img alt="Matt-photo" src="<?php echo get_template_directory_uri() . '/assets/Matt.jpg'?>" />
+							<h3 class="position">Matt Stobo</br> - Lead Designer</h3>
+							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
+								electromagnetic consequences drumming orbit catalytic psilocybin</p>
+						</div>
 					</div>
 				</div>
 			</section>
 
-	
+
 			<!-- Press Releases  -->
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
