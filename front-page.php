@@ -149,7 +149,7 @@ get_header(); ?>
 
 			</section>
 
-
+<div class="team-background">
 			<section class="team-wrapper">
 				<h1>The Team</h1>
 				<p>Don't be fooled by the smiles, these Navy Seals are not guys you would want to get stuck with in a dark alley.</p>
@@ -157,7 +157,7 @@ get_header(); ?>
 					<div class="team-top-row">
 						<div class="team-single">
 							<img alt="Sean-photo" src="<?php echo get_template_directory_uri() . '/assets/Sean.jpg'?>" />
-							<h3 class="position">Sean Stobo</br> - Client Manager and Lead Developer</h3>
+							<h3 class="position">Sean Stobo</br> - Founder, Project Manager</h3>
 							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
 								electromagnetic consequences drumming orbit catalytic psilocybin</p>
 						</div>
@@ -171,13 +171,13 @@ get_header(); ?>
 					<div class="team-second-row">
 						<div class="team-single">
 							<img alt="Colin-photo" src="<?php echo get_template_directory_uri() . '/assets/Colin.jpg'?>" />
-							<h3 class="position">Colin Matson-Jones</br> - Software Developer</h3>
+							<h3 class="position">Colin Matson-Jones</br> - Lead Developer</h3>
 							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
 								electromagnetic consequences drumming orbit catalytic psilocybin</p>
 						</div>
 						<div class="team-single">
 							<img alt="Scott-photo" src="<?php echo get_template_directory_uri() . '/assets/Scott.jpg'?>" />
-							<h3 class="position">Scott Livingstone</br> - Software Developer</h3>
+							<h3 class="position">Scott Livingstone</br> - Lead Developer</h3>
 							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
 								electromagnetic consequences drumming orbit catalytic psilocybin</p>
 						</div>
@@ -189,10 +189,15 @@ get_header(); ?>
 							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism
 								electromagnetic consequences drumming orbit catalytic psilocybin</p>
 						</div>
+						<div class="team-single">
+							<img alt="Narmeen-photo" src="<?php echo get_template_directory_uri() . '/assets/Narmeen.jpg'?>" />
+							<h3 class="position">Narmeen Fazwani</br> - Sr. Designer</h3>
+							<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaismelectromagnetic consequences drumming orbit catalytic psilocybin</p>
+						</div>
 					</div>
 				</div>
 			</section>
-
+</div>
 
 			<!-- Press Releases  -->
 			<section class="press-releases-wrapper">
