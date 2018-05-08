@@ -7,6 +7,7 @@
 
 get_header(); ?>
 
+	
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -62,6 +63,7 @@ get_header(); ?>
 				</section>
 
 				<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin dominant evolution believe attractor featureless relationships imparted trajectory existence medium random geological reductionist</p>
+
 
 				<!-- Press Releases  -->
 				<section class="press-releases-wrapper">
