@@ -250,7 +250,7 @@
     width: 25%;
     background-color: #000;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     padding: 35px;
@@ -301,7 +301,7 @@
   padding: 0 !important;
   font: inherit;
   position: relative;
-  top: -50px;
+  top: -90px;
   left: 590px;
   width: 40px;
 }
