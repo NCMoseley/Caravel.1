@@ -6,7 +6,7 @@
 .header-menu-logo {
   height: 48px;
   width: 200px;
-  background: url("../../assets/Caravel-logo.png");
+  background: url('../../assets/Caravel-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   color: black;
@@ -34,17 +34,26 @@
         width: 60%;
       }
       p {
-        max-width: 60%;
+        font-size: 28px !important;
+        max-width: 40%;
       }
     }
-  } // SEANS CODE
+  }
+  /*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+  /* Front page */
   .second-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /////
+    justify-content: flex-start;
+    background-color: #f7f7f7; //
+    margin-left: 14%; //
+    position: relative;
   }
   .box1 {
-    background-color: #F7F7F7;
-    width: 40%;
+    background-color: #f7f7f7;
+    width: 30%; ///
     height: 500px;
     display: flex;
     justify-content: center;
@@ -64,6 +73,7 @@
   }
   .scroll {
     position: absolute;
+    left: -100px;
     transform: rotate(-90deg);
     display: flex;
     flex-direction: row;
@@ -80,19 +90,23 @@
     margin-right: 20px;
   }
   .services-container {
-    height: 900px;
-    background-color: #F7F7F7;
+    height: 700px;
+    background-color: #f7f7f7;
     padding: 15%;
-    padding-top: 25%;
+    padding-top: 10%;
     align-self: center;
   }
   .box2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    width: 50%;
     h4 {
       font-size: 20px;
       font-weight: 100;
+      max-width: 70%;
     }
     span {
       color: blue;
@@ -100,7 +114,8 @@
   }
   .find-out-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-right: 25%;
     .find-out-blurb {
       line-height: 4;
       div {
@@ -112,7 +127,7 @@
   }
   .title-paragraph-container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     h2 {
       font-family: 'Playfair Display', serif;
       font-weight: 100;
@@ -121,6 +136,8 @@
     }
     p {
       align-self: center;
+      max-width: 60%;
+      margin-top: 30px;
     }
   }
   .bullet-container {
@@ -134,7 +151,7 @@
     align-items: center;
   }
   .bullet-blue-line {
-    height: 5px;
+    height: 3px;
     width: 10px;
     background-color: blue;
     margin-right: 10px;
@@ -144,12 +161,20 @@
       width: 100%;
     }
   }
+  .team-background {
+    background-color: #000;
+  }
   .team-wrapper {
+    width: 95%;
+    margin-right: 10%;
+    padding: 3%;
+    background-color: #f7f7f7;
     h1 {
       font-family: 'Playfair Display', serif;
       font-weight: 100;
       text-align: left;
       margin-left: 20%;
+      font-size: 48px;
     }
     p {
       max-width: 60%;
@@ -158,14 +183,42 @@
     }
   }
   .team-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background: url("../../assets/3dots.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset; // background-position-x: 56px; 
+    // background-position-y: 850px;
+    background-position-y: 63%;
+    background-position-x: 9%;
     p {
       margin: 0 auto;
       max-width: 100%;
     }
+    img {
+      width: 150%;
+      height: auto;
+    }
+  }
+  .team-top-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 15%;
+  }
+  .team-second-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15%;
+  }
+  .team-third-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 15%;
   }
   .team-single {
     width: 40%;
@@ -175,4 +228,106 @@
     color: blue;
     font-weight: 100;
   }
+  .work-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+    }
+  }
+  .laptop-container {
+    // width: 75%;
+    background: url("../../assets/macbook.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset; // background-position-x: 56px; 
+    // background-position-y: 850px;
+    background-position-y: 63%;
+    background-position-x: 9%;
+  }
+  .work-carousel {
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px;
+    @media screen and (min-width: 800px) {
+      width: 75%;
+    }
+  }
+  .our-work-container {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+    @media screen and (min-width: 800px) {
+      width: 25%;
+    }
+    h2 {
+      color: #fff;
+      font-family: 'Playfair Display', serif;
+    }
+    p {
+      color: #f7f7f7;
+      font-weight: 100;
+      text-align: center;
+    }
+  }
+  .dont-hesitate-container {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 100;
+      font-size: 60px;
+    }
+    p {
+      font-weight: 100;
+    }
+  }
+}
+
+// OWL CAROUSEL STYLES
+.owl-theme .owl-item .item img {
+  width: 70%;
+  margin: 0 auto; // width: 74% !important;
+  // width: 498px !important;
+  // height: 380px !important;
+  // position: relative !important; // top: 70px !important;
+  // left: 111px !important;
+}
+
+.owl-carousel {
+  height: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  background-color: black !important;
+  box-shadow: none;
+  color: white !important;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  position: absolute; // top: -90px;
+  // left: 590px;
+  width: 40px;
+}
+
+.owl-nav button.owl-prev {
+  left: 30px;
+  top: 50%;
+}
+
+.owl-nav button.owl-next {
+  right: 30px;
+  top: 50%;
 }

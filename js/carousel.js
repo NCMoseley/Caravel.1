@@ -4,6 +4,7 @@ jQuery(document).ready(function ($) {
     loop: true,
     nav: true,
     lazyload: true,
+    dots: false,
     items: 1
   });
 });
