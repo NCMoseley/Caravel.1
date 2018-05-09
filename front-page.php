@@ -82,7 +82,7 @@ get_header(); ?>
 			</section>
 
     	<section class="work-wrapper">
-				
+
 			<section class="work-carousel">
 			<div class="laptop-container">
 				<div class="owl-carousel owl-theme">
@@ -113,6 +113,7 @@ get_header(); ?>
 		
 				<div class="our-work-container">
 					<h2 class="text-secondary">Our Work</h2>
+					<p>Feast your eyes on the software magic that we masterminds have abracadabra'd into existance</p>
 				</div>
 
 			</section>
