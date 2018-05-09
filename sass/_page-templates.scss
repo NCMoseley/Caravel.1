@@ -26,16 +26,39 @@
   // SEANS CODE
   .seans-code {
     .header-container {
-      padding: 208px 128px;
-      margin-bottom: 128px;
+      // border: 2px solid red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      margin-bottom: 50px;
+
+      // padding: 208px 128px;
+      @include medium {
+        margin-bottom: 200px;
+      }
+
+      @include desktop {
+        align-items: flex-start;
+        margin-left: 10%;
+      }
       h1 {
         font-family: Playfair Display, serif;
-        font-size: 72px;
+        font-size: 60px;
         width: 60%;
+
+        @include tablet {
+          font-size: 72px;
+          width: 75%;
+        }
+
+        @include desktop {
+          width: 90%;
+        }
       }
       p {
         font-size: 28px !important;
-        max-width: 40%;
+        max-width: 80%;
       }
     }
   }
@@ -48,16 +71,25 @@
     flex-direction: row; /////
     justify-content: flex-start;
     background-color: #f7f7f7; //
-    margin-left: 14%; //
+
     position: relative;
+
+    @include medium {
+      margin-left: 10%;
+    }
   }
   .box1 {
     background-color: #f7f7f7;
     width: 30%; ///
     height: 500px;
-    display: flex;
     justify-content: center;
     align-items: center;
+
+    display: none;
+
+    @include medium {
+      display: flex;
+    }
     .dots {
       display: flex;
       flex-direction: row;
@@ -72,29 +104,40 @@
     flex-direction: row;
   }
   .scroll {
+    display: none;
     position: absolute;
     left: -100px;
     transform: rotate(-90deg);
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-weight: 100;
     color: blue;
     padding-left: 90px;
+    @include medium {
+      display: flex;
+    }
   }
   .scroll-blue-line {
+    display: none;
     height: 2px;
     width: 150px;
     background-color: blue;
     margin-right: 20px;
+    @include medium {
+      display: flex;
+    }
   }
   .services-container {
-    height: 700px;
+    height: 800px;
     background-color: #f7f7f7;
     padding: 15%;
     padding-top: 10%;
     align-self: center;
+
+    @include medium {
+      height: 550px;
+    }
   }
   .box2 {
     display: flex;
@@ -102,7 +145,12 @@
     justify-content: space-around;
     align-items: center;
     background: #fff;
-    width: 50%;
+    padding-bottom: 40px;
+    @include medium {
+      width: 50%;
+      padding-bottom: 0;
+    }
+
     h4 {
       font-size: 20px;
       font-weight: 100;
@@ -114,8 +162,7 @@
   }
   .find-out-container {
     display: flex;
-    justify-content: flex-start;
-    margin-right: 25%;
+
     .find-out-blurb {
       line-height: 4;
       div {
@@ -127,24 +174,39 @@
   }
   .title-paragraph-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
     justify-content: space-around;
+    @include medium {
+      flex-direction: row;
+    }
     h2 {
       font-family: 'Playfair Display', serif;
       font-weight: 100;
       padding: 20px;
       font-size: 60px;
+      margin-top: 0;
     }
     p {
       align-self: center;
-      max-width: 60%;
-      margin-top: 30px;
+      margin-top: 0;
+      margin-left: 3%;
+
+      @include medium {
+        margin-top: 30px;
+        max-width: 60%;
+      }
     }
   }
   .bullet-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     line-height: 3;
+    @include medium {
+      flex-direction: row;
+    }
   }
   .bullet-point {
     display: flex;
@@ -183,10 +245,10 @@
     }
   }
   .team-container {
-    background: url("../../assets/3dots.png");
+    background: url('../../assets/3dots.png');
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: unset; // background-position-x: 56px; 
+    background-position: unset; // background-position-x: 56px;
     // background-position-y: 850px;
     background-position-y: 63%;
     background-position-x: 9%;
@@ -235,10 +297,10 @@
   }
   .laptop-container {
     // width: 75%;
-    background: url("../../assets/macbook.jpg");
+    background: url('../../assets/macbook.jpg');
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: unset; // background-position-x: 56px; 
+    background-position: unset; // background-position-x: 56px;
     // background-position-y: 850px;
     background-position-y: 63%;
     background-position-x: 9%;
