@@ -292,8 +292,11 @@
   }
   .work-wrapper {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+    }
   }
   .laptop-container {
     // width: 75%;
@@ -306,16 +309,24 @@
     background-position-x: 9%;
   }
   .work-carousel {
-    width: 55%;
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px;
+    @media screen and (min-width: 800px) {
+      width: 75%;
+    }
   }
   .our-work-container {
-    width: 25%;
+    width: 100%;
     background-color: #000;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     padding: 35px;
+    @media screen and (min-width: 800px) {
+      width: 25%;
+    }
     h2 {
       color: #fff;
       font-family: 'Playfair Display', serif;
@@ -345,25 +356,40 @@
 }
 
 // OWL CAROUSEL STYLES
-.owl-theme img {
-  // width: 74% !important;
-  width: 498px !important;
-  height: 380px !important;
-  position: relative !important;
-  top: 70px !important;
-  left: 111px !important;
+.owl-theme .owl-item .item img {
+  width: 70%;
+  margin: 0 auto; // width: 74% !important;
+  // width: 498px !important;
+  // height: 380px !important;
+  // position: relative !important; // top: 70px !important;
+  // left: 111px !important;
+}
+
+.owl-carousel {
+  height: 100%;
 }
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
   background: 0 0;
-  color: inherit;
+  background-color: black !important;
+  box-shadow: none;
+  color: white !important;
   border: none;
   padding: 0 !important;
   font: inherit;
-  position: relative;
-  top: -90px;
-  left: 590px;
+  position: absolute; // top: -90px;
+  // left: 590px;
   width: 40px;
+}
+
+.owl-nav button.owl-prev {
+  left: 30px;
+  top: 50%;
+}
+
+.owl-nav button.owl-next {
+  right: 30px;
+  top: 50%;
 }

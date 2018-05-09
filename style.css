@@ -997,13 +997,19 @@ object {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row; }
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media screen and (min-width: 800px) {
+      .home .work-wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
   .home .laptop-container {
     background: url("../../assets/macbook.jpg");
     background-size: auto;
@@ -1012,9 +1018,14 @@ object {
     background-position-y: 63%;
     background-position-x: 9%; }
   .home .work-carousel {
-    width: 55%; }
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px; }
+    @media screen and (min-width: 800px) {
+      .home .work-carousel {
+        width: 75%; } }
   .home .our-work-container {
-    width: 25%;
+    width: 100%;
     background-color: #000;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1030,6 +1041,9 @@ object {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 35px; }
+    @media screen and (min-width: 800px) {
+      .home .our-work-container {
+        width: 25%; } }
     .home .our-work-container h2 {
       color: #fff;
       font-family: 'Playfair Display', serif; }
@@ -1060,22 +1074,31 @@ object {
     .home .dont-hesitate-container p {
       font-weight: 100; }
 
-.owl-theme img {
-  width: 498px !important;
-  height: 380px !important;
-  position: relative !important;
-  top: 70px !important;
-  left: 111px !important; }
+.owl-theme .owl-item .item img {
+  width: 70%;
+  margin: 0 auto; }
+
+.owl-carousel {
+  height: 100%; }
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
   background: 0 0;
-  color: inherit;
+  background-color: black !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white !important;
   border: none;
   padding: 0 !important;
   font: inherit;
-  position: relative;
-  top: -90px;
-  left: 590px;
+  position: absolute;
   width: 40px; }
+
+.owl-nav button.owl-prev {
+  left: 30px;
+  top: 50%; }
+
+.owl-nav button.owl-next {
+  right: 30px;
+  top: 50%; }
