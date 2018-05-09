@@ -83,7 +83,7 @@ get_header(); ?>
 
     	<section class="work-wrapper">
 
-			<section class="work-carousel">
+			<div class="work-carousel">
 			<div class="laptop-container">
 				<div class="owl-carousel owl-theme">
 					<div class="item">
@@ -108,7 +108,7 @@ get_header(); ?>
 					</div>
 				</div>
 				</div>
-			</section>
+			</div>
 
 		
 				<div class="our-work-container">
@@ -169,7 +169,7 @@ get_header(); ?>
 </div>
 
 			<!-- Press Releases  -->
-			<section class="press-releases-wrapper">
+			<!-- <section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
 				<div class="sub-title-blue-line"></div>
 
@@ -193,8 +193,14 @@ get_header(); ?>
 					<?php endwhile; ?>
 					<?php wp_reset_query() ?>
 				</div>
-			</section>
+			</section> -->
 			<!-- close Press Releases -->
+
+				<div class="dont-hesitate-container">
+					<h1 class="dont-hesitate">Don't Hesitate to get in touch!</h1>
+					<p>Seriously though you know you will love working with us.</p>
+				</div>
+
 
 			</section>
 		</main>

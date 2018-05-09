@@ -261,8 +261,24 @@
       color: #f7f7f7;
     }
   }
+  .dont-hesitate-container {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-weight: 100;
+      font-size: 60px;
+    }
+    p {
+      font-weight: 100;
+    }
+  }
 }
 
+// OWL CAROUSEL STYLES
 .owl-theme img {
   // width: 74% !important;
   width: 498px !important;
