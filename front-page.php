@@ -82,8 +82,7 @@ get_header(); ?>
 			</section>
 
 			<section class="work-carousel">
-				<div class="photo-container">
-					<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/caravel-content-1.png'?>" />
+				<div class="photo-container owl-carousel owl-theme">
 					<a href="https://volunteer.hummingbirdnetwork.com">
 						<img alt="hummingbird-photo" src="<?php echo get_template_directory_uri() . '/assets/Hummingbird.png'?>" />
 					</a>
@@ -97,34 +96,6 @@ get_header(); ?>
 						<img alt="packwest-photo" src="<?php echo get_template_directory_uri() . '/assets/Packwest.png'?>" />
 					</a>
 				</div>
-									<!-- Set up your HTML -->
-				<div class="owl-carousel owl-theme">
-    			<div class="item"><h4>1</h4></div>
-    			<div class="item"><h4>2</h4></div>
-    			<div class="item"><h4>3</h4></div>
-    			<div class="item"><h4>4</h4></div>
-    			<div class="item"><h4>5</h4></div>
-    			<div class="item"><h4>6</h4></div>
-    			<div class="item"><h4>7</h4></div>
-    			<div class="item"><h4>8</h4></div>
-    			<div class="item"><h4>9</h4></div>
-    			<div class="item"><h4>10</h4></div>
-    			<div class="item"><h4>11</h4></div>
-    			<div class="item"><h4>12</h4></div>
-				</div>
-			</section>
-
-			<section class="carousel-container">
-					<div class="carousel">
-
-					</div>
-					<div class="our-work">
-						<h2 class="text-secondary">Our Work</h2>
-
-					</div>
-
-				</section>
-
 
 			<section class="team-wrapper">
 				<h1>The Team</h1>
