@@ -962,11 +962,14 @@ object {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 30px; }
+    padding: 35px; }
     .home .our-work-container h2 {
-      color: #fff; }
+      color: #fff;
+      font-weight: 100; }
     .home .our-work-container p {
-      color: #f7f7f7; }
+      color: #f7f7f7;
+      font-weight: 100;
+      text-align: center; }
   .home .dont-hesitate-container {
     background-color: #000;
     color: #fff;
@@ -984,6 +987,7 @@ object {
         -ms-flex-align: center;
             align-items: center; }
     .home .dont-hesitate-container h1 {
+      font-family: 'Playfair Display', serif;
       font-weight: 100;
       font-size: 60px; }
     .home .dont-hesitate-container p {
@@ -991,10 +995,10 @@ object {
 
 .owl-theme img {
   width: 498px !important;
-  height: 365px !important;
+  height: 380px !important;
   position: relative !important;
   top: 70px !important;
-  left: 112px !important; }
+  left: 111px !important; }
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev,

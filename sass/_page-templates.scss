@@ -253,12 +253,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 35px;
     h2 {
       color: #fff;
+      font-weight: 100;
     }
     p {
       color: #f7f7f7;
+      font-weight: 100;
+      text-align: center;
     }
   }
   .dont-hesitate-container {
@@ -269,6 +272,7 @@
     justify-content: center;
     align-items: center;
     h1 {
+      font-family: 'Playfair Display', serif;
       font-weight: 100;
       font-size: 60px;
     }
@@ -282,10 +286,10 @@
 .owl-theme img {
   // width: 74% !important;
   width: 498px !important;
-  height: 365px !important;
+  height: 380px !important;
   position: relative !important;
   top: 70px !important;
-  left: 112px !important;
+  left: 111px !important;
 }
 
 .owl-carousel .owl-nav button.owl-next,
