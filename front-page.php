@@ -81,70 +81,41 @@ get_header(); ?>
 						</div>
 			</section>
 
-			<section class="work-carousel">
-				<div class="photo-container">
-					<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/caravel-content-1.png'?>" />
-					<a href="https://volunteer.hummingbirdnetwork.com">
+    	<section class="work-wrapper">
+
+			<div class="work-carousel">
+			<div class="laptop-container">
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<a href="https://volunteer.hummingbirdnetwork.com">
 						<img alt="hummingbird-photo" src="<?php echo get_template_directory_uri() . '/assets/Hummingbird.png'?>" />
 					</a>
-					<a href="http://nexus.van.cp.academy.red/">
+					</div>
+					<div class="item">
+							<a href="http://nexus.van.cp.academy.red/">
 						<img alt="nexus-photo" src="<?php echo get_template_directory_uri() . '/assets/Nexus.png'?>" />
 					</a>
-					<a href="https://valosmartcity.com/">
+					</div>
+					<div class="item">
+						<a href="https://valosmartcity.com/">
 						<img alt="valo-photo" src="<?php echo get_template_directory_uri() . '/assets/Valo.png'?>" />
 					</a>
+					</div>
+					<div class="item">
 					<a href="#">
 						<img alt="packwest-photo" src="<?php echo get_template_directory_uri() . '/assets/Packwest.png'?>" />
 					</a>
-				</div>
-				<!-- Set up your HTML -->
-				<div class="owl-carousel owl-theme">
-					<div class="item">
-						<h4>1</h4>
-					</div>
-					<div class="item">
-						<h4>2</h4>
-					</div>
-					<div class="item">
-						<h4>3</h4>
-					</div>
-					<div class="item">
-						<h4>4</h4>
-					</div>
-					<div class="item">
-						<h4>5</h4>
-					</div>
-					<div class="item">
-						<h4>6</h4>
-					</div>
-					<div class="item">
-						<h4>7</h4>
-					</div>
-					<div class="item">
-						<h4>8</h4>
-					</div>
-					<div class="item">
-						<h4>9</h4>
-					</div>
-					<div class="item">
-						<h4>10</h4>
-					</div>
-					<div class="item">
-						<h4>11</h4>
-					</div>
-					<div class="item">
-						<h4>12</h4>
 					</div>
 				</div>
-			</section>
-
-			<section class="carousel-container">
-				<div class="carousel">
-
 				</div>
-				<div class="our-work">
-					<h2 class="text-secondary">Our Work</h2>
+			</div>
 
+		
+				<div class="our-work-container">
+					<h2>Our Work</h2>
+					<p>Feast your eyes on the software magic that we masterminds have abracadabra'd into existance.</p>
+					
+					<p>Click on a site to be taken to the live version.</p>
 				</div>
 
 			</section>
@@ -200,7 +171,7 @@ get_header(); ?>
 </div>
 
 			<!-- Press Releases  -->
-			<section class="press-releases-wrapper">
+			<!-- <section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
 				<div class="sub-title-blue-line"></div>
 
@@ -224,8 +195,14 @@ get_header(); ?>
 					<?php endwhile; ?>
 					<?php wp_reset_query() ?>
 				</div>
-			</section>
+			</section> -->
 			<!-- close Press Releases -->
+
+				<div class="dont-hesitate-container">
+					<h1 class="dont-hesitate">Don't Hesitate to get in touch!</h1>
+					<p>Seriously though you know you will love working with us.</p>
+				</div>
+
 
 			</section>
 		</main>

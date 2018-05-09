@@ -228,4 +228,80 @@
     color: blue;
     font-weight: 100;
   }
+  .work-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  .laptop-container {
+    // width: 75%;
+    background: url("../../assets/macbook.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset; // background-position-x: 56px; 
+    // background-position-y: 850px;
+    background-position-y: 63%;
+    background-position-x: 9%;
+  }
+  .work-carousel {
+    width: 55%;
+  }
+  .our-work-container {
+    width: 25%;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+    h2 {
+      color: #fff;
+      font-family: 'Playfair Display', serif;
+    }
+    p {
+      color: #f7f7f7;
+      font-weight: 100;
+      text-align: center;
+    }
+  }
+  .dont-hesitate-container {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 100;
+      font-size: 60px;
+    }
+    p {
+      font-weight: 100;
+    }
+  }
+}
+
+// OWL CAROUSEL STYLES
+.owl-theme img {
+  // width: 74% !important;
+  width: 498px !important;
+  height: 380px !important;
+  position: relative !important;
+  top: 70px !important;
+  left: 111px !important;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  position: relative;
+  top: -90px;
+  left: 590px;
+  width: 40px;
 }
