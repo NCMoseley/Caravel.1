@@ -81,70 +81,38 @@ get_header(); ?>
 						</div>
 			</section>
 
+    	<section class="work-wrapper">
+				
 			<section class="work-carousel">
-				<div class="photo-container">
-					<img alt="demo-photo" src="<?php echo get_template_directory_uri() . '/assets/caravel-content-1.png'?>" />
-					<a href="https://volunteer.hummingbirdnetwork.com">
+			<div class="laptop-container">
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<a href="https://volunteer.hummingbirdnetwork.com">
 						<img alt="hummingbird-photo" src="<?php echo get_template_directory_uri() . '/assets/Hummingbird.png'?>" />
 					</a>
-					<a href="http://nexus.van.cp.academy.red/">
+					</div>
+					<div class="item">
+							<a href="http://nexus.van.cp.academy.red/">
 						<img alt="nexus-photo" src="<?php echo get_template_directory_uri() . '/assets/Nexus.png'?>" />
 					</a>
-					<a href="https://valosmartcity.com/">
+					</div>
+					<div class="item">
+						<a href="https://valosmartcity.com/">
 						<img alt="valo-photo" src="<?php echo get_template_directory_uri() . '/assets/Valo.png'?>" />
 					</a>
+					</div>
+					<div class="item">
 					<a href="#">
 						<img alt="packwest-photo" src="<?php echo get_template_directory_uri() . '/assets/Packwest.png'?>" />
 					</a>
+					</div>
 				</div>
-				<!-- Set up your HTML -->
-				<div class="owl-carousel owl-theme">
-					<div class="item">
-						<h4>1</h4>
-					</div>
-					<div class="item">
-						<h4>2</h4>
-					</div>
-					<div class="item">
-						<h4>3</h4>
-					</div>
-					<div class="item">
-						<h4>4</h4>
-					</div>
-					<div class="item">
-						<h4>5</h4>
-					</div>
-					<div class="item">
-						<h4>6</h4>
-					</div>
-					<div class="item">
-						<h4>7</h4>
-					</div>
-					<div class="item">
-						<h4>8</h4>
-					</div>
-					<div class="item">
-						<h4>9</h4>
-					</div>
-					<div class="item">
-						<h4>10</h4>
-					</div>
-					<div class="item">
-						<h4>11</h4>
-					</div>
-					<div class="item">
-						<h4>12</h4>
-					</div>
 				</div>
 			</section>
 
-			<section class="carousel-container">
-				<div class="carousel">
-
-				</div>
-				<div class="our-work">
+		
+				<div class="our-work-container">
 					<h2 class="text-secondary">Our Work</h2>
-
 				</div>
 
 			</section>

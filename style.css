@@ -926,3 +926,43 @@ object {
   .home .position {
     color: blue;
     font-weight: 100; }
+  .home .work-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .home .laptop-container {
+    background: url("../../assets/macbook.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-position-y: 63%;
+    background-position-x: 9%; }
+  .home .work-carousel {
+    width: 55%; }
+  .home .our-work-container {
+    width: 25%;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center; }
+    .home .our-work-container h2 {
+      color: #fff; }
+
+.owl-theme img {
+  width: 498px !important;
+  height: 365px !important;
+  position: relative !important;
+  top: 70px !important;
+  left: 112px !important; }

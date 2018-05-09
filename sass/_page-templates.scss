@@ -228,4 +228,49 @@
     color: blue;
     font-weight: 100;
   }
+  .work-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  .laptop-container {
+    // width: 75%;
+    background: url("../../assets/macbook.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset; // background-position-x: 56px; 
+    // background-position-y: 850px;
+    background-position-y: 63%;
+    background-position-x: 9%;
+  }
+  .work-carousel {
+    width: 55%;
+  }
+  .our-work-container {
+    width: 25%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    h2 {
+      color: #fff;
+    }
+  }
 }
+
+.owl-theme img {
+  // width: 74% !important;
+  width: 498px !important;
+  height: 365px !important;
+  position: relative !important;
+  top: 70px !important;
+  left: 112px !important;
+}
+
+// .owl-carousel .owl-item img {
+//   display: block;
+//   width: 50%;
+//   position: relative;
+//   top: 32px;
+//   left: 140px;
+// }
