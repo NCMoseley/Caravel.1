@@ -112,8 +112,10 @@ get_header(); ?>
 
 		
 				<div class="our-work-container">
-					<h2 class="text-secondary">Our Work</h2>
-					<p>Feast your eyes on the software magic that we masterminds have abracadabra'd into existance</p>
+					<h2>Our Work</h2>
+					<p>Feast your eyes on the software magic that we masterminds have abracadabra'd into existance.</p>
+					
+					<p>Click on a site to be taken to the live version.</p>
 				</div>
 
 			</section>
