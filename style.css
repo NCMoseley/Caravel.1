@@ -711,11 +711,10 @@ object {
     .home .seans-code .header-container h1 {
       font-family: Playfair Display, serif;
       font-size: 60px;
-      width: 60%; }
+      width: 75%; }
       @media all and (min-width: 600px) {
         .home .seans-code .header-container h1 {
-          font-size: 72px;
-          width: 75%; } }
+          font-size: 72px; } }
       @media all and (min-width: 1000px) {
         .home .seans-code .header-container h1 {
           width: 90%; } }
@@ -935,19 +934,20 @@ object {
       max-width: 60%;
       margin: 0 auto;
       font-weight: 100; }
-  .home .team-container {
-    background: url("../../assets/3dots.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-position-y: 63%;
-    background-position-x: 9%; }
-    .home .team-container p {
-      margin: 0 auto;
-      max-width: 100%; }
-    .home .team-container img {
-      width: 150%;
-      height: auto; }
+  @media all and (min-width: 600px) {
+    .home .team-container {
+      background: url("../../assets/3dots.png");
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: unset;
+      background-position-y: 63%;
+      background-position-x: 9%; } }
+  .home .team-container p {
+    margin: 0 auto;
+    max-width: 100%; }
+  .home .team-container img {
+    width: 150%;
+    height: auto; }
   .home .team-top-row {
     display: -webkit-box;
     display: -ms-flexbox;

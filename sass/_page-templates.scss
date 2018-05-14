@@ -31,13 +31,10 @@
       flex-direction: column;
       align-items: center;
       margin-top: 40px;
-      margin-bottom: 50px;
-
-      // padding: 208px 128px;
+      margin-bottom: 50px; // padding: 208px 128px;
       @include medium {
         margin-bottom: 200px;
       }
-
       @include desktop {
         align-items: flex-start;
         margin-left: 10%;
@@ -45,13 +42,10 @@
       h1 {
         font-family: Playfair Display, serif;
         font-size: 60px;
-        width: 60%;
-
+        width: 75%;
         @include tablet {
           font-size: 72px;
-          width: 75%;
         }
-
         @include desktop {
           width: 90%;
         }
@@ -71,9 +65,7 @@
     flex-direction: row; /////
     justify-content: flex-start;
     background-color: #f7f7f7; //
-
     position: relative;
-
     @include medium {
       margin-left: 10%;
     }
@@ -84,9 +76,7 @@
     height: 500px;
     justify-content: center;
     align-items: center;
-
     display: none;
-
     @include medium {
       display: flex;
     }
@@ -134,7 +124,6 @@
     padding: 15%;
     padding-top: 10%;
     align-self: center;
-
     @include medium {
       height: 550px;
     }
@@ -150,7 +139,6 @@
       width: 50%;
       padding-bottom: 0;
     }
-
     h4 {
       font-size: 20px;
       font-weight: 100;
@@ -162,7 +150,6 @@
   }
   .find-out-container {
     display: flex;
-
     .find-out-blurb {
       line-height: 4;
       div {
@@ -176,7 +163,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     justify-content: space-around;
     @include medium {
       flex-direction: row;
@@ -192,7 +178,6 @@
       align-self: center;
       margin-top: 0;
       margin-left: 3%;
-
       @include medium {
         margin-top: 30px;
         max-width: 60%;
@@ -245,13 +230,14 @@
     }
   }
   .team-container {
-    background: url('../../assets/3dots.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: unset; // background-position-x: 56px;
-    // background-position-y: 850px;
-    background-position-y: 63%;
-    background-position-x: 9%;
+    @include tablet {
+      background: url('../../assets/3dots.png');
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: unset;
+      background-position-y: 63%;
+      background-position-x: 9%;
+    }
     p {
       margin: 0 auto;
       max-width: 100%;
