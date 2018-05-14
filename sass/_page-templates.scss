@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   color: black;
   position: fixed;
-  top: 46px;
+  top: 26px;
   left: 128px;
   z-index: 1000;
 }
@@ -334,9 +334,11 @@
       font-family: 'Playfair Display', serif;
       font-weight: 100;
       font-size: 60px;
+      padding: 4%;
     }
     p {
       font-weight: 100;
+      padding: 4%;
     }
   }
 }

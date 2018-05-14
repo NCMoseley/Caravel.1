@@ -673,7 +673,7 @@ object {
   background-repeat: no-repeat;
   color: black;
   position: fixed;
-  top: 46px;
+  top: 26px;
   left: 128px;
   z-index: 1000; }
 
@@ -1070,9 +1070,11 @@ object {
     .home .dont-hesitate-container h1 {
       font-family: 'Playfair Display', serif;
       font-weight: 100;
-      font-size: 60px; }
+      font-size: 60px;
+      padding: 4%; }
     .home .dont-hesitate-container p {
-      font-weight: 100; }
+      font-weight: 100;
+      padding: 4%; }
 
 .owl-theme .owl-item .item img {
   width: 70%;
