@@ -697,7 +697,9 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 40px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 0;
     margin-bottom: 50px; }
     @media all and (min-width: 800px) {
       .home .seans-code .header-container {
@@ -707,11 +709,13 @@ object {
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start;
-        margin-left: 10%; } }
+        margin-left: 10%;
+        height: 90vh; } }
     .home .seans-code .header-container h1 {
       font-family: Playfair Display, serif;
       font-size: 60px;
-      width: 75%; }
+      width: 75%;
+      margin-top: 98px; }
       @media all and (min-width: 600px) {
         .home .seans-code .header-container h1 {
           font-size: 72px; } }
@@ -808,10 +812,10 @@ object {
         display: -ms-flexbox;
         display: flex; } }
   .home .services-container {
-    height: 800px;
+    height: 700px;
     background-color: #f7f7f7;
-    padding: 15%;
-    padding-top: 10%;
+    padding: 8%;
+    padding-top: 2%;
     -ms-flex-item-align: center;
         align-self: center; }
     @media all and (min-width: 800px) {
@@ -1020,10 +1024,14 @@ object {
   .home .work-carousel {
     width: 100%;
     overflow: hidden;
-    max-height: 400px; }
+    max-height: 900px;
+    background-color: black;
+    padding-top: 64px; }
     @media screen and (min-width: 800px) {
       .home .work-carousel {
         width: 75%; } }
+  .home .owl-prev {
+    background-color: white; }
   .home .our-work-container {
     width: 100%;
     background-color: #000;
@@ -1085,10 +1093,10 @@ object {
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
   background: 0 0;
-  background-color: black !important;
+  background-color: white !important;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: white !important;
+  color: black !important;
   border: none;
   padding: 0 !important;
   font: inherit;

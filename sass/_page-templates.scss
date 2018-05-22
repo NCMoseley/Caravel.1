@@ -30,7 +30,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 40px;
+      justify-content: space-around;
+      margin-top: 0;
       margin-bottom: 50px; // padding: 208px 128px;
       @include medium {
         margin-bottom: 200px;
@@ -38,11 +39,13 @@
       @include desktop {
         align-items: flex-start;
         margin-left: 10%;
+        height: 90vh;
       }
       h1 {
         font-family: Playfair Display, serif;
         font-size: 60px;
         width: 75%;
+        margin-top: 98px;
         @include tablet {
           font-size: 72px;
         }
@@ -119,10 +122,10 @@
     }
   }
   .services-container {
-    height: 800px;
+    height: 700px;
     background-color: #f7f7f7;
-    padding: 15%;
-    padding-top: 10%;
+    padding: 8%;
+    padding-top: 2%;
     align-self: center;
     @include medium {
       height: 550px;
@@ -297,10 +300,15 @@
   .work-carousel {
     width: 100%;
     overflow: hidden;
-    max-height: 400px;
+    max-height: 900px;
+    background-color: black;
+    padding-top: 64px;
     @media screen and (min-width: 800px) {
       width: 75%;
     }
+  }
+  .owl-prev {
+    background-color: white;
   }
   .our-work-container {
     width: 100%;
@@ -359,9 +367,9 @@
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
   background: 0 0;
-  background-color: black !important;
+  background-color: white !important;
   box-shadow: none;
-  color: white !important;
+  color: black !important;
   border: none;
   padding: 0 !important;
   font: inherit;
