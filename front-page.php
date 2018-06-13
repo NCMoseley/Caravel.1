@@ -13,127 +13,6 @@ get_header(); ?>
 			
 
 
-<<<<<<< HEAD
-  <div class="fullpage" id="fullpage">
-    <div class="section panel1">    
-      <div class="wrapper">
-        <div class="header">
-          <h3><span>say</span> <span>hello</span><span>to</span></h3>
-          <h1>Caravel!</h1>
-        </div>
-        <div class="panel1-content">
-          <p>We build modern websites for modern businesses and individuals. 
-            No fluff, no over design, no bloat. Fast, elegant, and precisely what you need. 
-            We will get you where you want to be. Set sail!
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="section panel2 parallax">
-      <div class="wrapper">
-        <h2>Meet the Team</h2>
-        <div class="team-members-wrapper">
-
-          <div class="team-member">
-            <div class="team-member-photo-wrapper">
-              <img src="http://caravelweb.com/wp-content/themes/6/assets/Nate.jpg" alt="Nate Moseley">
-            </div>
-            <div class="team-member-bio">
-              <p>Nate Moseley - Business Manager and Developer</p>
-              <p>
-                Nathan comes from a diverse background, and has recently learned that he loves to build Apps. He also enjoys extreme sports and a great Latte.
-              </p>
-            </div>
-          </div>
-
-          <div class="team-member">
-            <div class="team-member-photo-wrapper">
-              <img src="http://caravelweb.com/wp-content/themes/6/assets/Colin.jpg" alt="Colin Matson-Jones">
-            </div>
-            <div class="team-member-bio">
-              <p>Colin Matson-Jones - Lead Developer</p>
-              <p>
-                human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin
-              </p>
-            </div>
-          </div>
-  
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="section panel3 parallax">
-      <div class="slide slide1">
-        <div class="our-work-header">
-          <h2>Our Work</h2>
-        </div>
-        <div class="our-work-content">
-          <p>We are a boutique agency that specializes in custom Websites built with WordPress. 
-            They are designed to be clean, simple and future proof. 
-            We have helped our clients realize their online voice and increased traffic, conversion and ranking.
-            Find out how we can help you
-          </p>
-        </div>
-      </div>
-      <div class="slide slide2">
-        <h2>Nexus Intercambio</h2>
-        <img src="http://caravelweb.com/wp-content/themes/6/assets/Nexus.png" alt="Nexus Intercambio Website">
-      </div>
-      <div class="slide slide3">
-        <h2>Valo Smart City</h2>
-        <img src="http://caravelweb.com/wp-content/themes/6/assets/Valo.png" alt="Valo Smart City">
-      </div>
-      <div class="slide slide4">
-        <h2>PacWest</h2>
-        <img src="http://caravelweb.com/wp-content/themes/6/assets/Packwest.png" alt="Pacwest">
-      </div>
-      <div class="slide slide5">
-        <h2>Hummingbird</h2>
-        <img src="http://caravelweb.com/wp-content/themes/6/assets/Hummingbird.png" alt="Hummingbird">
-      </div>
-      <div class="slide slide6">
-        <div class="form">
-          <h2>Get in touch and set sail with Caravel!</h2>
-        </div>
-        <canvas id="myCanvas"></canvas>
-      </div>
-    </div>
-
-
-
-
-
-
-					<div class="section fp-auto-height old-page">
-					
-
-							<div class="seans-code">
-								<section class="content-wrapper">
-									<section class="hero-container">
-										<div class="header-container">
-											<h1>Simple, Powerful &
-												<br>Efficient Websites.</h1>
-											<p>We build modern websites for modern businesses and individuals.
-												No fluff, no over design, no bloat. Fast, elegant, and precisely what you need. We will get you where you want to
-												be.
-												<strong> Set sail!
-													<strong>
-											</p>
-										</div>
-									</section>
-							</div>
-							<section class="second-container">
-								<div class="scroll">
-									<div class="scroll-blue-line"></div>SCROLL</div>
-								<div class="box1">
-									<div class="dots">
-										<p>●</p>
-										<p>●</p>
-										<p>●</p>
-									</div>
-=======
 			<div class="fullpage" id="fullpage">
 				<div class="section panel1">
 					<div class="wrapper">
@@ -168,7 +47,6 @@ get_header(); ?>
 										<strong> Set sail!
 											<strong>
 									</p>
->>>>>>> 03116e33ab9e36363b417d67da9922569ff84329
 								</div>
 							</section>
 					</div>
@@ -368,7 +246,7 @@ get_header(); ?>
 									<img src="http://caravelweb.com/wp-content/themes/6/assets/Nate.jpg" alt="Nate Moseley">
 								</div>
 								<div class="team-member-bio">
-									<p>Nate Moseley - Business Manager and Developer</p>
+										<p>Nate Moseley - Business Manager and Developer</p>
 									<p>
 										Nathan comes from a diverse background, and has recently learned that he loves to build Apps. He also enjoys extreme sports
 										and a great Latte.
@@ -394,9 +272,6 @@ get_header(); ?>
 					</div>
 
 
-<<<<<<< HEAD
-					  </div>
-=======
 				</div>
 
 
@@ -442,7 +317,6 @@ get_header(); ?>
 
 
 
->>>>>>> 03116e33ab9e36363b417d67da9922569ff84329
 		</main>
 		<!-- #main -->
 		</div>
