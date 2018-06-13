@@ -84,18 +84,19 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
  */
 function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
-
 	wp_enqueue_style( 'owl-carousel-style', get_template_directory_uri() . '/build/css/owl.carousel.min.css');
-
 	wp_enqueue_style( 'owl-carousel-theme', get_template_directory_uri() . '/build/css/owl.theme.default.min.css');
+	wp_enqueue_style( 'full-page-theme', get_template_directory_uri() . '/lib/jquery.fullpage.css');
 
 	wp_enqueue_script( 'jquery');
 
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
+	wp_enqueue_script( 'fullpage-js', get_template_directory_uri() . '/lib/jquery.fullpage.js', array(jQuery), '20130115', true );
+	wp_enqueue_script( 'fullpage-extensions-js', get_template_directory_uri() . '/lib/jquery.fullpage.extensions.min.js', array(jQuery), '20130115', true );
+	
 	wp_enqueue_script( 'owl-carousel', get_template_directory_uri() . '/build/js/owl.carousel.min.js', array(), '20130115', true );
-
-	wp_enqueue_script( 'carousel', get_template_directory_uri() . '/build/js/carousel.min.js', array(), '20130115', true );
+	wp_enqueue_script( 'carousel', get_template_directory_uri() . '/build/js/carousel.min.js', array(jQuery), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
