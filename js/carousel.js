@@ -2,7 +2,7 @@
 
 jQuery(document).ready(function($){
     
-  jQuery('#fullpage').fullpage({
+  $('#fullpage').fullpage({
       // anchors:['firstPage', 'secondPage'],
       css3: true,
       scrollingSpeed: 1100,
