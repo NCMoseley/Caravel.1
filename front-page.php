@@ -98,13 +98,13 @@ get_header(); ?>
         <canvas id="myCanvas"></canvas>
       </div>
     </div>
-  </div>
 
 
 
 
 
-					<div class="old-page">
+
+					<div class="section fp-auto-height old-page">
 					
 
 							<div class="seans-code">
@@ -301,6 +301,9 @@ get_header(); ?>
 								</div>
 							</section>
 					</div>
+
+
+					  </div>
 		</main>
 		<!-- #main -->
 	</div>
