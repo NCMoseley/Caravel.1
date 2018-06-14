@@ -27,7 +27,7 @@ get_header(); ?>
 						</div>
 						<div class="panel1-content">
 							<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
-								and precisely what you need. We will get you where you want to be. Set sail!
+								and precisely what you need. We will get you where you want to be. <strong>Set sail!</strong>
 							</p>
 						</div>
 					</div>
@@ -39,7 +39,7 @@ get_header(); ?>
 							<br>Efficient Websites.</h2>
 						<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
 							and precisely what you need. We will get you where you want to be.
-							<strong> Set sail!</strong>
+							<strong>Set sail!</strong>
 						</p>
 					</div>
 				</section>
@@ -61,35 +61,13 @@ get_header(); ?>
 
 						<?php get_template_part('template-parts/carousel'); ?>
 
-
-						<!-- <div class="owl-carousel owl-theme">
-						<div class="item">
-							<a href="https://volunteer.hummingbirdnetwork.com">
-								<img alt="hummingbird-photo" src="<?php echo get_template_directory_uri() . '/assets/Hummingbird.png'?>" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="http://nexus.van.cp.academy.red/">
-								<img alt="nexus-photo" src="<?php echo get_template_directory_uri() . '/assets/Nexus.png'?>" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="https://valosmartcity.com/">
-								<img alt="valo-photo" src="<?php echo get_template_directory_uri() . '/assets/Valo.png'?>" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img alt="packwest-photo" src="<?php echo get_template_directory_uri() . '/assets/Packwest.png'?>" />
-							</a>
-						</div>
-					</div> -->
 					</div>
 				</section>
 
 
 				<section class="second-container">
 					<div class="services-container">
+						<div class="sliding-background"></div>
 						<span class="title-paragraph-container">
 							<h2>Services</h2>
 							<p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal

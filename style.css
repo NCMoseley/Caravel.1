@@ -1062,11 +1062,12 @@ body {
   position: relative; }
 
 .services-container {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url("../../assets/Caravel_ship.jpg") no-repeat;
+  z-index: 1;
+  overflow: hidden;
   background-size: 100% 250%;
   margin: 0 auto;
   height: 700px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   padding: 5% 8%;
   height: 700px;
   position: relative;
@@ -1077,6 +1078,85 @@ body {
   @media all and (min-width: 800px) {
     .services-container {
       height: 550px; } }
+
+.sliding-background {
+  z-index: -1;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url("../../assets/ship_silhouette_3.jpg") no-repeat;
+  height: 550px;
+  width: 6000px;
+  -webkit-animation: slide 60s linear infinite;
+          animation: slide 60s linear infinite; }
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translate3d(1400px, 0, 0);
+            transform: translate3d(1400px, 0, 0); }
+  10% {
+    -webkit-transform: translate3d(960px, 20px, 0);
+            transform: translate3d(960px, 20px, 0); }
+  20% {
+    -webkit-transform: translate3d(720px, -20px, 0);
+            transform: translate3d(720px, -20px, 0); }
+  30% {
+    -webkit-transform: translate3d(480px, 20px, 0);
+            transform: translate3d(480px, 20px, 0); }
+  40% {
+    -webkit-transform: translate3d(240px, -20px, 0);
+            transform: translate3d(240px, -20px, 0); }
+  50% {
+    -webkit-transform: translate3d(0px, 20px, 0);
+            transform: translate3d(0px, 20px, 0); }
+  60% {
+    -webkit-transform: translate3d(-240px, -20px, 0);
+            transform: translate3d(-240px, -20px, 0); }
+  70% {
+    -webkit-transform: translate3d(-480px, 20px, 0);
+            transform: translate3d(-480px, 20px, 0); }
+  80% {
+    -webkit-transform: translate3d(-720px, -20px, 0);
+            transform: translate3d(-720px, -20px, 0); }
+  90% {
+    -webkit-transform: translate3d(-960px, 20px, 0);
+            transform: translate3d(-960px, 20px, 0); }
+  100% {
+    -webkit-transform: translate3d(-1200px, -20px, 0);
+            transform: translate3d(-1200px, -20px, 0); } }
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translate3d(1400px, 0, 0);
+            transform: translate3d(1400px, 0, 0); }
+  10% {
+    -webkit-transform: translate3d(960px, 20px, 0);
+            transform: translate3d(960px, 20px, 0); }
+  20% {
+    -webkit-transform: translate3d(720px, -20px, 0);
+            transform: translate3d(720px, -20px, 0); }
+  30% {
+    -webkit-transform: translate3d(480px, 20px, 0);
+            transform: translate3d(480px, 20px, 0); }
+  40% {
+    -webkit-transform: translate3d(240px, -20px, 0);
+            transform: translate3d(240px, -20px, 0); }
+  50% {
+    -webkit-transform: translate3d(0px, 20px, 0);
+            transform: translate3d(0px, 20px, 0); }
+  60% {
+    -webkit-transform: translate3d(-240px, -20px, 0);
+            transform: translate3d(-240px, -20px, 0); }
+  70% {
+    -webkit-transform: translate3d(-480px, 20px, 0);
+            transform: translate3d(-480px, 20px, 0); }
+  80% {
+    -webkit-transform: translate3d(-720px, -20px, 0);
+            transform: translate3d(-720px, -20px, 0); }
+  90% {
+    -webkit-transform: translate3d(-960px, 20px, 0);
+            transform: translate3d(-960px, 20px, 0); }
+  100% {
+    -webkit-transform: translate3d(-1200px, -20px, 0);
+            transform: translate3d(-1200px, -20px, 0); } }
 
 .box2 {
   display: -webkit-box;
@@ -1372,7 +1452,7 @@ body {
     transition: 450ms transform, 450ms -webkit-transform;
     font-size: 0;
     white-space: nowrap;
-    margin: 98.4375px 0;
+    margin: 70px 0;
     padding-bottom: 10px; }
   .contain .tile {
     position: relative;
