@@ -218,8 +218,8 @@ body {
 }
 
 .second-container {
-  width: 100%;
-  margin: 0 auto;
+  width: 95%;
+  margin-right: 10%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -329,7 +329,7 @@ body {
 }
 
 .team-background {
-  background-color: #000;
+  background-color: $color__navy;
 }
 
 .team-wrapper {
@@ -489,7 +489,7 @@ body {
 // }
 
 .dont-hesitate-container {
-  background-color: #000;
+  background-color: $color__navy;
   color: #fff;
   display: flex;
   flex-direction: column;
