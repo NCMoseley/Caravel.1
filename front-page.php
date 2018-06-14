@@ -101,7 +101,6 @@ get_header(); ?>
 
 			<section class="work-wrapper">
 				<div class="work-carousel">
-					<!-- <div class="laptop-container"> -->
 					<div class="owl-carousel owl-theme">
 						<div class="item">
 							<a href="https://volunteer.hummingbirdnetwork.com">
