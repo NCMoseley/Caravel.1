@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
       },
       2000
     );
-  }, 3000);
+  }, 7000);
 
   if ($('body').hasClass('home')) {
     $('a[href*=#]').bind('click', function (e) {
