@@ -947,8 +947,8 @@ body {
     letter-spacing: 3px; }
 
 .second-container {
-  width: 100%;
-  margin: 0 auto;
+  width: 95%;
+  margin-right: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1072,7 +1072,11 @@ body {
   width: 100%; }
 
 .team-background {
+<<<<<<< HEAD
+  background-color: #001f3f; }
+=======
   background-color: #13143f; }
+>>>>>>> 64a2c8877c634af0cc304dd48905d71b0add0df0
 
 .team-wrapper {
   width: 95%;
@@ -1195,7 +1199,11 @@ body {
   background-color: white; }
 
 .dont-hesitate-container {
+<<<<<<< HEAD
+  background-color: #001f3f;
+=======
   background-color: #13143f;
+>>>>>>> 64a2c8877c634af0cc304dd48905d71b0add0df0
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;

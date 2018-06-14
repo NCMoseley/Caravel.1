@@ -216,8 +216,8 @@ body {
 }
 
 .second-container {
-  width: 100%;
-  margin: 0 auto;
+  width: 95%;
+  margin-right: 10%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -327,7 +327,9 @@ body {
 }
 
 .team-background {
-  background-color: rgb(19, 20, 63);
+  <<<<<<< HEAD background-color: $color__navy;
+  =======background-color: rgb(19, 20, 63);
+  >>>>>>>64a2c8877c634af0cc304dd48905d71b0add0df0
 }
 
 .team-wrapper {
