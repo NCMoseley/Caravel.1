@@ -16,7 +16,7 @@ get_header(); ?>
 			<div class="fullpage" id="fullpage">
 
 				<section class="section panel1">
-					<div class="wrapper">
+					<div class="header-wrapper">
 						<div class="header">
 							<h3>
 								<span>say</span>
@@ -43,7 +43,6 @@ get_header(); ?>
 							<strong>
 					</p>
 				</div>
-<<<<<<< HEAD
 			</section>
 	
 		<!-- <section class="second-container">
@@ -64,26 +63,6 @@ get_header(); ?>
 				<div class="find-out-container">
 					<div class="find-out-blurb">Find out how we can help you
 						<div class="find-out-line"></div>
-=======
-
-
-
-				<div class="section fp-auto-height-responsive panel2 parallax">
-
-					<div class="seans-code">
-						<section class="content-wrapper">
-							<section class="hero-container">
-								<div id="header-container" class="header-container">
-									<h1>Simple, Powerful &
-										<br>Efficient Websites.</h1>
-									<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
-										and precisely what you need. We will get you where you want to be.
-										<strong> Set sail!
-											<strong>
-									</p>
-								</div>
-							</section>
->>>>>>> 0ce8fb9ef32d48cf88c002b73c30a3a5c062d594
 					</div>
 				</div>
 			</div> -->
