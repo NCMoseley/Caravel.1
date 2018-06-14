@@ -1,7 +1,9 @@
 jQuery(document).ready(function ($) {
   
   var homeFlag = document.querySelector('.header-container');
-  console.log(homeFlag);
+  console.log(homeFlag.visible());
+
+
 
   if (!!homeFlag && homeFlag.visible(true)) {
     console.log('complete');

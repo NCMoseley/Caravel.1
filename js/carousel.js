@@ -12,5 +12,6 @@ jQuery(document).ready(function ($) {
     easing: 'easeInOutCubic',
     easingcss3: 'ease',
     controlArrows: true,
+    fitToSection: false
   });
 });
