@@ -939,34 +939,42 @@ body {
 @-webkit-keyframes slide-left {
   from {
     -webkit-transform: translate(-850px, -100px) rotate(-70deg);
-            transform: translate(-850px, -100px) rotate(-70deg); }
+            transform: translate(-850px, -100px) rotate(-70deg);
+    opacity: 0; }
   to {
     -webkit-transform: translate(0, 0) rotate(0);
-            transform: translate(0, 0) rotate(0); } }
+            transform: translate(0, 0) rotate(0);
+    opacity: 1; } }
 
 @keyframes slide-left {
   from {
     -webkit-transform: translate(-850px, -100px) rotate(-70deg);
-            transform: translate(-850px, -100px) rotate(-70deg); }
+            transform: translate(-850px, -100px) rotate(-70deg);
+    opacity: 0; }
   to {
     -webkit-transform: translate(0, 0) rotate(0);
-            transform: translate(0, 0) rotate(0); } }
+            transform: translate(0, 0) rotate(0);
+    opacity: 1; } }
 
 @-webkit-keyframes slide-right {
   from {
     -webkit-transform: translate(850px, -100px) rotate(90deg);
-            transform: translate(850px, -100px) rotate(90deg); }
+            transform: translate(850px, -100px) rotate(90deg);
+    opacity: 0; }
   to {
     -webkit-transform: translate(0, 0) rotate(0);
-            transform: translate(0, 0) rotate(0); } }
+            transform: translate(0, 0) rotate(0);
+    opacity: 1; } }
 
 @keyframes slide-right {
   from {
     -webkit-transform: translate(850px, -100px) rotate(90deg);
-            transform: translate(850px, -100px) rotate(90deg); }
+            transform: translate(850px, -100px) rotate(90deg);
+    opacity: 0; }
   to {
     -webkit-transform: translate(0, 0) rotate(0);
-            transform: translate(0, 0) rotate(0); } }
+            transform: translate(0, 0) rotate(0);
+    opacity: 1; } }
 
 .header-container {
   width: 100%;
@@ -979,8 +987,7 @@ body {
     letter-spacing: 3px; }
 
 .second-container {
-  width: 95%;
-  margin-right: 10%;
+  margin-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -999,8 +1006,13 @@ body {
   background-size: 100% 250%;
   margin: 0 auto;
   height: 700px;
+<<<<<<< HEAD
+  background-color: #f7f7f7;
+  padding: 5% 8%;
+=======
   position: relative;
   padding: 8%;
+>>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   padding-top: 2%;
   -ms-flex-item-align: center;
       align-self: center; }
@@ -1093,8 +1105,7 @@ body {
   background-color: #001f3f; }
 
 .team-wrapper {
-  width: 95%;
-  margin-right: 10%;
+  margin-right: 5%;
   padding: 5% 8%;
   background-color: #f7f7f7; }
   .team-wrapper h2 {
@@ -1128,12 +1139,8 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-right: 15%; }
-  .team-top-row #Sean {
-    -webkit-transform: translate(-750px, -100px) rotate(-70deg);
-            transform: translate(-750px, -100px) rotate(-70deg); }
-  .team-top-row #Nate {
-    -webkit-transform: translate(850px, -100px) rotate(90deg);
-            transform: translate(850px, -100px) rotate(90deg); }
+  .team-top-row img {
+    opacity: 0; }
 
 .team-second-row {
   display: -webkit-box;
@@ -1148,24 +1155,26 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-left: 15%; }
-  .team-second-row #Colin {
-    -webkit-transform: translate(-850px, -100px) rotate(-70deg);
-            transform: translate(-850px, -100px) rotate(-70deg); }
-  .team-second-row #Ilya {
-    -webkit-transform: translate(850px, -100px) rotate(90deg);
-            transform: translate(850px, -100px) rotate(90deg); }
+  .team-second-row img {
+    opacity: 0; }
 
 .slide-in-left {
   -webkit-animation: slide-left .5s;
           animation: slide-left .5s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards; }
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out; }
 
 .slide-in-right {
   -webkit-animation: slide-right .5s;
           animation: slide-right .5s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards; }
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s; }
 
 .team-single {
   width: 40%;
