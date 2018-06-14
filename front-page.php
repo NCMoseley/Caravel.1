@@ -35,8 +35,8 @@ get_header(); ?>
 
 			<section class="hero-container">
 				<div class="header-container">
-					<h1>Simple, Powerful &
-						<br>Efficient Websites.</h1>
+					<h2>Simple, Powerful &
+						<br>Efficient Websites.</h2>
 					<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
 						and precisely what you need. We will get you where you want to be.
 						<strong> Set sail!
@@ -128,7 +128,7 @@ get_header(); ?>
 
 			<div class="team-background">
 				<section class="team-wrapper">
-					<h1>The Team</h1>
+					<h2>The Team</h2>
 					<p>Don't be fooled by the smiles, these Navy Seals are not guys you would want to get stuck with in a dark alley.</p>
 					<div class="team-container">
 						<div class="team-top-row">
@@ -179,7 +179,7 @@ get_header(); ?>
 			</section>
 
 			<section class="dont-hesitate-container">
-				<h1 class="dont-hesitate">Don't Hesitate to get in touch!</h1>
+				<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
 				<p>Seriously though you know you will love working with us.</p>
 			</section>
 		</main>
