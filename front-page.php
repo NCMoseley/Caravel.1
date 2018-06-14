@@ -39,7 +39,7 @@ get_header(); ?>
 					<div class="seans-code">
 						<section class="content-wrapper">
 							<section class="hero-container">
-								<div class="header-container">
+								<div id="header-container" class="header-container">
 									<h1>Simple, Powerful &
 										<br>Efficient Websites.</h1>
 									<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,

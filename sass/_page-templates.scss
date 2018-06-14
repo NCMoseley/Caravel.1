@@ -55,6 +55,7 @@
       font-size: 28px !important;
       max-width: 80%;
     }
+    .clickMe {}
   }
 }
 
@@ -65,8 +66,9 @@
 /* Front page */
 
 .second-container {
-  display: flex;
-  flex-direction: row; /////
+  // display: flex;
+  display: none;
+  flex-direction: row;
   justify-content: flex-start;
   background-color: #f7f7f7; //
   position: relative;
