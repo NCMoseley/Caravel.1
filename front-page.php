@@ -184,10 +184,6 @@ get_header(); ?>
 					<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
 					<p>Seriously though you know you will love working with us.</p>
 
-					<canvas width="800" height="500" id="myGameCanvas">
-						<p>Your browser does not support this feature</p>
-					</canvas>
-
 				</section>
 		</main>
 		<!-- #main -->

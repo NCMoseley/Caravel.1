@@ -1051,14 +1051,14 @@ object {
 .bullet-blue-line {
   height: 3px;
   width: 10px;
-  background-color: blue;
+  background-color: #13143f;
   margin-right: 10px; }
 
 .photo-container img {
   width: 100%; }
 
 .team-background {
-  background-color: #000; }
+  background-color: #13143f; }
 
 .team-wrapper {
   width: 95%;
@@ -1193,7 +1193,7 @@ object {
     text-align: center; }
 
 .dont-hesitate-container {
-  background-color: #000;
+  background-color: #13143f;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1260,7 +1260,7 @@ p {
 .contain {
   padding: 0 10px;
   margin: 0;
-  background: #000;
+  background: #13143f;
   color: #ecf0f1;
   font-family: 'Open Sans', sans-serif;
   display: -webkit-box;
