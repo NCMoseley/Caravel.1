@@ -39,76 +39,21 @@ get_header(); ?>
 							<br>Efficient Websites.</h2>
 						<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
 							and precisely what you need. We will get you where you want to be.
-							<strong> Set sail!
-								<strong>
+							<strong> Set sail!</strong>
 						</p>
 					</div>
-				</section>
-
-				<!-- <section class="second-container">
-			<div class="scroll">
-				<div class="scroll-blue-line"></div>SCROLL</div>
-			<div class="box1">
-				<div class="dots">
-					<p>●</p>
-					<p>●</p>
-					<p>●</p>
-				</div>
-			</div>
-			<div class="box2">
-				<h4 class="we-specialize-blurb">We specialize in custom Websites built with
-					<span>WordPress</span>. They are designed to be clean, simple and future proof. We have helped our clients realize their
-					online voice and increased traffic, conversion and ranking.</h4>
-
-				<div class="find-out-container">
-					<div class="find-out-blurb">Find out how we can help you
-						<div class="find-out-line"></div>
-					</div>
-				</div>
-			</div> -->
-				<!-- </section>  -->
-
-				<section class="second-container">
-					<div class="services-container">
-						<span class="title-paragraph-container">
-							<h2>Services</h2>
-							<p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal
-								information shaman avalanche matrix impulse </p>
-						</span>
-						<div class="bullet-container">
-							<div class="left">
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Front and Backend Development</div>
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Code Audits</div>
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Wordpress Streamlining</div>
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Responsive Web design</div>
-							</div>
-							<div class="right">
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>UX Content and strategy</div>
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Logos and Visual Identities</div>
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Custom Apps</div>
-								<div>
-								</div>
-							</div>
-						</div>
 				</section>
 
 				<section class="our-work-section">
 					<div class="our-work-header">
 						<h2>Our Work</h2>
 					</div>
-					<div class="our-work-content">
+					<!-- <div class="our-work-content">
 						<p>We are a boutique agency that specializes in custom Websites built with WordPress. They are designed to be clean, simple
 							and future proof. We have helped our clients realize their online voice and increased traffic, conversion and ranking.
 							Find out how we can help you. You can view some of our recent projects below.
 						</p>
-					</div>
+					</div> -->
 				</section>
 
 				<section class="work-wrapper">
@@ -142,6 +87,38 @@ get_header(); ?>
 					</div>
 				</section>
 
+
+				<section class="second-container">
+					<div class="services-container">
+						<span class="title-paragraph-container">
+							<h2>Services</h2>
+							<p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal
+								information shaman avalanche matrix impulse </p>
+						</span>
+						<div class="bullet-container">
+							<div class="left">
+								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>Front and Backend Development</div>
+								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>Code Audits</div>
+								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>Wordpress Streamlining</div>
+								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>Responsive Web design</div>
+							</div>
+							<div class="right">
+								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>UX Content and strategy</div>
+								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>Logos and Visual Identities</div>
+								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>Custom Apps</div>
+								<div>
+								</div>
+							</div>
+						</div>
+				</section>
+
 				<div class="team-background">
 					<section class="team-wrapper">
 						<h2>The Team</h2>
@@ -171,7 +148,7 @@ get_header(); ?>
 								</div>
 								<div class="team-single">
 									<img alt="Ilya-photo" src="<?php echo get_template_directory_uri() . '/assets/ilya.jpg'?>" />
-									<h3 class="position">Ilya Meerovich</br> - Lead Developer</h3>
+									<h3 class="position">Ilya Meerovich</br> - Web Developer</h3>
 									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
 										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
 								</div>
