@@ -1,8 +1,11 @@
 jQuery(document).ready(function ($) {
 
+  var homeFlag = document.querySelector('.header-container');
+  console.log(homeFlag);
 
-  if ($("#homepage-flag").length > 0 && $('.header-container').visible(true)) {
+  if (!!homeFlag && homeFlag.visible(true)) {
     console.log('complete');
+
     setTimeout(function () {
       $('.header-container').addClass('clickMe');
     }, 1000);
