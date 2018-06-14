@@ -669,17 +669,34 @@ body {
 .header-menu-logo {
   height: 48px;
   width: 200px;
+  margin-left: 50px;
   background: url("../../assets/Caravel-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  color: black;
-  position: fixed;
-  top: 26px;
-  left: 128px;
-  z-index: 1000; }
+  color: black; }
 
 .main-navigation {
-  position: fixed; }
+  height: 75px;
+  position: fixed;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
+  -webkit-animation: nav .5s;
+          animation: nav .5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 3.25s;
+          animation-delay: 3.25s; }
+  .main-navigation .menu {
+    display: none; }
 
 .header-wrapper {
   width: 80%;
@@ -860,6 +877,18 @@ body {
   -webkit-transition-delay: .2s;
           transition-delay: .2s; }
 
+@-webkit-keyframes nav {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.9; } }
+
+@keyframes nav {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.9; } }
+
 @-webkit-keyframes slideup {
   from {
     margin-bottom: 0;
@@ -1006,13 +1035,8 @@ body {
   background-size: 100% 250%;
   margin: 0 auto;
   height: 700px;
-<<<<<<< HEAD
   background-color: #f7f7f7;
   padding: 5% 8%;
-=======
-  position: relative;
-  padding: 8%;
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   padding-top: 2%;
   -ms-flex-item-align: center;
       align-self: center; }

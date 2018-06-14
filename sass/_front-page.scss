@@ -5,18 +5,35 @@ body {
 .header-menu-logo {
   height: 48px;
   width: 200px;
+  margin-left: 50px;
   background: url('../../assets/Caravel-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   color: black;
-  position: fixed;
-  top: 26px;
-  left: 128px;
-  z-index: 1000;
+  // position: fixed;
+  // top: 26px;
+  // left: 128px;
+  // z-index: 1000;
 }
 
 .main-navigation {
+  height: 75px;
   position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+
+  opacity: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,.16), 0 1px 6px rgba(0,0,0,.23);
+
+  animation: nav .5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.25s;
+
+  .menu {
+    display: none;
+  }
 }
 
 .header-wrapper {
@@ -148,6 +165,15 @@ body {
   }
 }
 
+@keyframes nav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  } 
+}
+
 @keyframes slideup {
   from {
     margin-bottom: 0;
@@ -257,15 +283,9 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url('../../assets/Caravel_ship.jpg') no-repeat;
   background-size: 100% 250%; // background-attachment: fixed;
   margin: 0 auto;
-<<<<<<< HEAD
   height: 700px;
   background-color: #f7f7f7;
   padding: 5% 8%;
-=======
-  height: 700px; // background-color: #f7f7f7;
-  position: relative;
-  padding: 8%;
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   padding-top: 2%;
   align-self: center;
   @include medium {
@@ -396,17 +416,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding-right: 15%;
-<<<<<<< HEAD
 
   img {
     opacity: 0;
-=======
-  #Sean {
-    transform: translate(-750px, -100px) rotate(-70deg);
-  }
-  #Nate {
-    transform: translate(850px, -100px) rotate(90deg);
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   }
 }
 
@@ -416,17 +428,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 15%;
-<<<<<<< HEAD
 
   img {
     opacity: 0;
-=======
-  #Colin {
-    transform: translate(-850px, -100px) rotate(-70deg);
-  }
-  #Ilya {
-    transform: translate(850px, -100px) rotate(90deg);
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   }
 }
 
