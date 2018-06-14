@@ -318,7 +318,7 @@ body {
 .bullet-blue-line {
   height: 3px;
   width: 10px;
-  background-color: blue;
+  background-color: rgb(19, 20, 63);
   margin-right: 10px;
 }
 
@@ -329,7 +329,11 @@ body {
 }
 
 .team-background {
+<<<<<<< HEAD
   background-color: $color__navy;
+=======
+  background-color: rgb(19, 20, 63);
+>>>>>>> 64a2c8877c634af0cc304dd48905d71b0add0df0
 }
 
 .team-wrapper {
@@ -489,7 +493,11 @@ body {
 // }
 
 .dont-hesitate-container {
+<<<<<<< HEAD
   background-color: $color__navy;
+=======
+  background-color: rgb(19, 20, 63);
+>>>>>>> 64a2c8877c634af0cc304dd48905d71b0add0df0
   color: #fff;
   display: flex;
   flex-direction: column;
