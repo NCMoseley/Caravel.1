@@ -33,9 +33,6 @@ get_header(); ?>
 					</div>
 				</section>
 
-
-				<div class="section fp-auto-height-responsive panel2 parallax">
-
 			<section class="hero-container">
 				<div class="header-container">
 					<h1>Simple, Powerful &
@@ -45,9 +42,6 @@ get_header(); ?>
 						<strong> Set sail!
 							<strong>
 					</p>
-						<a href="#services">
-									  <button  class="header-button">Click Me!</div>
-								  </a>
 				</div>
 			</section>
 	
@@ -101,37 +95,9 @@ get_header(); ?>
 								<div class="bullet-blue-line"></div>Custom Apps</div>
 							<div>
 						</div>
-					</section>
-
-					<section class="third-container">
-						<div class="services-container">
-							<span name="services" id="services" class="title-paragraph-container">
-								<h2>Services</h2>
-								<p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal
-									information shaman avalanche matrix impulse </p>
-							</span>
-							<div class="bullet-container">
-								<div class="left">
-									<div class="bullet-point">
-										<div class="bullet-blue-line"></div>Front and Backend Development</div>
-									<div class="bullet-point">
-										<div class="bullet-blue-line"></div>Code Audits</div>
-									<div class="bullet-point">
-										<div class="bullet-blue-line"></div>Wordpress Streamlining</div>
-									<div class="bullet-point">
-										<div class="bullet-blue-line"></div>Responsive Web design</div>
-								</div>
-								<div class="right">
-									<div class="bullet-point">
-										<div class="bullet-blue-line"></div>UX Content and strategy</div>
-									<div class="bullet-point">
-										<div class="bullet-blue-line"></div>Logos and Visual Identities</div>
-									<div class="bullet-point">
-										<div class="bullet-blue-line"></div>Custom Apps</div>
-									<div>
-									</div>
-								</div>
-					</section>
+					</div>
+				</div>
+			</section>
 
 			<section class="work-wrapper">
 				<div class="work-carousel">
