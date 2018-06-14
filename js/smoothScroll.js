@@ -20,11 +20,13 @@ jQuery(document).ready(function ($) {
   //   });
   // }, 7000);
 
+  // window.addEventListener('scroll', function () {
+  //   console.log(scrollY)
+  // })
 
-  if (scrollY < 20) {
+  if (window.scrollY < 50) {
     setTimeout(function () {
-      console.log(scrollY);
-      var offset = 100;
+      var offset = 80;
       var target = $('.header-container');
       var scrollTo = $(target).offset().top + offset;
       $('html, body').animate({
