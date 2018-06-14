@@ -13,7 +13,8 @@ get_header(); ?>
 
 			<!-- FULLPAGE BEGINS HERE  -->
 
-			<div class="fullpage" id="fullpage">
+
+			<div class="<?php echo wp_is_mobile() ? 'mobilepage' : 'fullpage'; ?>" id="<?php echo wp_is_mobile() ? 'mobilepage' : 'fullpage'; ?>">
 
 				<section class="section panel1">
 					<div class="header-wrapper">
