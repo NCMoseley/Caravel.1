@@ -266,7 +266,7 @@ body {
 //   .find-out-blurb {
 //     line-height: 4;
 //     div {
-//       background-color: blue;
+//       background-color: rgb(19, 20, 63);
 //       height: 2px;
 //       width: 211px;
 //     }
@@ -327,9 +327,7 @@ body {
 }
 
 .team-background {
-  <<<<<<< HEAD background-color: $color__navy;
-  =======background-color: rgb(19, 20, 63);
-  >>>>>>>64a2c8877c634af0cc304dd48905d71b0add0df0
+  background-color: rgb(19, 20, 63);
 }
 
 .team-wrapper {
