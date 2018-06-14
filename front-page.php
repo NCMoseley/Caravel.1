@@ -126,14 +126,14 @@ get_header(); ?>
 						<div class="team-container">
 							<div class="team-top-row">
 								<div class="team-single">
-									<img alt="Sean-photo" src="<?php echo get_template_directory_uri() . '/assets/Sean.jpg'?>" />
+									<img id="Sean" alt="Sean-photo" src="<?php echo get_template_directory_uri() . '/assets/Sean.jpg'?>" />
 									<h3 class="position">Sean Stobo</br> - Founder, Project Manager</h3>
 									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
 										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
 								</div>
 
 								<div class="team-single">
-									<img alt="Nate-photo" src="<?php echo get_template_directory_uri() . '/assets/Nate.jpg'?>" />
+									<img id="Nate" alt="Nate-photo" src="<?php echo get_template_directory_uri() . '/assets/Nate.jpg'?>" />
 									<h3 class="position">Nathan Moseley</br> - Business Manager and Developer</h3>
 									<p>Nathan comes from a diverse background, and has recently learned that he loves to build Apps. He also enjoys extreme
 										sports and a great Latte.</p>
@@ -141,13 +141,13 @@ get_header(); ?>
 							</div>
 							<div class="team-second-row">
 								<div class="team-single">
-									<img alt="Colin-photo" src="<?php echo get_template_directory_uri() . '/assets/Colin.jpg'?>" />
+									<img id="Colin" alt="Colin-photo" src="<?php echo get_template_directory_uri() . '/assets/Colin.jpg'?>" />
 									<h3 class="position">Colin Matson-Jones</br> - Lead Developer</h3>
 									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
 										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
 								</div>
 								<div class="team-single">
-									<img alt="Ilya-photo" src="<?php echo get_template_directory_uri() . '/assets/ilya.jpg'?>" />
+									<img id="Ilya" alt="Ilya-photo" src="<?php echo get_template_directory_uri() . '/assets/ilya.jpg'?>" />
 									<h3 class="position">Ilya Meerovich</br> - Web Developer</h3>
 									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
 										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>

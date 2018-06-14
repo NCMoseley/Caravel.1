@@ -99,9 +99,11 @@ function red_starter_scripts()
 
     wp_enqueue_script('fullpage-js', get_template_directory_uri() . '/lib/jquery.fullpage.js', array(jquery), '20130115', true);
     wp_enqueue_script('fullpage-extensions-js', get_template_directory_uri() . '/lib/jquery.fullpage.extensions.min.js', array(jQuery), '20130115', true);
+    wp_enqueue_script('waypoints', get_template_directory_uri() . '/lib/noframework.waypoints.min.js', array(), '20130115', true);
     
     wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/build/js/owl.carousel.min.js', array(), '20130115', true);
     wp_enqueue_script('carousel', get_template_directory_uri() . '/build/js/carousel.min.js', array(jquery), '20130115', true);
+
 
     wp_enqueue_script('jquery-visible-js', get_template_directory_uri() . '/lib/jquery.visible.min.js', array(jquery), '20130115', true);
 
