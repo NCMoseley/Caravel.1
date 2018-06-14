@@ -1,4 +1,6 @@
 jQuery(document).ready(function ($) {
+  var nav = document.querySelector('#site-navigation');
+
   var waypoint = new Waypoint({
     element: document.getElementById('Sean'),
     handler: function() {
@@ -28,7 +30,20 @@ jQuery(document).ready(function ($) {
     offset: 400
   })
 
+  var lastScrollTop = 0;
+  window.addEventListener("scroll", function(){ 
+    var scrollTop = window.pageYOffset;
+    if (scrollTop > lastScrollTop){
+        console.log('going down')
+        nav.classList.remove('navSlide');
+    } else {
+      console.log('going up')
+      nav.classList.add('navSlide');
+    }
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+  }, false);
 
+  
 
   $('#fullpage').fullpage({
     // anchors:['firstPage', 'secondPage'],
