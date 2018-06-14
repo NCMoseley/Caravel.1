@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
     $('html, body').animate({
         scrollTop: scrollTo
       },
-      1500
+      2000
     );
   }, 7000);
 
