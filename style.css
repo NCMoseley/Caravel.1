@@ -936,6 +936,38 @@ body {
     -webkit-transform: translateX(-20px);
             transform: translateX(-20px); } }
 
+@-webkit-keyframes slide-left {
+  from {
+    -webkit-transform: translate(-850px, -100px) rotate(-70deg);
+            transform: translate(-850px, -100px) rotate(-70deg); }
+  to {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0); } }
+
+@keyframes slide-left {
+  from {
+    -webkit-transform: translate(-850px, -100px) rotate(-70deg);
+            transform: translate(-850px, -100px) rotate(-70deg); }
+  to {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0); } }
+
+@-webkit-keyframes slide-right {
+  from {
+    -webkit-transform: translate(850px, -100px) rotate(90deg);
+            transform: translate(850px, -100px) rotate(90deg); }
+  to {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0); } }
+
+@keyframes slide-right {
+  from {
+    -webkit-transform: translate(850px, -100px) rotate(90deg);
+            transform: translate(850px, -100px) rotate(90deg); }
+  to {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0); } }
+
 .header-container {
   width: 100%;
   padding: 8%;
@@ -1073,7 +1105,7 @@ body {
   width: 100%; }
 
 .team-background {
-  background-color: #13143f; }
+  background-color: #001f3f; }
 
 .team-wrapper {
   width: 95%;
@@ -1112,6 +1144,12 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-right: 15%; }
+  .team-top-row #Sean {
+    -webkit-transform: translate(-750px, -100px) rotate(-70deg);
+            transform: translate(-750px, -100px) rotate(-70deg); }
+  .team-top-row #Nate {
+    -webkit-transform: translate(850px, -100px) rotate(90deg);
+            transform: translate(850px, -100px) rotate(90deg); }
 
 .team-second-row {
   display: -webkit-box;
@@ -1126,20 +1164,24 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-left: 15%; }
+  .team-second-row #Colin {
+    -webkit-transform: translate(-850px, -100px) rotate(-70deg);
+            transform: translate(-850px, -100px) rotate(-70deg); }
+  .team-second-row #Ilya {
+    -webkit-transform: translate(850px, -100px) rotate(90deg);
+            transform: translate(850px, -100px) rotate(90deg); }
 
-.team-third-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-right: 15%; }
+.slide-in-left {
+  -webkit-animation: slide-left .5s;
+          animation: slide-left .5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
+
+.slide-in-right {
+  -webkit-animation: slide-right .5s;
+          animation: slide-right .5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
 
 .team-single {
   width: 40%;
@@ -1196,7 +1238,7 @@ body {
   background-color: white; }
 
 .dont-hesitate-container {
-  background-color: #13143f;
+  background-color: #001f3f;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
