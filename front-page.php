@@ -27,7 +27,7 @@ get_header(); ?>
 						</div>
 						<div class="panel1-content">
 							<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
-								and precisely what you need. We will get you where you want to be. Set sail!
+								and precisely what you need. We will get you where you want to be. <strong>Set sail!</strong>
 							</p>
 						</div>
 					</div>
@@ -39,7 +39,7 @@ get_header(); ?>
 							<br>Efficient Websites.</h2>
 						<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
 							and precisely what you need. We will get you where you want to be.
-							<strong> Set sail!</strong>
+							<strong>Set sail!</strong>
 						</p>
 					</div>
 				</section>
@@ -67,6 +67,7 @@ get_header(); ?>
 
 				<section class="second-container">
 					<div class="services-container">
+						<div class="sliding-background"></div>
 						<span class="title-paragraph-container">
 							<h2>Services</h2>
 							<p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal
