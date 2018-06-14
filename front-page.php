@@ -246,6 +246,7 @@ get_header(); ?>
 									<img src="http://caravelweb.com/wp-content/themes/6/assets/Nate.jpg" alt="Nate Moseley">
 								</div>
 								<div class="team-member-bio">
+
 										<p>Nate Moseley - Business Manager and Developer</p>
 									<p>
 										Nathan comes from a diverse background, and has recently learned that he loves to build Apps. He also enjoys extreme sports

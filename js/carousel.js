@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
       // anchors:['firstPage', 'secondPage'],
       css3: true,
       scrollingSpeed: 1100,
-      autoScrolling: true,
+      autoScrolling: false,
       navigation: true, 
       navigationPosition: 'left',
       loopHorizontal: true,
@@ -14,5 +14,6 @@ jQuery(document).ready(function($){
       easing: 'easeInOutCubic',
       easingcss3: 'ease',
       controlArrows: true,
+      fitToSection: false,
   });
 });
