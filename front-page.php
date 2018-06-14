@@ -16,7 +16,7 @@ get_header(); ?>
 			<div class="fullpage" id="fullpage">
 
 				<section class="section panel1">
-					<div class="wrapper">
+					<div class="header-wrapper">
 						<div class="header">
 							<h3>
 								<span>say</span>
@@ -36,22 +36,39 @@ get_header(); ?>
 
 				<div class="section fp-auto-height-responsive panel2 parallax">
 
-					<div class="seans-code">
-						<section class="content-wrapper">
-							<section class="hero-container">
-								<div id="header-container" class="header-container">
-									<h1>Simple, Powerful &
-										<br>Efficient Websites.</h1>
-									<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
-										and precisely what you need. We will get you where you want to be.
-										<strong> Set sail!
-											<strong>
-									</p>
-									<a href="#services">
+			<section class="hero-container">
+				<div class="header-container">
+					<h1>Simple, Powerful &
+						<br>Efficient Websites.</h1>
+					<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
+						and precisely what you need. We will get you where you want to be.
+						<strong> Set sail!
+							<strong>
+					</p>
+						<a href="#services">
 									  <button  class="header-button">Click Me!</div>
 								  </a>
-								</div>
-							</section>
+				</div>
+			</section>
+	
+		<!-- <section class="second-container">
+			<div class="scroll">
+				<div class="scroll-blue-line"></div>SCROLL</div>
+			<div class="box1">
+				<div class="dots">
+					<p>●</p>
+					<p>●</p>
+					<p>●</p>
+				</div>
+			</div>
+			<div class="box2">
+				<h4 class="we-specialize-blurb">We specialize in custom Websites built with
+					<span>WordPress</span>. They are designed to be clean, simple and future proof. We have helped our clients realize their
+					online voice and increased traffic, conversion and ranking.</h4>
+
+				<div class="find-out-container">
+					<div class="find-out-blurb">Find out how we can help you
+						<div class="find-out-line"></div>
 					</div>
 				</div>
 			</div> -->
@@ -116,33 +133,13 @@ get_header(); ?>
 								</div>
 					</section>
 
-					<section class="work-wrapper">
-
-						<div class="work-carousel">
-							<!-- <div class="laptop-container"> -->
-							<div class="owl-carousel owl-theme">
-								<div class="item">
-									<a href="https://volunteer.hummingbirdnetwork.com">
-										<img alt="hummingbird-photo" src="<?php echo get_template_directory_uri() . '/assets/Hummingbird.png'?>" />
-									</a>
-								</div>
-								<div class="item">
-									<a href="http://nexus.van.cp.academy.red/">
-										<img alt="nexus-photo" src="<?php echo get_template_directory_uri() . '/assets/Nexus.png'?>" />
-									</a>
-								</div>
-								<div class="item">
-									<a href="https://valosmartcity.com/">
-										<img alt="valo-photo" src="<?php echo get_template_directory_uri() . '/assets/Valo.png'?>" />
-									</a>
-								</div>
-								<div class="item">
-									<a href="#">
-										<img alt="packwest-photo" src="<?php echo get_template_directory_uri() . '/assets/Packwest.png'?>" />
-									</a>
-								</div>
-							</div>
-							<!-- </div> -->
+			<section class="work-wrapper">
+				<div class="work-carousel">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<a href="https://volunteer.hummingbirdnetwork.com">
+								<img alt="hummingbird-photo" src="<?php echo get_template_directory_uri() . '/assets/Hummingbird.png'?>" />
+							</a>
 						</div>
 						<div class="item">
 							<a href="http://nexus.van.cp.academy.red/">
