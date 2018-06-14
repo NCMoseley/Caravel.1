@@ -104,6 +104,8 @@ function red_starter_scripts()
 
     wp_enqueue_script('jquery-visible-js', get_template_directory_uri() . '/lib/jquery.visible.min.js', array(jquery), '20130115', true);
 
+    wp_enqueue_script('smoothScroll', get_template_directory_uri() . '/build/js/smoothScroll.min.js', array('jquery'), '1.0.0', true);
+
     wp_enqueue_script('main', get_template_directory_uri() . '/build/js/main.min.js', array(jquery), ' ', true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {

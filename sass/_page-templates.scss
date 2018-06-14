@@ -55,7 +55,13 @@
       font-size: 28px !important;
       max-width: 80%;
     }
-    .clickMe {}
+    .header-button {
+      display: none;
+    }
+    .clickMe {
+      @include button-blue;
+      margin: 0 auto;
+    }
   }
 }
 

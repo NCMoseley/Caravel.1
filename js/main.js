@@ -1,22 +1,30 @@
 jQuery(document).ready(function ($) {
 
-  var homeFlag = document.querySelector('#header-container').id;
+  var homeFlag = document.querySelector('.header-button');
   console.log(homeFlag);
 
 
   if (!!homeFlag && homeFlag) {
     console.log('complete');
-    console.log('hello');
 
     setTimeout(function () {
-      $('#header-container').addClass('clickMe');
-    }, 1000);
+      $('.header-button').addClass('clickMe');
+    }, 5000);
 
   }
-  $('.clickMe').click(function () {
-    $('.header-container').fadeOut('slow', function () {
-      $('.header-container').css('display', 'none');
-    });
+  $('.header-button').click(function () {
+    console.log('complete');
+
+    // $('.header-container').fadeOut('slow', function () {
+    //   $('.fp-tableCell').css({
+    //     'display': 'none',
+    //     'height': '0px'
+    //   });
+    //   $('.header-container').css({
+    //     'display': 'none',
+    //     'height': '0px'
+    //   });
+    // });
   });
 
 
