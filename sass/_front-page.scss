@@ -205,20 +205,24 @@ body {
 @keyframes slide-left {
   from {
     transform: translate(-850px, -100px) rotate(-70deg);
+    opacity: 0;
   }
   ;
   to {
     transform: translate(0, 0) rotate(0);
+    opacity: 1;
   }
   ;
 }
 @keyframes slide-right {
   from {
     transform: translate(850px, -100px) rotate(90deg);
+    opacity: 0;
   }
   ;
   to {
     transform: translate(0, 0) rotate(0);
+    opacity: 1;
   }
   ;
 }
@@ -240,8 +244,7 @@ body {
 }
 
 .second-container {
-  width: 95%;
-  margin-right: 10%;
+  margin-right: 5%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -256,15 +259,9 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url('../../assets/Caravel_ship.jpg') no-repeat;
   background-size: 100% 250%; // background-attachment: fixed;
   margin: 0 auto;
-<<<<<<< HEAD
   height: 700px;
   background-color: #f7f7f7;
   padding: 5% 8%;
-=======
-  height: 700px; // background-color: #f7f7f7;
-  position: relative;
-  padding: 8%;
->>>>>>> f27ddd85a0a0e2c28c2251a5fe6ecd564d155b8b
   padding-top: 2%;
   align-self: center;
   @include medium {
@@ -355,8 +352,7 @@ body {
 }
 
 .team-wrapper {
-  width: 95%;
-  margin-right: 10%;
+  margin-right: 5%;
   padding: 5% 8%;
   background-color: #f7f7f7;
   h2 {
@@ -399,11 +395,8 @@ body {
   flex-wrap: wrap;
   padding-right: 15%;
 
-  #Sean {
-    transform: translate(-750px, -100px) rotate(-70deg);
-  }
-  #Nate {
-    transform: translate(850px, -100px) rotate(90deg);
+  img {
+    opacity: 0;
   }
 }
 
@@ -414,11 +407,8 @@ body {
   flex-wrap: wrap;
   padding-left: 15%;
 
-  #Colin {
-    transform: translate(-850px, -100px) rotate(-70deg);
-  }
-  #Ilya {
-    transform: translate(850px, -100px) rotate(90deg);
+  img {
+    opacity: 0;
   }
 }
 
@@ -427,10 +417,13 @@ body {
 .slide-in-left {
   animation: slide-left .5s;
   animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
 }
 .slide-in-right {
   animation: slide-right .5s;
   animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: .1s;
 }
 
 
