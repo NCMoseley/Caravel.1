@@ -101,7 +101,11 @@ get_header(); ?>
 
 			<section class="work-wrapper">
 				<div class="work-carousel">
-					<div class="owl-carousel owl-theme">
+
+         <?php get_template_part('template-parts/carousel'); ?>
+
+
+					<!-- <div class="owl-carousel owl-theme">
 						<div class="item">
 							<a href="https://volunteer.hummingbirdnetwork.com">
 								<img alt="hummingbird-photo" src="<?php echo get_template_directory_uri() . '/assets/Hummingbird.png'?>" />
@@ -122,7 +126,7 @@ get_header(); ?>
 								<img alt="packwest-photo" src="<?php echo get_template_directory_uri() . '/assets/Packwest.png'?>" />
 							</a>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 

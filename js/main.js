@@ -1,10 +1,10 @@
 jQuery(document).ready(function ($) {
 
-  var homeFlag = document.querySelector('.header-button');
+  var homeFlag = document.querySelector('.header-container');
   console.log(homeFlag);
 
 
-  if (!!homeFlag && homeFlag) {
+  if (!!homeFlag && homeFlag.visible(true)) {
     console.log('complete');
 
     setTimeout(function () {
