@@ -1006,8 +1006,13 @@ body {
   background-size: 100% 250%;
   margin: 0 auto;
   height: 700px;
+<<<<<<< HEAD
   background-color: #f7f7f7;
   padding: 5% 8%;
+=======
+  position: relative;
+  padding: 8%;
+>>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   padding-top: 2%;
   -ms-flex-item-align: center;
       align-self: center; }

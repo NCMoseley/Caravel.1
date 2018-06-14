@@ -214,6 +214,7 @@ body {
   }
   ;
 }
+
 @keyframes slide-right {
   from {
     transform: translate(850px, -100px) rotate(90deg);
@@ -226,9 +227,6 @@ body {
   }
   ;
 }
-
-
-
 
 .header-container {
   width: 100%;
@@ -259,9 +257,15 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url('../../assets/Caravel_ship.jpg') no-repeat;
   background-size: 100% 250%; // background-attachment: fixed;
   margin: 0 auto;
+<<<<<<< HEAD
   height: 700px;
   background-color: #f7f7f7;
   padding: 5% 8%;
+=======
+  height: 700px; // background-color: #f7f7f7;
+  position: relative;
+  padding: 8%;
+>>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   padding-top: 2%;
   align-self: center;
   @include medium {
@@ -304,7 +308,6 @@ body {
 .title-paragraph-container {
   display: flex;
   flex-direction: column;
-
   h2 {
     margin: 0;
     padding: 20px;
@@ -360,8 +363,7 @@ body {
     padding: 20px;
     font-family: $font__accent;
     font-weight: 700;
-    text-align: left;
-    // margin-left: 20%;
+    text-align: left; // margin-left: 20%;
     font-size: 3rem;
   }
   p {
@@ -394,9 +396,17 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding-right: 15%;
+<<<<<<< HEAD
 
   img {
     opacity: 0;
+=======
+  #Sean {
+    transform: translate(-750px, -100px) rotate(-70deg);
+  }
+  #Nate {
+    transform: translate(850px, -100px) rotate(90deg);
+>>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   }
 }
 
@@ -406,26 +416,32 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 15%;
+<<<<<<< HEAD
 
   img {
     opacity: 0;
+=======
+  #Colin {
+    transform: translate(-850px, -100px) rotate(-70deg);
+  }
+  #Ilya {
+    transform: translate(850px, -100px) rotate(90deg);
+>>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   }
 }
-
-
 
 .slide-in-left {
   animation: slide-left .5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
 }
+
 .slide-in-right {
   animation: slide-right .5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   animation-delay: .1s;
 }
-
 
 .team-single {
   width: 40%;
