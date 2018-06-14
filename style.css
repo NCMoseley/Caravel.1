@@ -664,7 +664,7 @@ object {
   display: block; }
 
 body {
-  background-color: #001f3f; }
+  background-color: #13143f; }
 
 .header-menu-logo {
   height: 48px;
@@ -739,7 +739,7 @@ body {
       width: 0;
       bottom: -10px;
       left: 0;
-      background-color: #001f3f;
+      background-color: #13143f;
       -webkit-animation-name: h1pseudo;
               animation-name: h1pseudo;
       -webkit-animation-duration: .7s;
@@ -1006,13 +1006,11 @@ body {
   background-size: 100% 250%;
   margin: 0 auto;
   height: 700px;
-<<<<<<< HEAD
   background-color: #f7f7f7;
   padding: 5% 8%;
-=======
+  height: 700px;
   position: relative;
   padding: 8%;
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   padding-top: 2%;
   -ms-flex-item-align: center;
       align-self: center; }
@@ -1044,7 +1042,7 @@ body {
     font-weight: 100;
     max-width: 70%; }
   .box2 span {
-    color: blue; }
+    color: #13143f; }
 
 .title-paragraph-container {
   display: -webkit-box;
@@ -1102,7 +1100,7 @@ body {
   width: 100%; }
 
 .team-background {
-  background-color: #001f3f; }
+  background-color: #13143f; }
 
 .team-wrapper {
   margin-right: 5%;
@@ -1141,6 +1139,12 @@ body {
   padding-right: 15%; }
   .team-top-row img {
     opacity: 0; }
+    .team-top-row img #Sean {
+      -webkit-transform: translate(-750px, -100px) rotate(-70deg);
+              transform: translate(-750px, -100px) rotate(-70deg); }
+    .team-top-row img #Nate {
+      -webkit-transform: translate(850px, -100px) rotate(90deg);
+              transform: translate(850px, -100px) rotate(90deg); }
 
 .team-second-row {
   display: -webkit-box;
@@ -1157,6 +1161,12 @@ body {
   padding-left: 15%; }
   .team-second-row img {
     opacity: 0; }
+    .team-second-row img #Colin {
+      -webkit-transform: translate(-850px, -100px) rotate(-70deg);
+              transform: translate(-850px, -100px) rotate(-70deg); }
+    .team-second-row img #Ilya {
+      -webkit-transform: translate(850px, -100px) rotate(90deg);
+              transform: translate(850px, -100px) rotate(90deg); }
 
 .slide-in-left {
   -webkit-animation: slide-left .5s;
@@ -1181,7 +1191,7 @@ body {
   padding: 5%; }
 
 .position {
-  color: blue;
+  color: #13143f;
   font-weight: 100; }
 
 .our-work-header {
@@ -1225,13 +1235,13 @@ body {
   max-height: 900px;
   background-color: black; }
   .work-carousel .contain {
-    background-color: #001f3f; }
+    background-color: #13143f; }
 
 .owl-prev {
   background-color: white; }
 
 .dont-hesitate-container {
-  background-color: #001f3f;
+  background-color: #13143f;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;

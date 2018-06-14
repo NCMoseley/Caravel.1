@@ -257,15 +257,12 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url('../../assets/Caravel_ship.jpg') no-repeat;
   background-size: 100% 250%; // background-attachment: fixed;
   margin: 0 auto;
-<<<<<<< HEAD
   height: 700px;
   background-color: #f7f7f7;
   padding: 5% 8%;
-=======
   height: 700px; // background-color: #f7f7f7;
   position: relative;
   padding: 8%;
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
   padding-top: 2%;
   align-self: center;
   @include medium {
@@ -290,7 +287,7 @@ body {
     max-width: 70%;
   }
   span {
-    color: blue;
+    color: $color__navy;
   }
 }
 
@@ -299,7 +296,7 @@ body {
 //   .find-out-blurb {
 //     line-height: 4;
 //     div {
-//       background-color: rgb(19, 20, 63);
+//       background-color: $color__navy;
 //       height: 2px;
 //       width: 211px;
 //     }
@@ -340,7 +337,7 @@ body {
 .bullet-blue-line {
   height: 3px;
   width: 10px;
-  background-color: rgb(19, 20, 63);
+  background-color: $color__navy;
   margin-right: 10px;
 }
 
@@ -396,17 +393,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding-right: 15%;
-<<<<<<< HEAD
-
   img {
     opacity: 0;
-=======
-  #Sean {
-    transform: translate(-750px, -100px) rotate(-70deg);
-  }
-  #Nate {
-    transform: translate(850px, -100px) rotate(90deg);
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
+    #Sean {
+      transform: translate(-750px, -100px) rotate(-70deg);
+    }
+    #Nate {
+      transform: translate(850px, -100px) rotate(90deg);
+    }
   }
 }
 
@@ -416,17 +410,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 15%;
-<<<<<<< HEAD
-
   img {
     opacity: 0;
-=======
-  #Colin {
-    transform: translate(-850px, -100px) rotate(-70deg);
-  }
-  #Ilya {
-    transform: translate(850px, -100px) rotate(90deg);
->>>>>>> b9a28aef02c027d5b005a84dfbb02ab86b1bdf58
+    #Colin {
+      transform: translate(-850px, -100px) rotate(-70deg);
+    }
+    #Ilya {
+      transform: translate(850px, -100px) rotate(90deg);
+    }
   }
 }
 
@@ -449,7 +440,7 @@ body {
 }
 
 .position {
-  color: blue;
+  color: $color__navy;
   font-weight: 100;
 }
 
@@ -478,9 +469,7 @@ body {
   @media screen and (min-width: 800px) {
     flex-direction: row;
   }
-}
-
-// .laptop-container {
+} // .laptop-container {
 //   // width: 75%;
 //   background: url('../../assets/macbook.jpg');
 //   background-size: auto;
@@ -505,9 +494,7 @@ body {
 
 .owl-prev {
   background-color: white;
-}
-
-// .our-work-container {
+} // .our-work-container {
 //   width: 100%;
 //   background-color: #000;
 //   display: flex;
