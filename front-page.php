@@ -34,7 +34,7 @@ get_header(); ?>
 				</section>
 
 				<section class="hero-container">
-					<div class="header-container">
+					<div name="#" id="#" class="header-container">
 						<h2>Simple, Powerful &
 							<br>Efficient Websites.</h2>
 						<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
@@ -170,8 +170,8 @@ get_header(); ?>
 										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
 								</div>
 								<div class="team-single">
-									<img alt="Scott-photo" src="<?php echo get_template_directory_uri() . '/assets/Scott.jpg'?>" />
-									<h3 class="position">Scott Livingstone</br> - Lead Developer</h3>
+									<img alt="Ilya-photo" src="<?php echo get_template_directory_uri() . '/assets/ilya.jpg'?>" />
+									<h3 class="position">Ilya Meerovich</br> - Lead Developer</h3>
 									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
 										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
 								</div>

@@ -1,8 +1,8 @@
 $duration: 450ms;
 $tileWidth: 350px;
-$tileHeight:($tileWidth / (16/9));
-$iconSize:50px;
-$growFactor:1.5; // 1.5 times the original size
+$tileHeight: ($tileWidth / (16/9));
+$iconSize: 50px;
+$growFactor: 1.5; // 1.5 times the original size
 $moveLeft: -($tileWidth * ($growFactor - 1) / 2);
 $moveRight: $tileWidth * ($growFactor - 1);
 .contain {
@@ -55,7 +55,7 @@ $moveRight: $tileWidth * ($growFactor - 1);
     position: relative;
     display: inline-block;
     width: $tileWidth;
-    height: $tileHeight;
+    height: 200px;
     margin-right: 10px;
     font-size: 20px;
     cursor: pointer;
@@ -75,7 +75,11 @@ $moveRight: $tileWidth * ($growFactor - 1);
     top: 0;
     font-size: 10px;
     opacity: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
     transition: $duration opacity;
   }
   .tile__details:after,
@@ -89,8 +93,8 @@ $moveRight: $tileWidth * ($growFactor - 1);
   .tile__details:after {
     margin-top: (-($iconSize / 2));
     margin-left: (-($iconSize / 2));
-    width: $iconSize;
-    height: $iconSize;
+    width: 57px;
+    height: 55px;
     border: 3px solid #ecf0f1;
     line-height: $iconSize;
     text-align: center;
@@ -126,7 +130,7 @@ $moveRight: $tileWidth * ($growFactor - 1);
     transform: scale($growFactor);
     opacity: 1;
   }
-  .tile:hover~.tile {
+  .tile:hover ~ .tile {
     transform: translate3d($moveRight, 0, 0);
   }
 }
