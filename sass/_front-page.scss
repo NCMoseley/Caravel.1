@@ -252,11 +252,19 @@ body {
 }
 
 .services-container {
-  width: 100%;
+  // background: url('../../assets/Caravel_ship.jpg') bottom left no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url('../../assets/Caravel_ship.jpg') no-repeat;
+  background-size: 100% 250%; // background-attachment: fixed;
   margin: 0 auto;
+<<<<<<< HEAD
   height: 700px;
   background-color: #f7f7f7;
   padding: 5% 8%;
+=======
+  height: 700px; // background-color: #f7f7f7;
+  position: relative;
+  padding: 8%;
+>>>>>>> f27ddd85a0a0e2c28c2251a5fe6ecd564d155b8b
   padding-top: 2%;
   align-self: center;
   @include medium {
