@@ -99,6 +99,18 @@ get_header(); ?>
 				</div>
 			</section>
 
+			<section class="our-work-section">
+				<div class="our-work-header">
+					<h2>Our Work</h2>
+				</div>
+				<div class="our-work-content">
+					<p>We are a boutique agency that specializes in custom Websites built with WordPress. They are designed to be clean,
+						simple and future proof. We have helped our clients realize their online voice and increased traffic, conversion
+						and ranking. Find out how we can help you. You can view some of our recent projects below.
+					</p>
+				</div>
+			</section>
+
 			<section class="work-wrapper">
 				<div class="work-carousel">
 
@@ -168,19 +180,6 @@ get_header(); ?>
 				</section>
 			</div>
 
-
-
-			<section class="our-work-section">
-				<div class="our-work-header">
-					<h2>Our Work</h2>
-				</div>
-				<div class="our-work-content">
-					<p>We are a boutique agency that specializes in custom Websites built with WordPress. They are designed to be clean,
-						simple and future proof. We have helped our clients realize their online voice and increased traffic, conversion
-						and ranking. Find out how we can help you
-					</p>
-				</div>
-			</section>
 
 			<section class="dont-hesitate-container">
 				<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>

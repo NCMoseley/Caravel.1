@@ -1134,6 +1134,9 @@ object {
   color: blue;
   font-weight: 100; }
 
+.our-work-header {
+  text-align: center; }
+
 .work-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1156,8 +1159,7 @@ object {
   width: 100%;
   overflow: hidden;
   max-height: 900px;
-  background-color: black;
-  padding-top: 64px; }
+  background-color: black; }
 
 .owl-prev {
   background-color: white; }

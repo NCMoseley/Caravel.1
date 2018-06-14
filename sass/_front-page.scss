@@ -434,6 +434,10 @@
   font-weight: 100;
 }
 
+.our-work-header {
+  text-align: center;
+}
+
 .work-wrapper {
   display: flex;
   justify-content: space-between;
@@ -457,8 +461,7 @@
   width: 100%;
   overflow: hidden;
   max-height: 900px;
-  background-color: black;
-  padding-top: 64px;
+  background-color: black; // padding-top: 64px;
   @media screen and (min-width: 800px) {
     // width: 75%;
   }
