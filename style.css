@@ -1246,6 +1246,17 @@ object {
   right: 30px;
   top: 50%; }
 
+#myGameCanvas {
+  background-color: lightblue !important;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 3px #faf7f7;
+          box-shadow: 0 0 3px #faf7f7; }
+
+p {
+  width: 800px;
+  margin: 0 auto; }
+
 .contain {
   padding: 0 10px;
   margin: 0;
