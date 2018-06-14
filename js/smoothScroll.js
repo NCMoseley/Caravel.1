@@ -24,9 +24,9 @@ jQuery(document).ready(function ($) {
   //   console.log(scrollY)
   // })
 
-  if (window.scrollY < 50) {
+  if (window.scrollY <= 50) {
     setTimeout(function () {
-      var offset = 80;
+      var offset = 0;
       var target = $('.header-container');
       var scrollTo = $(target).offset().top + offset;
       $('html, body').animate({
