@@ -1,5 +1,40 @@
 jQuery(document).ready(function () {
 
+
+  // setTimeout(function(){
+  //     var amount;
+  //     requestAnimationFrame(scroll);
+
+  //     function scroll() {
+  //       if (scrollY <= 200) {
+  //         amount = 3
+  //       }
+  //       if (scrollY >= 200 && scrollY <= 300 ) {
+  //         amount = 6
+  //       }
+  //       if (scrollY >= 300 && scrollY <= 800 ) {
+  //         amount = 20
+  //       }
+  //       if (scrollY >= 800) {
+  //         amount = 6
+  //       }
+
+  //       if (scrollY >= 900) {
+  //         return
+  //       }
+  //       console.log(scrollY);
+  //       window.scrollBy(0, amount);
+  //       requestAnimationFrame(scroll);
+  //     }
+    
+  // },2000);
+
+
+
+
+
+  
+
   var homeFlag = document.querySelector('.header-container');
 
   if (!!homeFlag && homeFlag) {

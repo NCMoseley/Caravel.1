@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
     css3: true,
     scrollingSpeed: 1100,
     autoScrolling: false,
-    navigation: true,
+    navigation: false,
     navigationPosition: 'left',
     loopHorizontal: true,
     keyboardScrolling: true,
