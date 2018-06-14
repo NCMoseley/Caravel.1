@@ -999,13 +999,8 @@ body {
   background-size: 100% 250%;
   margin: 0 auto;
   height: 700px;
-<<<<<<< HEAD
-  background-color: #f7f7f7;
-  padding: 5% 8%;
-=======
   position: relative;
   padding: 8%;
->>>>>>> f27ddd85a0a0e2c28c2251a5fe6ecd564d155b8b
   padding-top: 2%;
   -ms-flex-item-align: center;
       align-self: center; }

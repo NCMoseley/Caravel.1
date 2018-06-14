@@ -21,17 +21,19 @@ jQuery(document).ready(function ($) {
   // }, 7000);
 
 
-
-  setTimeout(function () {
-    var offset = 100;
-    var target = $('.header-container');
-    var scrollTo = $(target).offset().top + offset;
-    $('html, body').animate({
-        scrollTop: scrollTo
-      },
-      2000
-    );
-  }, 7000);
+  if (scrollY < 20) {
+    setTimeout(function () {
+      console.log(scrollY);
+      var offset = 100;
+      var target = $('.header-container');
+      var scrollTo = $(target).offset().top + offset;
+      $('html, body').animate({
+          scrollTop: scrollTo
+        },
+        2000
+      );
+    }, 7000);
+  }
 
   if ($('body').hasClass('home')) {
     $('a[href*=#]').bind('click', function (e) {
