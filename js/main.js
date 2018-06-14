@@ -6,6 +6,7 @@ jQuery(document).ready(function ($) {
 
   if (!!homeFlag && homeFlag) {
     console.log('complete');
+    console.log('hello');
 
     setTimeout(function () {
       $('#header-container').addClass('clickMe');
