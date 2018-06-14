@@ -1005,6 +1005,37 @@ body {
             transform: translate(0, 0) rotate(0);
     opacity: 1; } }
 
+@-webkit-keyframes navSlide {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0; }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 0.9; } }
+
+@keyframes navSlide {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0; }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 0.9; } }
+
+.navSlide {
+  -webkit-animation: navSlide .5s;
+          animation: navSlide .5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
+
+.navSlideReverse {
+  -webkit-animation: navSlide .5s;
+          animation: navSlide .5s;
+  animation-direction: reverse; }
+
 .header-container {
   width: 100%;
   padding: 5%;

@@ -250,6 +250,33 @@ body {
   ;
 }
 
+@keyframes navSlide {
+  from {
+    transform: translateY(-100px);
+    opacity: 0
+  };
+  to {
+    transform: translateY(0);
+    opacity: 0.9;
+  };
+}
+
+.navSlide {
+  animation: navSlide .5s;
+  animation-fill-mode: forwards;
+}
+
+.navSlideReverse {
+  animation: navSlide .5s;
+  animation-direction: reverse;
+}
+
+
+
+
+
+
+
 .header-container {
   width: 100%;
   padding: 5%;
