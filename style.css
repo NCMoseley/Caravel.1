@@ -677,11 +677,6 @@ object {
 .main-navigation {
   position: fixed; }
 
-.header-container {
-  background-color: #f7f7f7; }
-  .header-container h1 {
-    font-family: 'Playfair Display', 'Times New Roman', Times, serif; }
-
 .header-wrapper {
   width: 80%;
   margin: auto;
@@ -933,6 +928,13 @@ object {
     -webkit-transform: translateX(-20px);
             transform: translateX(-20px); } }
 
+.header-container {
+  width: 100%;
+  padding: 8%;
+  background-color: #f7f7f7; }
+  .header-container h2 {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif; }
+
 .second-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -946,9 +948,6 @@ object {
           justify-content: flex-start;
   background-color: #f7f7f7;
   position: relative; }
-  @media all and (min-width: 800px) {
-    .second-container {
-      margin-left: 10%; } }
 
 .services-container {
   height: 700px;
@@ -1061,11 +1060,9 @@ object {
   background-color: #000; }
 
 .team-wrapper {
-  width: 95%;
-  margin-right: 10%;
   padding: 3%;
   background-color: #f7f7f7; }
-  .team-wrapper h1 {
+  .team-wrapper h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 100;
     text-align: left;
@@ -1075,15 +1072,6 @@ object {
     max-width: 60%;
     margin: 0 auto;
     font-weight: 100; }
-
-@media all and (min-width: 600px) {
-  .team-container {
-    background: url("../../assets/3dots.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-position-y: 63%;
-    background-position-x: 9%; } }
 
 .team-container p {
   margin: 0 auto;
@@ -1218,7 +1206,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .dont-hesitate-container h1 {
+  .dont-hesitate-container h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 100;
     font-size: 60px;

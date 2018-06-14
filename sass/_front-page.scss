@@ -16,14 +16,6 @@
   position: fixed;
 }
 
-.header-container {
-  background-color: #f7f7f7;
-  h1 {
-    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
-  }
-}
-
-
 
 .header-wrapper {
   width: 80%;
@@ -185,6 +177,16 @@
 }
 
 
+.header-container {
+  width: 100%;
+  padding: 8%;
+  background-color: #f7f7f7;
+  h2 {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+  }
+}
+
+
 
 .second-container {
   display: flex;
@@ -192,9 +194,9 @@
   justify-content: flex-start;
   background-color: #f7f7f7; //
   position: relative;
-  @include medium {
-    margin-left: 10%;
-  }
+  // @include medium {
+  //   margin-left: 10%;
+  // }
 }
 
 // .box1 {
@@ -352,11 +354,11 @@
 }
 
 .team-wrapper {
-  width: 95%;
-  margin-right: 10%;
+  // width: 95%;
+  // margin-right: 10%;
   padding: 3%;
   background-color: #f7f7f7;
-  h1 {
+  h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 100;
     text-align: left;
@@ -371,14 +373,14 @@
 }
 
 .team-container {
-  @include tablet {
-    background: url('../../assets/3dots.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-position-y: 63%;
-    background-position-x: 9%;
-  }
+  // @include tablet {
+  //   background: url('../../assets/3dots.png');
+  //   background-size: auto;
+  //   background-repeat: no-repeat;
+  //   background-position: unset;
+  //   background-position-y: 63%;
+  //   background-position-x: 9%;
+  // }
   p {
     margin: 0 auto;
     max-width: 100%;
@@ -487,7 +489,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  h1 {
+  h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 100;
     font-size: 60px;
