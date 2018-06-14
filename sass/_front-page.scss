@@ -230,12 +230,10 @@ body {
   width: 100%;
   padding: 8%;
   background-color: #f7f7f7;
-
   h2 {
     font-family: $font__accent;
     font-size: 3rem;
   }
-
   p {
     letter-spacing: 3px;
   }
@@ -292,7 +290,7 @@ body {
 //   .find-out-blurb {
 //     line-height: 4;
 //     div {
-//       background-color: blue;
+//       background-color: rgb(19, 20, 63);
 //       height: 2px;
 //       width: 211px;
 //     }
@@ -446,11 +444,6 @@ body {
   font-weight: 100;
 }
 
-
-
-
-
-
 .our-work-header {
   font-family: $font__accent;
   font-size: 2rem;
@@ -496,12 +489,9 @@ body {
   @media screen and (min-width: 800px) {
     // width: 75%;
   }
-
   .contain {
     background-color: $color__navy;
   }
-
-
 }
 
 .owl-prev {
@@ -529,7 +519,6 @@ body {
 //     text-align: center;
 //   }
 // }
-
 .dont-hesitate-container {
   background-color: $color__navy;
   color: #fff;
@@ -547,55 +536,4 @@ body {
     font-weight: 100;
     padding: 4%;
   }
-}
-
-// OWL CAROUSEL STYLES
-.owl-theme .owl-item .item img {
-  width: 70%;
-  margin: 0 auto; // width: 74% !important;
-  // width: 498px !important;
-  // height: 380px !important;
-  // position: relative !important; // top: 70px !important;
-  // left: 111px !important;
-}
-
-.owl-carousel {
-  height: 100%;
-}
-
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel button.owl-dot {
-  background: 0 0;
-  background-color: white !important;
-  box-shadow: none;
-  color: black !important;
-  border: none;
-  padding: 0 !important;
-  font: inherit;
-  position: absolute; // top: -90px;
-  // left: 590px;
-  width: 40px;
-}
-
-.owl-nav button.owl-prev {
-  left: 30px;
-  top: 50%;
-}
-
-.owl-nav button.owl-next {
-  right: 30px;
-  top: 50%;
-}
-
-#myGameCanvas {
-  background-color: lightblue !important;
-  display: block;
-  margin: 0 auto;
-  box-shadow: 0 0 3px rgb(250, 247, 247);
-}
-
-p {
-  width: 800px;
-  margin: 0 auto;
 }
