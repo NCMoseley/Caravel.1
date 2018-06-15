@@ -12,8 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
+
 	<?php wp_head(); ?>
 	</head>
 
@@ -25,7 +24,7 @@
 			
 			
 				<nav id="site-navigation" class="main-navigation navSlide" role="navigation">
-				<div class="header-menu-logo"></div>
+				<a href="<?php echo esc_url(home_url('/')); ?>" <div class="header-menu-logo"></div></a>
 				
 					<?php wp_nav_menu(array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' )); ?>
 				</nav><!-- #site-navigation -->
