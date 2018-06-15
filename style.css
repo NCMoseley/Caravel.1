@@ -1300,6 +1300,15 @@ object {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+  @media all and (min-width: 1000px) {
+    .team-top-row {
+      background: url("../../assets/3dots.png");
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: unset;
+      background-position-y: 40%;
+      background-position-x: 94%;
+      z-index: 10; } }
   @media all and (max-width: 650px) {
     .team-top-row {
       padding-right: 0;
@@ -1331,6 +1340,14 @@ object {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+  @media all and (min-width: 1000px) {
+    .team-second-row {
+      background: url("../../assets/3dots.png");
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: unset;
+      background-position-y: 40%;
+      background-position-x: 6%; } }
   @media all and (max-width: 650px) {
     .team-second-row {
       padding-right: 0;

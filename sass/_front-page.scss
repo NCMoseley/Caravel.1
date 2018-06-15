@@ -479,14 +479,6 @@
 }
 
 .team-container {
-  // @include tablet {
-  //   background: url('../../assets/3dots.png');
-  //   background-size: auto;
-  //   background-repeat: no-repeat;
-  //   background-position: unset;
-  //   background-position-y: 63%;
-  //   background-position-x: 9%;
-  // }
   p {
     margin: 0 auto;
     max-width: 100%;
@@ -498,6 +490,15 @@
 }
 
 .team-top-row {
+  @include desktop {
+    background: url('../../assets/3dots.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-position-y: 40%;
+    background-position-x: 94%;
+    z-index: 10;
+  }
   display: flex;
   justify-content: space-around;
   @media all and (max-width: 650px) {
@@ -524,6 +525,14 @@
 }
 
 .team-second-row {
+  @include desktop {
+    background: url('../../assets/3dots.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-position-y: 40%;
+    background-position-x: 6%;
+  }
   display: flex;
   justify-content: space-around;
   @media all and (max-width: 650px) {
