@@ -301,12 +301,16 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
+  background-color: #1f2066;
+  max-width: 1440px;
+  margin: 0 auto; }
 
-blockquote, q {
+blockquote,
+q {
   quotes: "" ""; }
-  blockquote:before, blockquote:after, q:before, q:after {
+  blockquote:before, blockquote:after,
+  q:before,
+  q:after {
     content: ""; }
 
 hr {
@@ -315,7 +319,8 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul, ol {
+ul,
+ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
@@ -505,7 +510,7 @@ a {
   width: 1px;
   overflow: hidden; }
   .screen-reader-text:focus {
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
             box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
@@ -663,8 +668,8 @@ object {
 .gallery-caption {
   display: block; }
 
-body {
-  background-color: #13143f; }
+.fp-enabled body {
+  margin: 0 auto !important; }
 
 .header-menu-logo {
   height: 48px;
@@ -673,10 +678,11 @@ body {
   background: url("../../assets/Caravel-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  color: black; }
+  color: #404040; }
 
 .main-navigation {
   height: 75px;
+  max-width: 1440px;
   position: fixed;
   z-index: 10;
   display: -webkit-box;
@@ -714,6 +720,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media all and (max-width: 650px) {
+    .header-wrapper {
+      width: 100%; } }
 
 .panel1 {
   display: -webkit-box;
@@ -730,9 +739,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f7f7f7;
-  color: #333;
+  color: #404040;
   position: relative;
   z-index: 2; }
+  @media all and (max-width: 650px) {
+    .panel1 {
+      padding-top: 75px; } }
   .panel1 h1 {
     width: 240px;
     margin: 0 auto;
@@ -810,6 +822,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media all and (max-width: 650px) {
+      .panel1 .header {
+        max-width: 300px; } }
   .panel1-content {
     opacity: 0;
     width: 90%;
@@ -825,6 +840,9 @@ body {
             animation-delay: 3s;
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
+    @media all and (max-width: 650px) {
+      .panel1-content {
+        text-align: center; } }
 
 .fp-viewing-0 .panel2 {
   background-position-y: -250px;
@@ -1040,6 +1058,9 @@ body {
   width: 100%;
   padding: 5%;
   background-color: #f7f7f7; }
+  @media all and (max-width: 650px) {
+    .header-container {
+      padding-top: 75px; } }
   .header-container h2 {
     font-family: "Playfair Display", Times, serif;
     font-size: 3rem; }
@@ -1047,7 +1068,8 @@ body {
     letter-spacing: 3px; }
 
 .second-container {
-  margin-right: 5%;
+  background-color: #13143f;
+  padding-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1058,7 +1080,6 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  background-color: #f7f7f7;
   position: relative; }
 
 .services-container {
@@ -1334,7 +1355,11 @@ body {
   color: #13143f;
   font-weight: 100; }
 
+.our-work-section {
+  background-color: #13143f; }
+
 .our-work-header {
+  background-color: #13143f;
   font-family: "Playfair Display", Times, serif;
   font-size: 2rem;
   text-align: center;
@@ -1350,6 +1375,9 @@ body {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     background-color: #fff; }
+  .our-work-header h2 {
+    margin: 0;
+    padding: 20px 0; }
 
 .work-wrapper {
   display: -webkit-box;
@@ -1373,12 +1401,9 @@ body {
   width: 100%;
   overflow: hidden;
   max-height: 900px;
-  background-color: black; }
+  background-color: #13143f; }
   .work-carousel .contain {
     background-color: #13143f; }
-
-.owl-prev {
-  background-color: white; }
 
 .dont-hesitate-container {
   background-color: #13143f;
