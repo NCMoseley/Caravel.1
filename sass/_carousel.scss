@@ -6,11 +6,15 @@ $growFactor: 1.5; // 1.5 times the original size
 $moveLeft: -($tileWidth * ($growFactor - 1) / 2);
 $moveRight: $tileWidth * ($growFactor - 1);
 .contain {
-  padding: 0 10px;
+  // padding: 0 10px;
+  @media all and (max-width: 650px) {
+    flex-direction: column;
+  }
   margin: 0;
   background: rgb(19, 20, 63);
   color: #ecf0f1;
-  font-family: 'Open Sans', sans-serif; // min-height: 100vh;
+  font-family: 'Open Sans',
+  sans-serif; // min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -41,7 +45,9 @@ $moveRight: $tileWidth * ($growFactor - 1);
     margin: 0 auto;
   }
   .row {
-    // overflow: scroll;
+    @media all and (max-width: 650px) {
+      width: 90%;
+    }
     width: 100%;
   }
   .row__inner {

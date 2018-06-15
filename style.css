@@ -301,7 +301,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background-color: #1f2066;
+  background-color: #191a53;
   max-width: 1440px;
   margin: 0 auto; }
 
@@ -1431,7 +1431,6 @@ object {
     padding: 4%; }
 
 .contain {
-  padding: 0 10px;
   margin: 0;
   background: #13143f;
   color: #ecf0f1;
@@ -1448,6 +1447,12 @@ object {
           align-items: center;
   width: 100%;
   width: 100%; }
+  @media all and (max-width: 650px) {
+    .contain {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
   .contain h1,
   .contain p {
     text-align: center; }
@@ -1470,6 +1475,9 @@ object {
     margin: 0 auto; }
   .contain .row {
     width: 100%; }
+    @media all and (max-width: 650px) {
+      .contain .row {
+        width: 90%; } }
   .contain .row__inner {
     -webkit-transition: 450ms -webkit-transform;
     transition: 450ms -webkit-transform;
