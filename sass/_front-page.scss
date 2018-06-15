@@ -459,8 +459,11 @@
 }
 
 .team-wrapper {
+  @media all and (max-width: 950px) {
+    padding: 5% 0;
+  }
   margin-right: 5%;
-  padding: 5% 8%;
+  padding: 5% 1%;
   background-color: $color__background-screen;
   h2 {
     margin: 0;
@@ -497,9 +500,18 @@
 .team-top-row {
   display: flex;
   justify-content: space-around;
+  @media all and (max-width: 650px) {
+    padding-right: 0;
+    padding: 0;
+  }
+  @media all and (min-width: 650px) {
+    padding-right: 5%;
+  }
+  @media all and (min-width: 950px) {
+    padding-right: 15%;
+  }
   flex-direction: row;
   flex-wrap: wrap;
-  padding-right: 15%;
   img {
     opacity: 0;
     #Sean {
@@ -514,9 +526,18 @@
 .team-second-row {
   display: flex;
   justify-content: space-around;
+  @media all and (max-width: 650px) {
+    padding-right: 0;
+    padding: 0;
+  }
+  @media all and (min-width: 650px) {
+    padding-left: 5%;
+  }
+  @media all and (min-width: 950px) {
+    padding-left: 15%;
+  }
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 15%;
   img {
     opacity: 0;
     #Colin {
@@ -542,6 +563,9 @@
 }
 
 .team-single {
+  @media all and (max-width: 650px) {
+    width: 90%;
+  }
   width: 40%;
   padding: 5%;
 }

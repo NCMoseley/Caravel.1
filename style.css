@@ -1265,8 +1265,11 @@ object {
 
 .team-wrapper {
   margin-right: 5%;
-  padding: 5% 8%;
+  padding: 5% 1%;
   background-color: #f7f7f7; }
+  @media all and (max-width: 950px) {
+    .team-wrapper {
+      padding: 5% 0; } }
   .team-wrapper h2 {
     margin: 0;
     padding: 20px;
@@ -1296,8 +1299,17 @@ object {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-right: 15%; }
+      flex-wrap: wrap; }
+  @media all and (max-width: 650px) {
+    .team-top-row {
+      padding-right: 0;
+      padding: 0; } }
+  @media all and (min-width: 650px) {
+    .team-top-row {
+      padding-right: 5%; } }
+  @media all and (min-width: 950px) {
+    .team-top-row {
+      padding-right: 15%; } }
   .team-top-row img {
     opacity: 0; }
     .team-top-row img #Sean {
@@ -1318,8 +1330,17 @@ object {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-left: 15%; }
+      flex-wrap: wrap; }
+  @media all and (max-width: 650px) {
+    .team-second-row {
+      padding-right: 0;
+      padding: 0; } }
+  @media all and (min-width: 650px) {
+    .team-second-row {
+      padding-left: 5%; } }
+  @media all and (min-width: 950px) {
+    .team-second-row {
+      padding-left: 15%; } }
   .team-second-row img {
     opacity: 0; }
     .team-second-row img #Colin {
@@ -1350,6 +1371,9 @@ object {
 .team-single {
   width: 40%;
   padding: 5%; }
+  @media all and (max-width: 650px) {
+    .team-single {
+      width: 90%; } }
 
 .position {
   color: #13143f;
@@ -1477,7 +1501,8 @@ object {
     width: 100%; }
     @media all and (max-width: 650px) {
       .contain .row {
-        width: 90%; } }
+        width: 90%;
+        overflow: scroll; } }
   .contain .row__inner {
     -webkit-transition: 450ms -webkit-transform;
     transition: 450ms -webkit-transform;

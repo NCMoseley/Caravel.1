@@ -47,6 +47,7 @@ $moveRight: $tileWidth * ($growFactor - 1);
   .row {
     @media all and (max-width: 650px) {
       width: 90%;
+      overflow: scroll;
     }
     width: 100%;
   }
