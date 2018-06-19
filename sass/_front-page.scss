@@ -59,7 +59,7 @@
   position: relative;
   z-index: 2;
   h1 {
-    width: 140px;
+    width: 1200px;
     margin: 0 auto;
     opacity: 0;
     font-size: 4rem;
@@ -458,6 +458,8 @@
 }
 
 .footer-wrapper {
+  display: flex;
+  flex-direction: column;
   @media all and (max-width: 950px) {
     padding: 5% 0;
   }
@@ -616,16 +618,8 @@
   @media screen and (min-width: 800px) {
     flex-direction: row;
   }
-} // .laptop-container {
-//   // width: 75%;
-//   background: url('../../assets/macbook.jpg');
-//   background-size: auto;
-//   background-repeat: no-repeat;
-//   background-position: unset; // background-position-x: 56px;
-//   // background-position-y: 850px;
-//   background-position-y: 63%;
-//   background-position-x: 9%;
-// }
+}
+
 .work-carousel {
   width: 100%;
   overflow: hidden;
@@ -656,4 +650,8 @@
     font-weight: 100;
     padding: 4%;
   }
+}
+
+canvas {
+  background-color: honeydew;
 }

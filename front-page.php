@@ -11,9 +11,6 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<!-- FULLPAGE BEGINS HERE  -->
-
-
 			<!-- <div class="<?php echo wp_is_mobile() ? 'mobilepage' : 'fullpage'; ?>" id="<?php echo wp_is_mobile() ? 'mobilepage' : 'fullpage'; ?>"> -->
 			<div class="fullpage" id="fullpage">
 				<section class="section panel1">
@@ -24,22 +21,23 @@ get_header(); ?>
 								<span>hello</span>
 								<span>to</span>
 							</h3>
-							<h1>Nate!</h1>
+							<!-- <h1>Nate!</h1> -->
+							<h1>Simple, Powerful & Efficient Websites.</h1>
 						</div>
 						<div class="panel1-content">
-							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be. 
+							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be.
 							</p>
 						</div>
 					</div>
 				</section>
 
-				<section class="hero-container">
+				<!-- <section class="hero-container">
 					<div name="#" id="#" class="header-container">
 						<h2>Simple, Powerful &<br>
 							Efficient Websites.</h2>
 						</p>
 					</div>
-				</section>
+				</section> -->
 
 				<!-- <section class="our-work-section">
 					<div class="our-work-header">
@@ -66,7 +64,7 @@ get_header(); ?>
 					<div class="services-container">
 						<div class="sliding-background"></div>
 						<span class="title-paragraph-container">
-							<h2>Services</h2>
+							<h2 name="#" id="#" class="header-container">Services</h2>
 							<p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal
 								information shaman avalanche matrix impulse </p>
 						</span>
@@ -96,13 +94,19 @@ get_header(); ?>
 
 				<div class="footer-background">
 					<section class="footer-wrapper">
-			
-				<section class="dont-hesitate-container">
-					<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
-					<p>Seriously though you know you will love working with me.</p>
-				</section>
 
-				</section>
+						<section class="dont-hesitate-container">
+							<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
+							<p>Seriously though you know you will love working with me.</p>
+						</section>
+
+						<canvas width="800" height="500" id="myGameCanvas">
+							<p>Your browser does not support this feature</p>
+						</canvas>
+
+						<p>Thanks to Jordan Foreman for this game. https://codepen.io/JordanForeman/pen/DeqLz</p>
+
+					</section>
 				</div>
 
 		</main>

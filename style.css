@@ -742,7 +742,7 @@ object {
     .panel1 {
       padding-top: 75px; } }
   .panel1 h1 {
-    width: 140px;
+    width: 1200px;
     margin: 0 auto;
     opacity: 0;
     font-size: 4rem;
@@ -1259,6 +1259,13 @@ object {
   background-color: #13143f; }
 
 .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 5% 1%;
   background-color: #f7f7f7; }
   @media all and (max-width: 950px) {
@@ -1464,6 +1471,9 @@ object {
   .dont-hesitate-container p {
     font-weight: 100;
     padding: 4%; }
+
+canvas {
+  background-color: honeydew; }
 
 .contain {
   margin: 0;
