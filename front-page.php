@@ -97,14 +97,13 @@ get_header(); ?>
 
 						<section class="dont-hesitate-container">
 							<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
-							<p>Seriously though you know you will love working with me.</p>
+							<a id="click-for-pong">Seriously though you know you will love working with me</a>
 						</section>
 
-						<canvas width="800" height="500" id="myGameCanvas">
-							<p>Your browser does not support this feature</p>
-						</canvas>
+						<section class="none" id="pong">
+							<embed src="https://ncmoseley.github.io/Pong/">
+						</section>
 
-						<p>Thanks to Jordan Foreman for this game. https://codepen.io/JordanForeman/pen/DeqLz</p>
 
 					</section>
 				</div>

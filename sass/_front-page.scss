@@ -463,8 +463,7 @@
   @media all and (max-width: 950px) {
     padding: 5% 0;
   }
-  padding: 5% 1%;
-  background-color: $color__background-screen;
+  padding: 5% 1%; // background-color: $color__background-screen;
   h2 {
     margin: 0;
     padding: 20px;
@@ -646,12 +645,27 @@
     font-size: 60px;
     padding: 4%;
   }
-  p {
+  a {
     font-weight: 100;
-    padding: 4%;
+    margin-bottom: 20px;
+    cursor: pointer !important;
+    &:hover {
+      color: $color__text-light;
+    }
+    &:hover:after {
+      content: "!!!";
+      margin-bottom: 20px;
+    }
   }
 }
 
-canvas {
-  background-color: honeydew;
+.none {
+  display: none;
+}
+
+.pong {
+  embed {
+    height: 600px;
+    width: 100%;
+  }
 }

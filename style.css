@@ -1266,8 +1266,7 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5% 1%;
-  background-color: #f7f7f7; }
+  padding: 5% 1%; }
   @media all and (max-width: 950px) {
     .footer-wrapper {
       padding: 5% 0; } }
@@ -1468,12 +1467,22 @@ object {
     font-weight: 100;
     font-size: 60px;
     padding: 4%; }
-  .dont-hesitate-container p {
+  .dont-hesitate-container a {
     font-weight: 100;
-    padding: 4%; }
+    margin-bottom: 20px;
+    cursor: pointer !important; }
+    .dont-hesitate-container a:hover {
+      color: #fff; }
+    .dont-hesitate-container a:hover:after {
+      content: "!!!";
+      margin-bottom: 20px; }
 
-canvas {
-  background-color: honeydew; }
+.none {
+  display: none; }
+
+.pong embed {
+  height: 600px;
+  width: 100%; }
 
 .contain {
   margin: 0;
