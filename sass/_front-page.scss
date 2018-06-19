@@ -304,8 +304,7 @@
 }
 
 .second-container {
-  background-color: $color__navy;
-  padding-right: 5%;
+  background-color: $color__navy; // padding-right: 5%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -454,15 +453,14 @@
   }
 }
 
-.team-background {
+.footer-background {
   background-color: $color__navy;
 }
 
-.team-wrapper {
+.footer-wrapper {
   @media all and (max-width: 950px) {
     padding: 5% 0;
   }
-  margin-right: 5%;
   padding: 5% 1%;
   background-color: $color__background-screen;
   h2 {
@@ -470,7 +468,7 @@
     padding: 20px;
     font-family: $font__accent;
     font-weight: 700;
-    text-align: left; // margin-left: 20%;
+    text-align: left;
     font-size: 3rem;
   }
   p {

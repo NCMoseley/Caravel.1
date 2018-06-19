@@ -1065,7 +1065,6 @@ object {
 
 .second-container {
   background-color: #13143f;
-  padding-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1256,24 +1255,23 @@ object {
 .photo-container img {
   width: 100%; }
 
-.team-background {
+.footer-background {
   background-color: #13143f; }
 
-.team-wrapper {
-  margin-right: 5%;
+.footer-wrapper {
   padding: 5% 1%;
   background-color: #f7f7f7; }
   @media all and (max-width: 950px) {
-    .team-wrapper {
+    .footer-wrapper {
       padding: 5% 0; } }
-  .team-wrapper h2 {
+  .footer-wrapper h2 {
     margin: 0;
     padding: 20px;
     font-family: "Playfair Display", Times, serif;
     font-weight: 700;
     text-align: left;
     font-size: 3rem; }
-  .team-wrapper p {
+  .footer-wrapper p {
     margin: 0 0 0 3%; }
 
 .team-container p {

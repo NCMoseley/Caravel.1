@@ -35,11 +35,8 @@ get_header(); ?>
 
 				<section class="hero-container">
 					<div name="#" id="#" class="header-container">
-						<h2>Simple, Powerful &
-							<br>Efficient Websites.</h2>
-						<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant,
-							and precisely what you need. We will get you where you want to be.
-							<strong>Set sail!</strong>
+						<h2>Simple, Powerful &<br>
+							Efficient Websites.</h2>
 						</p>
 					</div>
 				</section>
@@ -97,49 +94,17 @@ get_header(); ?>
 						</div>
 				</section>
 
-				<div class="team-background">
-					<section class="team-wrapper">
-						<!-- <h2>The Team</h2>
-						<p>Don't be fooled by the smiles, these Navy Seals of code are not guys you would want to get stuck with in a dark alley.</p>
-						<div class="team-container">
-							<div class="team-top-row">
-								<div class="team-single">
-									<img id="Sean" alt="Sean-photo" src="<?php echo get_template_directory_uri() . '/assets/Sean.jpg'?>" />
-									<h3 class="position">Sean Stobo</br> - Founder, Project Manager</h3>
-									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
-										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
-								</div>
-
-								<div class="team-single">
-									<img id="Nate" alt="Nate-photo" src="<?php echo get_template_directory_uri() . '/assets/Nate.jpg'?>" />
-									<h3 class="position">Nathan Moseley</br> - Business Manager and Developer</h3>
-									<p>Nathan comes from a diverse background, and has recently learned that he loves to build Apps. He also enjoys extreme
-										sports and a great Latte.</p>
-								</div>
-							</div>
-							<div class="team-second-row">
-								<div class="team-single">
-									<img id="Colin" alt="Colin-photo" src="<?php echo get_template_directory_uri() . '/assets/Colin.jpg'?>" />
-									<h3 class="position">Colin Matson-Jones</br> - Lead Developer</h3>
-									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
-										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
-								</div>
-								<div class="team-single">
-									<img id="Ilya" alt="Ilya-photo" src="<?php echo get_template_directory_uri() . '/assets/ilya.jpg'?>" />
-									<h3 class="position">Ilya Meerovich</br> - Web Developer</h3>
-									<p>human dynamics life Buddha LSD DMT mind-blowing topological final dream mushoom technology terminal Christianity
-										neoarchaism electromagnetic consequences drumming orbit catalytic psilocybin</p>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div> -->
-
+				<div class="footer-background">
+					<section class="footer-wrapper">
+			
 				<section class="dont-hesitate-container">
 					<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
-					<p>Seriously though you know you will love working with us.</p>
+					<p>Seriously though you know you will love working with me.</p>
+				</section>
 
 				</section>
+				</div>
+
 		</main>
 		<!-- #main -->
 		</div>
