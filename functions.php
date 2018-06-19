@@ -92,25 +92,30 @@ function youfoundNate_web_scripts()
     wp_enqueue_style('mainfont', "https://fonts.googleapis.com/css?family=Work+Sans:300,400|Playfair+Display:100,200,300,400,500,700");
     
     wp_enqueue_script('jquery');
-
-    wp_enqueue_script('red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true);
-
-    wp_enqueue_script('fullpage-js', get_template_directory_uri() . '/lib/jquery.fullpage.js', array(jquery), '20130115', true);
-    wp_enqueue_script('fullpage-extensions-js', get_template_directory_uri() . '/lib/jquery.fullpage.extensions.min.js', array(jQuery), '20130115', true);
-
-    wp_enqueue_script('jquery-unveil', get_template_directory_uri() . '/build/js/jquery.unveil.min.js', array('jquery'), '', true);
     
-    wp_enqueue_script('fullpage', get_template_directory_uri() . '/js/fullpage.js', array(), '20130115', true);
-    
-    wp_enqueue_script('fullpage.min', get_template_directory_uri() . '/build/js/fullpage.min.js', array(jquery), '20130115', true);
-
-
-    wp_enqueue_script('jquery-visible-js', get_template_directory_uri() . '/lib/jquery.visible.min.js', array(jquery), '20130115', true);
-
     wp_enqueue_script('smoothScroll', get_template_directory_uri() . '/build/js/smoothScroll.min.js', array('jquery'), '1.0.0', true);
 
     wp_enqueue_script('main', get_template_directory_uri() . '/build/js/main.min.js', array(jquery), ' ', true);
 
+    wp_enqueue_script('red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true);
+
+    // Natural Language Form
+    wp_enqueue_script('nlform', get_template_directory_uri() . '/js/nlform.js', array(), '', true);
+    wp_enqueue_script('modernizr', get_template_directory_uri() . '/lib/modernizr.custom.js', array(jquery), ' ', true);
+    wp_enqueue_style('nlform-component', get_template_directory_uri() . '/lib/nlform.component.css');
+    wp_enqueue_style('nlform-default', get_template_directory_uri() . '/lib/nlform.default.css');
+
+    
+
+    wp_enqueue_script('fullpage-js', get_template_directory_uri() . '/lib/jquery.fullpage.js', array(jquery), '20130115', true);
+    wp_enqueue_script('fullpage', get_template_directory_uri() . '/js/fullpage.js', array(), '20130115', true);
+    wp_enqueue_script('fullpage-extensions-js', get_template_directory_uri() . '/lib/jquery.fullpage.extensions.min.js', array(jQuery), '20130115', true);
+
+
+    wp_enqueue_script('jquery-unveil', get_template_directory_uri() . '/build/js/jquery.unveil.min.js', array('jquery'), '', true);
+    wp_enqueue_script('jquery-visible-js', get_template_directory_uri() . '/lib/jquery.visible.min.js', array(jquery), '20130115', true);
+
+    
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }

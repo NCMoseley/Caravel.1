@@ -37,7 +37,7 @@ get_header(); ?>
 						<?php get_template_part('template-parts/carousel'); ?>
 
 					</div>-->
-		 
+
 
 
 				<section class="second-container">
@@ -45,7 +45,6 @@ get_header(); ?>
 						<div class="sliding-background"></div>
 						<span class="title-paragraph-container">
 							<h2 name="#" id="#" class="header-container">Services</h2>
-							<p>These are some of functions that I can facilitate.</p>
 						</span>
 						<div class="bullet-container">
 							<div class="left">
@@ -76,15 +75,52 @@ get_header(); ?>
 
 						<section class="dont-hesitate-container">
 							<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
-							<a id="click-for-pong">Seriously though you know you will love working with me</a>
+
+							<div class="nl-blurred">
+								<div class="container demo-1">
+									
+									<div class="main clearfix">
+										<form id="nl-form" class="nl-form">
+											I want to get my website or app
+											<select>
+												<option value="1" selected>....</option>
+												<option value="2">looking better</option>
+												<option value="3">working</option>
+												<option value="4">built</option>
+												<option value="2">finished</option>
+											</select>
+											<br />in a
+											<select>
+												<option value="1" selected>standard</option>
+												<option value="2">fancy</option>
+												<option value="3">hip</option>
+												<option value="4">quick</option>
+												<option value="5">old school</option>
+											</select>
+											way
+											<br />by
+											<input type="text" value="" placeholder="any time" data-subline="For example: <em>next-week</em> or <em>next-month</em>" /> in
+											<input type="text" value="" placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>Vancouver</em>"
+											/>
+											<div class="nl-submit-wrap">
+												<button class="nl-submit" type="submit">Submit Contact Form</button>
+											</div>
+											<div class="nl-overlay"></div>
+										</form>
+									</div>
+								</div>
+
+								<a id="click-for-pong">Seriously though you know you will love working with me</a>
 						</section>
+
+
 
 						<section class="none" id="<?php echo wp_is_mobile() ? ' ' : 'pong'; ?>">
 							<embed src="https://ncmoseley.github.io/Pong/">
 						</section>
 
 					</section>
-				</div>
+					</div>
 
 		</main>
 		<!-- #main -->

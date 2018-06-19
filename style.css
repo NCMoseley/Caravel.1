@@ -232,7 +232,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: "Work Sans", sans-serif;
+  font-family: "nlicons", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -288,7 +288,8 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 16px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-family: "nlicons", sans-serif; }
 
 *,
 *:before,
@@ -297,8 +298,10 @@ html {
           box-sizing: inherit; }
 
 body {
-  background-color: #191a53;
+  background: #E96D65;
+  color: #404040;
   max-width: 1440px;
+  font-family: "nlicons", sans-serif;
   margin: 0 auto; }
 
 blockquote,
@@ -355,24 +358,21 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
+  font-family: "nlicons", sans-serif;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
   background: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
   padding: .6rem 1rem .4rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  text-shadow: none; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+    border-color: #ccc #bbb #aaa; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -380,9 +380,7 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+    border-color: #aaa #bbb #bbb; }
 
 /* Fields */
 input[type="text"],
@@ -1007,6 +1005,7 @@ object {
     opacity: 0.9; } }
 
 .header-container {
+  color: #404040;
   width: 100%;
   padding: 5%;
   background-color: #f7f7f7; }
@@ -1014,9 +1013,10 @@ object {
     .header-container {
       padding-top: 75px; } }
   .header-container h2 {
-    font-family: "Playfair Display", Times, serif;
+    font-family: "nlicons", sans-serif;
     font-size: 3rem; }
   .header-container p {
+    color: #404040;
     letter-spacing: 3px; }
 
 .second-container {
@@ -1160,12 +1160,14 @@ object {
     font-weight: 700;
     font-size: 3rem; }
   .title-paragraph-container p {
+    color: #404040;
     -ms-flex-item-align: center;
         align-self: center;
     margin-top: 0;
     margin-left: 3%; }
 
 .bullet-container {
+  color: #404040;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1218,7 +1220,7 @@ object {
   .footer-wrapper h2 {
     margin: 0;
     padding: 20px;
-    font-family: "Playfair Display", Times, serif;
+    font-family: "nlicons", sans-serif;
     font-weight: 700;
     text-align: left;
     font-size: 3rem; }
@@ -1412,15 +1414,16 @@ object {
     font-weight: 100;
     font-size: 60px;
     padding: 4%; }
-  .dont-hesitate-container a {
-    font-weight: 100;
-    margin-bottom: 20px;
-    cursor: pointer !important; }
-    .dont-hesitate-container a:hover {
-      color: #fff; }
-    .dont-hesitate-container a:hover:after {
-      content: "!!!";
-      margin-bottom: 20px; }
+
+#click-for-pong {
+  font-weight: 100;
+  margin-bottom: 20px;
+  cursor: pointer !important; }
+  #click-for-pong:hover {
+    color: #fff; }
+  #click-for-pong:hover:after {
+    content: "!!!";
+    margin-bottom: 20px; }
 
 .none {
   display: none; }

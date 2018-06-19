@@ -247,6 +247,7 @@
 }
 
 .header-container {
+  color: $color__text-main;
   @media all and (max-width: 650px) {
     padding-top: $navigtion__height;
   }
@@ -254,10 +255,11 @@
   padding: 5%;
   background-color: $color__background-screen;
   h2 {
-    font-family: $font__accent;
+    font-family: $font__main;
     font-size: 3rem;
   }
   p {
+    color: $color__text-main;
     letter-spacing: 3px;
   }
 }
@@ -361,6 +363,7 @@
     font-size: 3rem;
   }
   p {
+    color: $color__text-main;
     align-self: center;
     margin-top: 0;
     margin-left: 3%;
@@ -368,6 +371,7 @@
 }
 
 .bullet-container {
+  color: $color__text-main;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -409,7 +413,7 @@
   h2 {
     margin: 0;
     padding: 20px;
-    font-family: $font__accent;
+    font-family: $font__main;
     font-weight: 700;
     text-align: left;
     font-size: 3rem;
@@ -584,17 +588,18 @@
     font-size: 60px;
     padding: 4%;
   }
-  a {
-    font-weight: 100;
+}
+
+#click-for-pong {
+  font-weight: 100;
+  margin-bottom: 20px;
+  cursor: pointer !important;
+  &:hover {
+    color: $color__text-light;
+  }
+  &:hover:after {
+    content: "!!!";
     margin-bottom: 20px;
-    cursor: pointer !important;
-    &:hover {
-      color: $color__text-light;
-    }
-    &:hover:after {
-      content: "!!!";
-      margin-bottom: 20px;
-    }
   }
 }
 

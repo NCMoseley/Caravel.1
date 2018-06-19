@@ -5,6 +5,7 @@
 html {
 	box-sizing: border-box;
 	@include font-size(1);
+	font-family: $font__main;
 }
 
 *,
@@ -14,8 +15,10 @@ html {
 }
 
 body {
-	background-color: lighten($color__navy, 5%);
+	background: $color__pink;
+	color: $color__text-main;
 	max-width: $site__width;
+	font-family: $font__main;
 	margin: 0 auto;
 }
 
