@@ -103,14 +103,14 @@ get_header(); ?>
 											<input type="text" value="" placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>Vancouver</em>"
 											/>
 											<div class="nl-submit-wrap">
-												<button class="nl-submit" type="submit">Submit Contact Form</button>
+												<button class="nl-submit" type="submit">Submit</button>
 											</div>
 											<div class="nl-overlay"></div>
 										</form>
 									</div>
 								</div>
 
-								<a id="click-for-pong">Seriously though you know you will love working with me</a>
+								<a id="click-for-pong">Seriously though I know you will love working with me</a>
 						</section>
 
 

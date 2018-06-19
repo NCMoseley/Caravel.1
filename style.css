@@ -1418,6 +1418,7 @@ object {
 #click-for-pong {
   font-weight: 100;
   margin-bottom: 20px;
+  text-align: center;
   cursor: pointer !important; }
   #click-for-pong:hover {
     color: #fff; }
