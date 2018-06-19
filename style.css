@@ -709,7 +709,7 @@ object {
     .panel1 {
       padding-top: 75px; } }
   .panel1 h1 {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     opacity: 0;
     font-size: 4rem;

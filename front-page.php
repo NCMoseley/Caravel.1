@@ -11,7 +11,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<!-- <div class="<?php echo wp_is_mobile() ? 'mobilepage' : 'fullpage'; ?>" id="<?php echo wp_is_mobile() ? 'mobilepage' : 'fullpage'; ?>"> -->
+
 			<div class="fullpage" id="fullpage">
 				<section class="section panel1">
 					<div class="header-wrapper">
@@ -21,8 +21,8 @@ get_header(); ?>
 								<span>hello</span>
 								<span>to</span>
 							</h3>
-							<!-- <h1>Nate!</h1> -->
-							<h1>Simple, Powerful & Efficient Websites.</h1>
+							<h1>Simple, Powerful &
+								<br> Efficient Websites.</h1>
 						</div>
 						<div class="panel1-content">
 							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be.
@@ -31,13 +31,13 @@ get_header(); ?>
 					</div>
 				</section>
 
-			
-					<!-- <div class="work-carousel">
+
+				<!-- <div class="work-carousel">
 
 						<?php get_template_part('template-parts/carousel'); ?>
 
-					</div>
-		 -->
+					</div>-->
+		 
 
 
 				<section class="second-container">
@@ -79,10 +79,9 @@ get_header(); ?>
 							<a id="click-for-pong">Seriously though you know you will love working with me</a>
 						</section>
 
-						<section class="none" id="pong">
+						<section class="none" id="<?php echo wp_is_mobile() ? ' ' : 'pong'; ?>">
 							<embed src="https://ncmoseley.github.io/Pong/">
 						</section>
-
 
 					</section>
 				</div>
