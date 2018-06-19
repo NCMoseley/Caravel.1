@@ -2,7 +2,7 @@
 /**
  * Template part for displaying page content in page.php.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 ?>

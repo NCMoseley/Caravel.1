@@ -2,7 +2,7 @@
 /**
  * Template part for displaying a message that posts cannot be found.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 ?>

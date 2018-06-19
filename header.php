@@ -2,7 +2,7 @@
 /**
  * The header for our theme.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 ?><!DOCTYPE html>

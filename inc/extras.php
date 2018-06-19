@@ -2,7 +2,7 @@
 /**
  * Custom functions that act independently of the theme templates.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 /**
@@ -11,7 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function caravel_web_body_classes( $classes ) {
+function youfoundNate_web_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
@@ -19,4 +19,4 @@ function caravel_web_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'caravel_web_body_classes' );
+add_filter( 'body_class', 'youfoundNate_web_body_classes' );

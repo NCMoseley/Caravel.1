@@ -2,7 +2,7 @@
 /**
  * The template for displaying comments.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 /*
@@ -39,7 +39,7 @@ if ( post_password_required() ) {
 		<ol class="comment-list">
 			<?php
 				wp_list_comments( array(
-					'callback' => 'caravel_web_comment_list'
+					'callback' => 'youfoundNate_web_comment_list'
 				) );
 			?>
 		</ol><!-- .comment-list -->

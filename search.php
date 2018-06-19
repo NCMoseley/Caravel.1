@@ -2,7 +2,7 @@
 /**
  * The template for displaying search results pages.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 get_header(); ?>
@@ -23,7 +23,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php caravel_web_numbered_pagination(); ?>
+			<?php youfoundNate_web_numbered_pagination(); ?>
 
 		<?php else : ?>
 

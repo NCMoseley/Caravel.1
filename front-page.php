@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 get_header(); ?>
@@ -31,33 +31,13 @@ get_header(); ?>
 					</div>
 				</section>
 
-				<!-- <section class="hero-container">
-					<div name="#" id="#" class="header-container">
-						<h2>Simple, Powerful &<br>
-							Efficient Websites.</h2>
-						</p>
-					</div>
-				</section> -->
-
-				<!-- <section class="our-work-section">
-					<div class="our-work-header">
-						<h2>Our Work</h2>
-					</div>
-					<!-- <div class="our-work-content">
-						<p>We are a boutique agency that specializes in custom Websites built with WordPress. They are designed to be clean, simple
-							and future proof. We have helped our clients realize their online voice and increased traffic, conversion and ranking.
-							Find out how we can help you. You can view some of our recent projects below.
-						</p>
-					</div> 
-				</section> -->
-
-				<!-- <section class="work-wrapper">
-					<div class="work-carousel">
+			
+					<!-- <div class="work-carousel">
 
 						<?php get_template_part('template-parts/carousel'); ?>
 
 					</div>
-				</section> -->
+		 -->
 
 
 				<section class="second-container">
@@ -65,8 +45,7 @@ get_header(); ?>
 						<div class="sliding-background"></div>
 						<span class="title-paragraph-container">
 							<h2 name="#" id="#" class="header-container">Services</h2>
-							<p>archaic history uniqueness biological bombardment individual phase transition interaction genocide apocalyptic causal
-								information shaman avalanche matrix impulse </p>
+							<p>These are some of functions that I can facilitate.</p>
 						</span>
 						<div class="bullet-container">
 							<div class="left">

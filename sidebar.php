@@ -2,7 +2,7 @@
 /**
  * The sidebar containing the main widget area.s
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {

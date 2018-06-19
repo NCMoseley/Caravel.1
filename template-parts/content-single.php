@@ -2,7 +2,7 @@
 /**
  * Template part for displaying single posts.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 ?>
@@ -16,7 +16,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php caravel_web_posted_on(); ?> / <?php caravel_web_comment_count(); ?> / <?php caravel_web_posted_by(); ?>
+			<?php youfoundNate_web_posted_on(); ?> / <?php youfoundNate_web_comment_count(); ?> / <?php youfoundNate_web_posted_by(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
@@ -31,6 +31,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php caravel_web_entry_footer(); ?>
+		<?php youfoundNate_web_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

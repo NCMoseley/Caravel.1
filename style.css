@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*!
-Theme Name: Caravel Media Site
-Theme URI: http://caravelweb.com/
-Author: Caravel Media
-Author URI: http://caravelweb.com/
-Description: A theme for Caravel Media.
+Theme Name: youfoundNate Media Site
+Theme URI: http://youfoundNateweb.com/
+Author: youfoundNate Media
+Author URI: http://youfoundNateweb.com/
+Description: A theme for youfoundNate Media.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -667,39 +667,6 @@ object {
 .fp-enabled body {
   margin: 0 auto !important; }
 
-.header-menu-logo {
-  height: 48px;
-  width: 200px;
-  margin-left: 50px;
-  background: url("../../assets/Caravel-logo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: #404040; }
-
-.main-navigation {
-  height: 75px;
-  max-width: 1440px;
-  position: fixed;
-  z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  opacity: 0;
-  background-color: #fff;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
-  -webkit-animation: nav .5s;
-          animation: nav .5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 3.25s;
-          animation-delay: 3.25s; }
-  .main-navigation .menu {
-    display: none; }
-
 .header-wrapper {
   width: 80%;
   margin: auto;
@@ -1039,17 +1006,6 @@ object {
             transform: translateY(0);
     opacity: 0.9; } }
 
-.navSlide {
-  -webkit-animation: navSlide .5s;
-          animation: navSlide .5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards; }
-
-.navSlideReverse {
-  -webkit-animation: navSlide .5s;
-          animation: navSlide .5s;
-  animation-direction: reverse; }
-
 .header-container {
   width: 100%;
   padding: 5%;
@@ -1064,18 +1020,7 @@ object {
     letter-spacing: 3px; }
 
 .second-container {
-  background-color: #13143f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  position: relative; }
+  background-color: #13143f; }
 
 .services-container {
   z-index: 1;

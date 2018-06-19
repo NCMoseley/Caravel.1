@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package Caravel_Web_Theme
+ * @package youfoundNate_Web_Theme
  */
 
 get_header(); ?>
