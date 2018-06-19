@@ -1,0 +1,39 @@
+// Structure
+$base__space-unit: 1.5rem;
+$navigtion__height: 75px;
+$site__width: 1440px;
+// Colors
+$color__navy: rgb(19, 20, 63);
+$color__background-body: #fff;
+$color__text-main: #404040;
+$color__text-light: #fff;
+$color__background-screen: #f7f7f7;
+$color__text-screen: #21759b;
+$color__background-hr: #ccc;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+$color__border-abbr: #666;
+$color__link: royalblue;
+$color__link-visited: purple;
+$color__link-hover: midnightblue;
+// Typography
+$font__main: 'Work Sans',
+sans-serif;
+$font__accent: 'Playfair Display',
+Times,
+serif;
+$font__code: Monaco,
+Consolas,
+'Andale Mono',
+'DejaVu Sans Mono',
+monospace;
+$font__pre: 'Courier 10 Pitch',
+Courier,
+monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+//widths
+$tablet: 600px;
+$medium: 800px;
+$desktop: 1000px;
+$large: 1200px;
