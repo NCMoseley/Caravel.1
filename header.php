@@ -22,11 +22,12 @@
 
 			<header id="masthead" class="site-header" role="banner">
 			
-				<nav id="site-navigation" class="main-navigation navSlide" role="navigation">
+				<!-- <nav id="site-navigation" class="main-navigation navSlide" role="navigation">
 				<a href="<?php echo esc_url(home_url('/')); ?>" <div class="header-menu-logo"></div></a>
 				
 					<?php wp_nav_menu(array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' )); ?>
-				</nav><!-- #site-navigation -->
+				</nav> -->
+
 			</header><!-- #masthead -->
 
 

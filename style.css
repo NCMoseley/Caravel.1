@@ -742,7 +742,7 @@ object {
     .panel1 {
       padding-top: 75px; } }
   .panel1 h1 {
-    width: 240px;
+    width: 140px;
     margin: 0 auto;
     opacity: 0;
     font-size: 4rem;
@@ -764,7 +764,7 @@ object {
       width: 0;
       bottom: -10px;
       left: 0;
-      background-color: #13143f;
+      background-color: blue;
       -webkit-animation-name: h1pseudo;
               animation-name: h1pseudo;
       -webkit-animation-duration: .7s;

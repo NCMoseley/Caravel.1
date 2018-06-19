@@ -1,28 +1,5 @@
 jQuery(document).ready(function ($) {
 
-  // setTimeout(function () {
-  //   requestAnimationFrame(scroll);
-  //   function scroll() {
-  //     if (scrollY >= 900) {
-  //       return
-  //     }
-  //     console.log(scrollY);
-  //     window.scrollBy(0, 10);
-  //     requestAnimationFrame(scroll);
-  //   }
-  // }, 7000);
-
-  // setTimeout(function () {
-  //   console.log(scrollY);
-  //   window.scroll({
-  //     top: 1000,
-  //     behavior: 'smooth'
-  //   });
-  // }, 7000);
-
-  // window.addEventListener('scroll', function () {
-  //   console.log(scrollY)
-  // })
 
   if (window.scrollY <= 50) {
     setTimeout(function () {

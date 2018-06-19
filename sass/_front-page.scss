@@ -59,7 +59,7 @@
   position: relative;
   z-index: 2;
   h1 {
-    width: 240px;
+    width: 140px;
     margin: 0 auto;
     opacity: 0;
     font-size: 4rem;
@@ -78,7 +78,7 @@
       width: 0;
       bottom: -10px;
       left: 0;
-      background-color: $color__navy;
+      background-color: blue;
       animation-name: h1pseudo;
       animation-duration: .7s;
       animation-timing-function: ease-in-out;

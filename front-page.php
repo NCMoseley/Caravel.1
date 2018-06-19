@@ -24,7 +24,7 @@ get_header(); ?>
 								<span>hello</span>
 								<span>to</span>
 							</h3>
-							<h1>Nathan!</h1>
+							<h1>Nate!</h1>
 						</div>
 						<div class="panel1-content">
 							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be. 
@@ -44,7 +44,7 @@ get_header(); ?>
 					</div>
 				</section>
 
-				<section class="our-work-section">
+				<!-- <section class="our-work-section">
 					<div class="our-work-header">
 						<h2>Our Work</h2>
 					</div>
@@ -53,16 +53,16 @@ get_header(); ?>
 							and future proof. We have helped our clients realize their online voice and increased traffic, conversion and ranking.
 							Find out how we can help you. You can view some of our recent projects below.
 						</p>
-					</div> -->
-				</section>
+					</div> 
+				</section> -->
 
-				<section class="work-wrapper">
+				<!-- <section class="work-wrapper">
 					<div class="work-carousel">
 
 						<?php get_template_part('template-parts/carousel'); ?>
 
 					</div>
-				</section>
+				</section> -->
 
 
 				<section class="second-container">
@@ -99,7 +99,7 @@ get_header(); ?>
 
 				<div class="team-background">
 					<section class="team-wrapper">
-						<h2>The Team</h2>
+						<!-- <h2>The Team</h2>
 						<p>Don't be fooled by the smiles, these Navy Seals of code are not guys you would want to get stuck with in a dark alley.</p>
 						<div class="team-container">
 							<div class="team-top-row">
@@ -133,7 +133,7 @@ get_header(); ?>
 							</div>
 						</div>
 					</section>
-				</div>
+				</div> -->
 
 				<section class="dont-hesitate-container">
 					<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
