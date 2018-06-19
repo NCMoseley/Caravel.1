@@ -80,7 +80,13 @@ get_header(); ?>
 								<div class="container demo-1">
 									
 									<div class="main clearfix">
-										<form id="nl-form" class="nl-form">
+
+										<?php
+                if ($displayInput == true) {
+                    ?>
+
+
+										<form id="nl-form" class="nl-form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 											I want to get my website or app
 											<select>
 												<option value="1" selected>....</option>
@@ -107,6 +113,14 @@ get_header(); ?>
 											</div>
 											<div class="nl-overlay"></div>
 										</form>
+
+										<?php
+                } else {
+                    ?>
+            <p class="bot bot_second" >An email has been sent to your mailbox, please check!</p>
+            <?php
+                }
+            ?>
 									</div>
 								</div>
 
@@ -127,3 +141,38 @@ get_header(); ?>
 		</div>
 		<!-- #primary -->
 		<?php get_footer(); ?>
+
+
+
+
+	<!-- <?php get_template_part('template-parts/content-form'); ?> -->
+
+
+
+    
+        <div class="left">
+            <?php
+                if ($displayInput == true) {
+                    ?>
+
+            <form action="<?php echo $_SERVER['template-parts/content-form']; ?>" method="post">
+            <div class="mimo">
+            <input type="email" placeholder="  E-MAIL" id="myEmail" required="required" name="email" class="userInput"><input type="image" name="submit" src="img/send.png" alt="Submit" class="mail"/>
+            </div>
+            </form>
+
+            <?php
+                } else {
+                    ?>
+            <p class="bot bot_second" >An email has been sent to your mailbox, please check!</p>
+            <?php
+                }
+            ?>
+        </div>
+        
+        
+   
+    
+
+
+

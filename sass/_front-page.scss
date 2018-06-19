@@ -233,19 +233,6 @@
   ;
 }
 
-@keyframes navSlide {
-  from {
-    transform: translateY(-100px);
-    opacity: 0
-  }
-  ;
-  to {
-    transform: translateY(0);
-    opacity: 0.9;
-  }
-  ;
-}
-
 .header-container {
   color: $color__text-main;
   @media all and (max-width: 650px) {
@@ -283,72 +270,6 @@
   align-self: center;
   @include medium {
     height: 550px;
-  }
-}
-
-.sliding-background {
-  z-index: -1;
-  position: absolute;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.9))), url('../../assets/ship_silhouette_3.jpg') no-repeat;
-  height: 550px;
-  width: 6000px;
-  animation: slide 60s linear infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: translate3d(1400px, 0, 0);
-  }
-  10% {
-    transform: translate3d(960px, 20px, 0);
-  }
-  20% {
-    transform: translate3d(720px, -20px, 0);
-  }
-  30% {
-    transform: translate3d(480px, 20px, 0);
-  }
-  40% {
-    transform: translate3d(240px, -20px, 0);
-  }
-  50% {
-    transform: translate3d(0px, 20px, 0);
-  }
-  60% {
-    transform: translate3d(-240px, -20px, 0);
-  }
-  70% {
-    transform: translate3d(-480px, 20px, 0);
-  }
-  80% {
-    transform: translate3d(-720px, -20px, 0);
-  }
-  90% {
-    transform: translate3d(-960px, 20px, 0);
-  }
-  100% {
-    transform: translate3d(-1200px, -20px, 0);
-  }
-}
-
-.box2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  background: $color__background-body;
-  padding-bottom: 40px;
-  @include medium {
-    width: 50%;
-    padding-bottom: 0;
-  }
-  h4 {
-    font-size: 20px;
-    font-weight: 100;
-    max-width: 70%;
-  }
-  span {
-    color: $color__navy;
   }
 }
 
@@ -393,12 +314,6 @@
   margin-right: 10px;
 }
 
-.photo-container {
-  img {
-    width: 100%;
-  }
-}
-
 .footer-background {
   background-color: $color__navy;
 }
@@ -420,158 +335,6 @@
   }
   p {
     margin: 0 0 0 3%;
-  }
-}
-
-.team-container {
-  p {
-    margin: 0 auto;
-    max-width: 100%;
-  }
-  img {
-    width: 150%;
-    height: auto;
-  }
-}
-
-.team-top-row {
-  @include desktop {
-    background: url('../../assets/3dots.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-position-y: 40%;
-    background-position-x: 94%;
-    z-index: 10;
-  }
-  display: flex;
-  justify-content: space-around;
-  @media all and (max-width: 650px) {
-    padding-right: 0;
-    padding: 0;
-  }
-  @media all and (min-width: 650px) {
-    padding-right: 5%;
-  }
-  @media all and (min-width: 950px) {
-    padding-right: 15%;
-  }
-  flex-direction: row;
-  flex-wrap: wrap;
-  img {
-    opacity: 0;
-    #Sean {
-      transform: translate(-750px, -100px) rotate(-70deg);
-    }
-    #Nate {
-      transform: translate(850px, -100px) rotate(90deg);
-    }
-  }
-}
-
-.team-second-row {
-  @include desktop {
-    background: url('../../assets/3dots.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-position-y: 40%;
-    background-position-x: 6%;
-  }
-  display: flex;
-  justify-content: space-around;
-  @media all and (max-width: 650px) {
-    padding-right: 0;
-    padding: 0;
-  }
-  @media all and (min-width: 650px) {
-    padding-left: 5%;
-  }
-  @media all and (min-width: 950px) {
-    padding-left: 15%;
-  }
-  flex-direction: row;
-  flex-wrap: wrap;
-  img {
-    opacity: 0;
-    #Colin {
-      transform: translate(-850px, -100px) rotate(-70deg);
-    }
-    #Ilya {
-      transform: translate(850px, -100px) rotate(90deg);
-    }
-  }
-}
-
-.slide-in-left {
-  animation: slide-left .5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-}
-
-.slide-in-right {
-  animation: slide-right .5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-  animation-delay: .1s;
-}
-
-.team-single {
-  @media all and (max-width: 650px) {
-    width: 90%;
-  }
-  width: 40%;
-  padding: 5%;
-}
-
-.position {
-  color: $color__navy;
-  font-weight: 100;
-}
-
-.our-work-section {
-  background-color: $color__navy;
-}
-
-.our-work-header {
-  background-color: $color__navy;
-  font-family: $font__accent;
-  font-size: 2rem;
-  text-align: center;
-  color: $color__text-light;
-  position: relative;
-  &:after {
-    content: '';
-    position: absolute;
-    height: 3px;
-    width: 150px;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: $color__background-body;
-  }
-  h2 {
-    margin: 0;
-    padding: 20px 0;
-  }
-}
-
-.work-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  @media screen and (min-width: 800px) {
-    flex-direction: row;
-  }
-}
-
-.work-carousel {
-  width: 100%;
-  overflow: hidden;
-  max-height: 900px;
-  background-color: $color__navy;
-  .contain {
-    background-color: $color__navy;
   }
 }
 
