@@ -24,10 +24,10 @@ get_header(); ?>
 								<span>hello</span>
 								<span>to</span>
 							</h3>
-							<h1>Caravel!</h1>
+							<h1>Nathan!</h1>
 						</div>
 						<div class="panel1-content">
-							<p>We build modern websites for modern businesses and individuals. No fluff, no over design, no bloat. Fast, elegant, and precisely what you need. We will get you where you want to be. <strong>Set sail!</strong>
+							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be. 
 							</p>
 						</div>
 					</div>
