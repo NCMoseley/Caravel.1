@@ -1,4 +1,12 @@
 <?php
+/**
+ * The main template file.
+ *
+ * @package youfoundNate_Web_Theme
+ */
+?>
+
+<?php
 function console($data)
 {
     $output = $data;
@@ -42,11 +50,7 @@ function console($data)
         $displayInput = true;
     }
 
-/**
- * The main template file.
- *
- * @package youfoundNate_Web_Theme
- */
+
 
 get_header(); ?>
 
@@ -83,11 +87,11 @@ get_header(); ?>
 
 
 
-				<section class="second-container">
+				<section name="#" id="#" class="second-container">
 					<div class="services-container">
 						<div class="sliding-background"></div>
-						<span class="title-paragraph-container">
-							<h2 name="#" id="#" class="header-container">Services</h2>
+						<span  class="title-paragraph-container">
+							<h2  class="header-container">Services</h2>
 						</span>
 						<div class="bullet-container">
 							<div class="left">

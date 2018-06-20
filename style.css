@@ -302,7 +302,15 @@ body {
   color: #404040;
   max-width: 1440px;
   font-family: "nlicons", sans-serif;
-  margin: 0 auto; }
+  margin: 0 auto;
+  opacity: 1;
+  -webkit-transition: 3s opacity;
+  transition: 3s opacity; }
+
+body.fade-out {
+  opacity: 0;
+  -webkit-transition: none;
+  transition: none; }
 
 blockquote,
 q {
@@ -1119,7 +1127,7 @@ object {
     font-family: 'Playfair Display', serif;
     font-weight: 100;
     font-size: 60px;
-    padding: 4%; }
+    padding: 4% 4% 0 4%; }
 
 #click-for-pong {
   font-weight: 100;
