@@ -8,7 +8,9 @@ jQuery(document).ready(function ($) {
     $('#pong').toggleClass('pong');
     $('#pong').toggleClass('none');
   });
-
+  // $('#form-submit').click(function () {
+  //   $('#nl-form').toggleClass('none');
+  // });
 
 
 });

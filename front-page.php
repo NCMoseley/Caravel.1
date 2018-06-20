@@ -77,7 +77,7 @@
 
 						<section class="dont-hesitate-container">
 							<h2 class="dont-hesitate">Don't Hesitate to get in touch!</h2>
-
+							
 							<?php echo do_shortcode("[sitepoint_contact_form]"); ?>
 
 								<a id="click-for-pong">Seriously though I know you will love working with me</a>
