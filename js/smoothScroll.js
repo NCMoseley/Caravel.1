@@ -1,8 +1,8 @@
 jQuery(document).ready(function ($) {
 
 
-  if (window.scrollY <= 50) {
-    setTimeout(function () {
+  setTimeout(function () {
+    if (window.pageYOffset <= 50) {
       var offset = 0;
       var target = $('.header-container');
       var scrollTo = $(target).offset().top + offset;
@@ -11,8 +11,9 @@ jQuery(document).ready(function ($) {
         },
         2000
       );
-    }, 7000);
-  }
+    }
+  }, 7000);
+
 
   if ($('body').hasClass('home')) {
     $('a[href*=#]').bind('click', function (e) {

@@ -1,14 +1,14 @@
 <?php
     if (isset($_POST['email']) == true) {
         $displayInput = false;
-        if ($_POST["email"]) {
+        if ($_POST["submit"]) {
             $recipient="ncmoseley@gmail.com"; //Enter your mail address
             $subject="Contact from Website"; //Subject
             $senderEmail=$_POST["email"];
-            $mailBody="Name: $sender\nEmail Address: $senderEmail\n\nMessage: $message";
+            $mailBody="Name: Interested party\nEmail Address: $senderEmail\n\nMessage: Working!";
             mail($recipient, $subject, $mailBody);
             sleep(1);
-            header('Location: http://www.youfoundnate.com/');// Set here redirect page or destination page
+            header('Location: http://localhost:3000/foundnate/#click-for-pong');// Set here redirect page or destination page
         }
     } else {
         $displayInput = true;
