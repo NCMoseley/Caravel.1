@@ -1079,7 +1079,7 @@ object {
 .bullet-blue-line {
   height: 3px;
   width: 10px;
-  background-color: #13143f;
+  background-color: blue;
   margin-right: 10px; }
 
 .footer-background {

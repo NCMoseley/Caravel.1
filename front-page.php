@@ -87,11 +87,12 @@ get_header(); ?>
 
 
 
-				<section name="#" id="#" class="second-container">
-					<div class="services-container">
+				<section  class="second-container">
+					
+					<div class="header-container services-container">
 						<div class="sliding-background"></div>
 						<span  class="title-paragraph-container">
-							<h2  class="header-container">Services</h2>
+							<h2  name="#" id="#" >Services</h2>
 						</span>
 						<div class="bullet-container">
 							<div class="left">
