@@ -6,6 +6,7 @@ html {
 	box-sizing: border-box;
 	@include font-size(1);
 	font-family: $font__main;
+	background: $color__pink;
 }
 
 *,
@@ -15,7 +16,6 @@ html {
 }
 
 body {
-	background: $color__pink;
 	color: $color__text-main;
 	max-width: $site__width;
 	font-family: $font__main;

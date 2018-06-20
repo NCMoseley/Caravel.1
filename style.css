@@ -289,7 +289,8 @@ html {
           box-sizing: border-box;
   font-size: 16px;
   font-size: 1rem;
-  font-family: "nlicons", sans-serif; }
+  font-family: "nlicons", sans-serif;
+  background: #E96D65; }
 
 *,
 *:before,
@@ -298,7 +299,6 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #E96D65;
   color: #404040;
   max-width: 1440px;
   font-family: "nlicons", sans-serif;
