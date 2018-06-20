@@ -1,4 +1,53 @@
+	<?php
+/**
+ * Template part for creating an email form.
+ *
+ * @package youfoundNate_Web_Theme
+ */
+
+?>
+  
+
 										<?php
+                if ($displayInput == true) {
+                    ?>
+										<form id="nl-form" class="nl-form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+											I want to get my website or app
+											<select>
+												<option value="1" selected>finished</option>
+												<option value="2">looking better</option>
+												<option value="3">working</option>
+												<option value="4">built</option>
+											</select>
+											<br />in a
+											<select>
+												<option value="1" selected>standard</option>
+												<option value="2">fancy</option>
+												<option value="3">hip</option>
+												<option value="4">quick</option>
+												<option value="5">old school</option>
+											</select>
+											way
+											<br />by
+											<input type="text" value="" placeholder="any time" data-subline="For example: <em>next-week</em> or <em>next-month</em>" /> in
+											<input type="text" value="" placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>Vancouver</em>"
+											/>.
+											<input type="email" placeholder="  email" id="myEmail" required="required" name="email" class="userInput">
+											<div class="nl-submit-wrap">
+												<button class="nl-submit" type="submit">Submit</button>
+											</div>
+											<div class="nl-overlay"></div>
+										</form>
+
+										<?php
+                } else {
+                    ?>
+            <p class="bot bot_second" >An email has been sent to your mailbox, please check!</p>
+            <?php
+                }
+            ?>
+
+             <?php
 
 function died($error)
 {
@@ -28,7 +77,7 @@ function console($data)
         
         $to = $_POST['email'];
         $subject = "Submit was a Success!";
-
+        console($subject);
         $message = '
         <html>
         <head>
