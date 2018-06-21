@@ -1,7 +1,6 @@
 jQuery(document).ready(function ($) {
 
   window.addEventListener('scroll', function () {
-    console.log(scrollY);
     var width = $(window).width();
     if (width > 1023) {
       $('.sm-links').fadeIn(500);

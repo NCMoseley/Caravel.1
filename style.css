@@ -738,10 +738,8 @@ object {
       bottom: -10px;
       left: 0;
       background-color: blue;
-      -webkit-animation-name: h1pseudo;
-              animation-name: h1pseudo;
-      -webkit-animation-duration: .7s;
-              animation-duration: .7s;
+      animation: h1pseudo .7s;
+      -webkit-animation: h1pseudo .7s;
       -webkit-animation-timing-function: ease-in-out;
               animation-timing-function: ease-in-out;
       -webkit-animation-fill-mode: forwards;
@@ -813,56 +811,21 @@ object {
       .panel1-content {
         text-align: center; } }
 
-.fp-viewing-0 .panel2 {
-  background-position-y: -250px;
-  -webkit-transition: all .93s linear;
-  transition: all .93s linear; }
+@-webkit-keyframes h1pseudo {
+  from {
+    width: 0;
+    opacity: 0; }
+  to {
+    width: 100%;
+    opacity: 1; } }
 
-.fp-viewing-0 .team-member:nth-of-type(1) img {
-  -webkit-transform: translate(-550px, -100px) rotate(-70deg);
-          transform: translate(-550px, -100px) rotate(-70deg);
-  -webkit-transition: -webkit-transform 2s;
-  transition: -webkit-transform 2s;
-  transition: transform 2s;
-  transition: transform 2s, -webkit-transform 2s; }
-
-.fp-viewing-0 .team-member:nth-of-type(2) img {
-  -webkit-transform: translate(850px, -100px) rotate(90deg);
-          transform: translate(850px, -100px) rotate(90deg);
-  -webkit-transition: -webkit-transform 2.2s;
-  transition: -webkit-transform 2.2s;
-  transition: transform 2.2s;
-  transition: transform 2.2s, -webkit-transform 2.2s; }
-
-.fp-viewing-1 .panel2 {
-  background-position-y: center;
-  -webkit-transition: all .93s linear;
-  transition: all .93s linear; }
-
-.fp-viewing-1 .panel3 {
-  background-position-y: -150px;
-  -webkit-transition: all 1.93s linear;
-  transition: all 1.93s linear; }
-
-.fp-viewing-1 .team-member:nth-of-type(1) img {
-  -webkit-transform: none;
-          transform: none;
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-  -webkit-transition-delay: .2s;
-          transition-delay: .2s; }
-
-.fp-viewing-1 .team-member:nth-of-type(2) img {
-  -webkit-transform: none;
-          transform: none;
-  -webkit-transition: -webkit-transform 1.5s;
-  transition: -webkit-transform 1.5s;
-  transition: transform 1.5s;
-  transition: transform 1.5s, -webkit-transform 1.5s;
-  -webkit-transition-delay: .2s;
-          transition-delay: .2s; }
+@keyframes h1pseudo {
+  from {
+    width: 0;
+    opacity: 0; }
+  to {
+    width: 100%;
+    opacity: 1; } }
 
 @-webkit-keyframes nav {
   from {
@@ -903,22 +866,6 @@ object {
     opacity: 1; }
   to {
     opacity: 0; } }
-
-@-webkit-keyframes h1pseudo {
-  from {
-    width: 0;
-    opacity: 0; }
-  to {
-    width: 100%;
-    opacity: 1; } }
-
-@keyframes h1pseudo {
-  from {
-    width: 0;
-    opacity: 0; }
-  to {
-    width: 100%;
-    opacity: 1; } }
 
 @-webkit-keyframes fadeIn {
   from {

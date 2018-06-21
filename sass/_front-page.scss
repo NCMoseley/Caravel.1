@@ -48,8 +48,8 @@
       bottom: -10px;
       left: 0;
       background-color: blue;
-      animation-name: h1pseudo;
-      animation-duration: .7s;
+      animation: h1pseudo .7s;
+      -webkit-animation: h1pseudo .7s;
       animation-timing-function: ease-in-out;
       animation-fill-mode: forwards;
       animation-delay: 2.5s;
@@ -108,39 +108,25 @@
   }
 }
 
-.fp-viewing-0 {
-  .panel2 {
-    background-position-y: -250px;
-    transition: all .93s linear;
+@-webkit-keyframes h1pseudo {
+  from {
+    width: 0;
+    opacity: 0;
   }
-  .team-member:nth-of-type(1) img {
-    transform: translate(-550px, -100px) rotate(-70deg);
-    transition: transform 2s;
-  }
-  .team-member:nth-of-type(2) img {
-    transform: translate(850px, -100px) rotate(90deg);
-    transition: transform 2.2s;
+  to {
+    width: 100%;
+    opacity: 1;
   }
 }
 
-.fp-viewing-1 {
-  .panel2 {
-    background-position-y: center;
-    transition: all .93s linear;
+@keyframes h1pseudo {
+  from {
+    width: 0;
+    opacity: 0;
   }
-  .panel3 {
-    background-position-y: -150px;
-    transition: all 1.93s linear;
-  }
-  .team-member:nth-of-type(1) img {
-    transform: none;
-    transition: transform 1s;
-    transition-delay: .2s;
-  }
-  .team-member:nth-of-type(2) img {
-    transform: none;
-    transition: transform 1.5s;
-    transition-delay: .2s;
+  to {
+    width: 100%;
+    opacity: 1;
   }
 }
 
@@ -170,17 +156,6 @@
   }
   to {
     opacity: 0
-  }
-}
-
-@keyframes h1pseudo {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 100%;
-    opacity: 1;
   }
 }
 

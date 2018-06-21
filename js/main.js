@@ -1,3 +1,4 @@
+/* eslint-disable */
 jQuery(document).ready(function ($) {
 
   $('body').removeClass('fade-out');
