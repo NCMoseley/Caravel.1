@@ -48,8 +48,8 @@
       bottom: -10px;
       left: 0;
       background-color: blue;
-      animation: h1pseudo .7s;
-      -webkit-animation: h1pseudo .7s;
+      animation-name: blueline;
+      animation-duration: .7s;
       animation-timing-function: ease-in-out;
       animation-fill-mode: forwards;
       animation-delay: 2.5s;
@@ -108,18 +108,7 @@
   }
 }
 
-@-webkit-keyframes h1pseudo {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 100%;
-    opacity: 1;
-  }
-}
-
-@keyframes h1pseudo {
+@keyframes blueline {
   from {
     width: 0;
     opacity: 0;

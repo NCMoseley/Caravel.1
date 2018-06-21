@@ -738,8 +738,10 @@ object {
       bottom: -10px;
       left: 0;
       background-color: blue;
-      animation: h1pseudo .7s;
-      -webkit-animation: h1pseudo .7s;
+      -webkit-animation-name: blueline;
+              animation-name: blueline;
+      -webkit-animation-duration: .7s;
+              animation-duration: .7s;
       -webkit-animation-timing-function: ease-in-out;
               animation-timing-function: ease-in-out;
       -webkit-animation-fill-mode: forwards;
@@ -811,7 +813,7 @@ object {
       .panel1-content {
         text-align: center; } }
 
-@-webkit-keyframes h1pseudo {
+@-webkit-keyframes blueline {
   from {
     width: 0;
     opacity: 0; }
@@ -819,7 +821,7 @@ object {
     width: 100%;
     opacity: 1; } }
 
-@keyframes h1pseudo {
+@keyframes blueline {
   from {
     width: 0;
     opacity: 0; }

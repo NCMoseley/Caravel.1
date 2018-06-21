@@ -20,8 +20,7 @@
 								<span>hello</span>
 								<span>to</span>
 							</h3>
-							<h1>Simple, Powerful &
-								<br> Efficient Websites.</h1>
+							<h1>Simple, Powerful & <br> Efficient Websites.</h1>
 						</div>
 						<div class="panel1-content">
 							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be.
@@ -49,6 +48,7 @@
 						<span class="title-paragraph-container">
 							<h2 name="#" id="#">Services</h2>
 						</span>
+
 						<div class="bullet-container">
 							<div class="left">
 								<div class="bullet-point compress-text">
@@ -92,7 +92,7 @@
 							<i class="tech-sm fab fa-apple fa-2x"></i>
 							<i class="tech-sm fab fa-wordpress fa-2x"></i>
 						</div>
-					</div>
+					</div>	
 				</section>
 
 				<div class="footer-background">
@@ -108,11 +108,8 @@
 					</section>
 				</div>
 
-			</div>
-			<!-- #fullpage -->
-		</main>
-		<!-- #main -->
-	</div>
-	<!-- #primary -->
+			</div><!-- #fullpage -->
+		</main><!-- #main -->
+  </div><!-- #primary -->
 
-	<?php get_footer(); ?>
+		<?php get_footer(); ?>
