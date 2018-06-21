@@ -11,6 +11,7 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			
 
 
 			<div class="fullpage" id="fullpage">
@@ -42,16 +43,26 @@
 
 
 				<section  class="second-container">
-					
+
 					<div class="header-container services-container">
+
+					<div class="sm-links fade-out">
+					<a href="https://www.instagram.com/moseleync/"><i class="link fab fa-instagram fa-3x"></i></a>
+					<a href="https://www.linkedin.com/in/ncmoseley/"><i class="link fab fa-linkedin fa-3x"></i></a>
+					<a href="https://www.facebook.com/ncmoseley1"><i class="link fab fa-facebook-square fa-3x"></i></a>
+					<a href="https://github.com/NCMoseley"><i class="link fab fa-github fa-3x"></i></a>
+					</div>
+					
+					
+
 						<div class="sliding-background"></div>
 						<span  class="title-paragraph-container">
 							<h2  name="#" id="#" >Services</h2>
 						</span>
 						<div class="bullet-container">
 							<div class="left">
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Front and Backend Development</div>
+								<div class="bullet-point compress-text">
+									<div class="bullet-blue-line "></div>Front and Backend Development</div>
 								<div class="bullet-point">
 									<div class="bullet-blue-line"></div>Code Audits</div>
 								<div class="bullet-point">
@@ -69,7 +80,29 @@
 								<div>
 								</div>
 							</div>
-						</div>
+							</div>
+							<div class="icons">
+					<i class="tech fas fa-mobile fa-5x"></i>
+					<i class="tech fab fa-sass fa-5x"></i>
+					<i class="tech fas fa-code fa-5x"></i>
+					<i class="tech fab fa-node-js fa-5x"></i>
+					<i class="tech fab fa-react fa-5x"></i>
+					<i class="tech fab fa-php fa-5x"></i>
+					<i class="tech fab fa-css3-alt fa-5x"></i>
+					<i class="tech fab fa-apple fa-5x"></i>
+					<i class="tech fab fa-wordpress fa-5x"></i>
+
+					<i class="tech-sm fas fa-mobile fa-2x"></i>
+					<i class="tech-sm fab fa-sass fa-2x"></i>
+					<i class="tech-sm fas fa-code fa-2x"></i>
+					<i class="tech-sm fab fa-node-js fa-2x"></i>
+					<i class="tech-sm fab fa-react fa-2x"></i>
+					<i class="tech-sm fab fa-php fa-2x"></i>
+					<i class="tech-sm fab fa-css3-alt fa-2x"></i>
+					<i class="tech-sm fab fa-apple fa-2x"></i>
+					<i class="tech-sm fab fa-wordpress fa-2x"></i>
+							</div>
+						
 				</section>
 
 				<div class="footer-background">

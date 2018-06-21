@@ -1015,10 +1015,8 @@ object {
   overflow: hidden;
   background-size: 100% 250%;
   margin: 0 auto;
-  height: 700px;
   background-color: #fff;
   padding: 5% 8%;
-  height: 700px;
   position: relative;
   padding: 8%;
   padding-top: 2%;
@@ -1026,7 +1024,7 @@ object {
       align-self: center; }
   @media all and (min-width: 800px) {
     .services-container {
-      height: 550px; } }
+      height: 600px; } }
 
 .title-paragraph-container {
   display: -webkit-box;
@@ -1142,6 +1140,61 @@ object {
 
 .none {
   display: none; }
+
+.sm-links {
+  z-index: 9;
+  position: fixed;
+  top: 30%;
+  right: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .sm-links a {
+    color: #E96D65 !important; }
+    @media all and (min-width: 1550px) {
+      .sm-links a {
+        color: #404040 !important; } }
+    .sm-links a:hover {
+      color: #404040 !important; }
+      @media all and (min-width: 1550px) {
+        .sm-links a:hover {
+          color: #fff !important; } }
+
+@media all and (max-width: 350px) {
+  .compress-text {
+    letter-spacing: -1.5px; } }
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin: 40px; }
+  .icons .tech {
+    margin: 10px;
+    display: none; }
+    @media all and (min-width: 550px) {
+      .icons .tech {
+        display: inline; } }
+  .icons .tech-sm {
+    margin: 10px;
+    display: none; }
+    @media all and (max-width: 550px) {
+      .icons .tech-sm {
+        display: inline; } }
 
 .pong embed {
   height: 600px;

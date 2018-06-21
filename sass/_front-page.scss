@@ -260,16 +260,14 @@
   overflow: hidden;
   background-size: 100% 250%;
   margin: 0 auto;
-  height: 700px;
   background-color: $color__background-body;
-  padding: 5% 8%;
-  height: 700px;
+  padding: 5% 8%; // height: 750px;
   position: relative;
   padding: 8%;
   padding-top: 2%;
   align-self: center;
-  @include medium {
-    height: 550px;
+  @media all and (min-width: 800px) {
+    height: 600px;
   }
 }
 
@@ -369,6 +367,56 @@
 
 .none {
   display: none;
+}
+
+.sm-links {
+  a {
+    color: $color__pink !important;
+    @media all and (min-width: 1550px) {
+      color: $color__text-main !important;
+    }
+    &:hover {
+      color: $color__text-main !important;
+      @media all and (min-width: 1550px) {
+        color: $color__text-light !important;
+      }
+    }
+  }
+  z-index: 9;
+  position: fixed;
+  top: 30%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.compress-text {
+  @media all and (max-width: 350px) {
+    letter-spacing: -1.5px;
+  }
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 40px;
+  .tech {
+    margin: 10px;
+    display: none;
+    @media all and (min-width: 550px) {
+      display: inline;
+    }
+  }
+  .tech-sm {
+    margin: 10px;
+    display: none;
+    @media all and (max-width: 550px) {
+      display: inline;
+    }
+  }
 }
 
 .pong {

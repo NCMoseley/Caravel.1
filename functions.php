@@ -89,6 +89,7 @@ function youfoundNate_web_scripts()
 {
     wp_enqueue_style('red-starter-style', get_stylesheet_uri());
     wp_enqueue_style('full-page-theme', get_template_directory_uri() . '/lib/jquery.fullpage.css');
+    wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
     wp_enqueue_style('mainfont', "https://fonts.googleapis.com/css?family=Work+Sans:300,400|Playfair+Display:100,200,300,400,500,700");
     
     wp_enqueue_script('jquery');
