@@ -32,19 +32,19 @@
 				<section class="second-container">
 					<div class="header-container services-container">
 						<div class="sm-links fade-out">
-							<a href="https://www.instagram.com/moseleync/">
+							<a href="https://www.instagram.com/moseleync/" target="_blank">
 								<i class="link fab fa-instagram fa-3x"></i>
 							</a>
-							<a href="https://www.linkedin.com/in/ncmoseley/">
+							<a href="https://www.linkedin.com/in/ncmoseley/" target="_blank">
 								<i class="link fab fa-linkedin fa-3x"></i>
 							</a>
-							<a href="https://www.facebook.com/ncmoseley1">
+							<a href="https://www.facebook.com/ncmoseley1" target="_blank">
 								<i class="link fab fa-facebook-square fa-3x"></i>
 							</a>
-							<a href="https://github.com/NCMoseley">
+							<a href="https://github.com/NCMoseley " target="_blank">
 								<i class="link fab fa-github fa-3x"></i>
 							</a>
-							<a href="https://docs.google.com/document/d/1AsoiclWTXSZbUZ3h00aW1TrOnmDRN8DlusWxJtArhsI/edit?usp=sharing">
+							<a href="https://docs.google.com/document/d/1AsoiclWTXSZbUZ3h00aW1TrOnmDRN8DlusWxJtArhsI/edit?usp=sharing" target="_blank">
 								<i class="link fas fa-paper-plane fa-3x" title="Resume"></i>
 							</a>
 						</div>
