@@ -1052,7 +1052,7 @@ object {
     text-align: left;
     font-size: 3rem; }
   .footer-wrapper p {
-    margin: 0 0 0 3%; }
+    text-align: center; }
 
 .dont-hesitate-container {
   background-color: #13143f;

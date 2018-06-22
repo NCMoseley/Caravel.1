@@ -20,7 +20,7 @@
 								<span>hello</span>
 								<span>to</span>
 							</h3>
-							<h1>Simple, Powerful & <br> Efficient Websites.</h1>
+							<h1>Simple, Powerful & <br> Efficient Web.</h1>
 						</div>
 						<div class="panel1-content">
 							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be.
@@ -43,6 +43,9 @@
 							</a>
 							<a href="https://github.com/NCMoseley">
 								<i class="link fab fa-github fa-3x"></i>
+							</a>
+							<a href="https://docs.google.com/document/d/1AsoiclWTXSZbUZ3h00aW1TrOnmDRN8DlusWxJtArhsI/edit?usp=sharing">
+								<i class="link fas fa-paper-plane fa-3x" title="Resume"></i>
 							</a>
 						</div>
 						<span class="title-paragraph-container">
@@ -81,6 +84,7 @@
 							<i class="tech fab fa-css3-alt fa-5x"></i>
 							<i class="tech fab fa-apple fa-5x"></i>
 							<i class="tech fab fa-wordpress fa-5x"></i>
+							<i class="tech fas fa-database fa-5x"></i>
 
 							<i class="tech-sm fab fa-sass fa-2x"></i>
 							<i class="tech-sm fas fa-code fa-2x"></i>
@@ -91,6 +95,7 @@
 							<i class="tech-sm fab fa-css3-alt fa-2x"></i>
 							<i class="tech-sm fab fa-apple fa-2x"></i>
 							<i class="tech-sm fab fa-wordpress fa-2x"></i>
+							<i class="tech-sm fas fa-database fa-2x"></i>
 						</div>
 					</div>	
 				</section>
