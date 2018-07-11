@@ -1,11 +1,8 @@
 /* eslint-disable */
-jQuery(document).ready(function ($) {
-
+jQuery(document).ready(function($) {
   $('body').removeClass('fade-out');
 
-  var nlform = new NLForm(document.getElementById('nl-form'));
-
-  $('#click-for-pong').click(function () {
+  $('#click-for-pong').click(function() {
     $('#pong').toggleClass('pong');
     $('#pong').toggleClass('none');
   });
@@ -13,5 +10,5 @@ jQuery(document).ready(function ($) {
   //   $('#nl-form').toggleClass('none');
   // });
 
-
+  var nlform = new NLForm(document.getElementById('nl-form'));
 });
