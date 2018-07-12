@@ -20,7 +20,8 @@
 								<span>hello</span>
 								<span>to</span>
 							</h3>
-							<h1>Simple, Powerful & <br> Efficient Web.</h1>
+							<h1>Simple, Powerful &
+								<br> Efficient Web.</h1>
 						</div>
 						<div class="panel1-content">
 							<p>I build modern websites and apps for modern businesses and individuals. I will get you where you want to be.
@@ -55,25 +56,24 @@
 						<div class="bullet-container">
 							<div class="left">
 								<div class="bullet-point compress-text">
-									<div class="bullet-blue-line "></div>Front and Backend Development</div>
+									<div class="bullet-blue-line "></div>Front-end Development</div>
 								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Code Audits</div>
+									<div class="bullet-blue-line"></div>React and node.js Development</div>
 								<div class="bullet-point">
 									<div class="bullet-blue-line"></div>Wordpress Streamlining</div>
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Responsive Web design</div>
 							</div>
 							<div class="right">
 								<div class="bullet-point">
+									<div class="bullet-blue-line"></div>Custom blog interfaces and embeding</div>
+								<div class="bullet-point">
 									<div class="bullet-blue-line"></div>UX Content and strategy</div>
 								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Logos and Visual Identities</div>
-								<div class="bullet-point">
-									<div class="bullet-blue-line"></div>Custom Apps</div>
+									<div class="bullet-blue-line"></div>Code Audits</div>
 								<div>
 								</div>
 							</div>
 						</div>
+
 						<div class="icons">
 							<i class="tech fab fa-sass fa-5x"></i>
 							<i class="tech fas fa-code fa-5x"></i>
@@ -97,12 +97,39 @@
 							<i class="tech-sm fab fa-wordpress fa-2x"></i>
 							<i class="tech-sm fas fa-database fa-2x"></i>
 						</div>
-					</div>	
+					</div>
 				</section>
 
+				<!-- <section class="our-work-section">
+							<div class="work-wrapper">
 
-			</div><!-- #fullpage -->
-		</main><!-- #main -->
-  </div><!-- #primary -->
+								<div class="laptop">
+									<img src="<?php echo get_template_directory_uri() . '/assets/laptop.png
+					'?>" alt="Laptop">
+								</div>
 
-		<?php get_footer(); ?>
+								<?php get_template_part('template-parts/carousel'); ?>
+
+							</div>
+
+							<div class="our-work-right">
+
+								<h2>Our Work</h2>
+
+								<div class="our-work-content">
+
+									<?php get_template_part('template-parts/carousel-nav'); ?>
+
+								</div>
+							</div>
+						</section> -->
+
+
+			</div>
+			<!-- #fullpage -->
+		</main>
+		<!-- #main -->
+	</div>
+	<!-- #primary -->
+
+	<?php get_footer(); ?>
