@@ -45,7 +45,7 @@
 							<a href="https://github.com/NCMoseley " target="_blank">
 								<i class="link fab fa-github fa-3x"></i>
 							</a>
-							<a href="https://docs.google.com/document/d/1AsoiclWTXSZbUZ3h00aW1TrOnmDRN8DlusWxJtArhsI/edit?usp=sharing" target="_blank">
+							<a href="https://docs.google.com/document/d/1rW9swk1o43r1VrdnI9WjfuDmu6zGHfXfAH0c3N0krRQ/edit?usp=sharing" target="_blank">
 								<i class="link fas fa-paper-plane fa-3x" title="Resume"></i>
 							</a>
 						</div>
@@ -100,7 +100,7 @@
 					</div>
 				</section>
 
-				<!-- <section class="our-work-section">
+				<section class="our-work-section">
 							<div class="work-wrapper">
 
 								<div class="laptop">
@@ -114,7 +114,7 @@
 
 							<div class="our-work-right">
 
-								<h2>Our Work</h2>
+								<h2>Portfolio</h2>
 
 								<div class="our-work-content">
 
@@ -122,7 +122,7 @@
 
 								</div>
 							</div>
-						</section> -->
+						</section>
 
 
 			</div>

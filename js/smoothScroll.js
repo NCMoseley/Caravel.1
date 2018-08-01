@@ -1,8 +1,7 @@
-jQuery(document).ready(function ($) {
-
-  window.addEventListener('scroll', function () {
+jQuery(document).ready(function($) {
+  window.addEventListener('scroll', function() {
     var width = $(window).width();
-    if (width > 1023) {
+    if (width > 1024) {
       $('.sm-links').fadeIn(500);
     }
     if (width < 1023) {
@@ -41,12 +40,13 @@ jQuery(document).ready(function ($) {
     }
   });
 
-  setTimeout(function () {
+  setTimeout(function() {
     if (window.pageYOffset <= 50) {
       var offset = 0;
       var target = $('.header-container');
       var scrollTo = $(target).offset().top + offset;
-      $('html, body').animate({
+      $('html, body').animate(
+        {
           scrollTop: scrollTo
         },
         2000
@@ -54,13 +54,13 @@ jQuery(document).ready(function ($) {
     }
   }, 7000);
 
-
   if ($('body').hasClass('home')) {
-    $('a[href*=#]').bind('click', function (e) {
+    $('a[href*=#]').bind('click', function(e) {
       e.preventDefault();
       var target = $(this).attr('href');
       var scrollTo = $(target).offset().top;
-      $('html, body').animate({
+      $('html, body').animate(
+        {
           scrollTop: scrollTo
         },
         1500

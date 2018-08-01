@@ -6,9 +6,16 @@ jQuery(document).ready(function($) {
     $('#pong').toggleClass('pong');
     $('#pong').toggleClass('none');
   });
-  // $('#form-submit').click(function () {
-  //   $('#nl-form').toggleClass('none');
-  // });
+  // Carousel logic
+  $('.responsive').slick({
+    fade: true,
+    asNavFor: '.slider-nav'
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.responsive'
+  });
 
   var nlform = new NLForm(document.getElementById('nl-form'));
 });
