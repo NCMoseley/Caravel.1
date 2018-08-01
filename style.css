@@ -421,7 +421,7 @@ a {
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
-    outline: thin dotted; }
+    outline: 0; }
   a:hover, a:active {
     outline: 0; }
 
@@ -1223,6 +1223,9 @@ div.tile {
       background-color: #000;
       -webkit-box-shadow: 0px 14px 20px -15px rgba(0, 0, 0, 0.19), 0px 10px 13px -8px rgba(0, 0, 0, 0.23);
               box-shadow: 0px 14px 20px -15px rgba(0, 0, 0, 0.19), 0px 10px 13px -8px rgba(0, 0, 0, 0.23); }
+    .responsive button.slick-prev:focus,
+    .responsive button.slick-next:focus {
+      outline: none; }
   .responsive button.slick-prev {
     top: 300px;
     left: 0;
@@ -1256,6 +1259,8 @@ div.tile {
       background-color: #000;
       -webkit-box-shadow: 0px 14px 20px -15px rgba(0, 0, 0, 0.19), 0px 10px 13px -8px rgba(0, 0, 0, 0.23);
               box-shadow: 0px 14px 20px -15px rgba(0, 0, 0, 0.19), 0px 10px 13px -8px rgba(0, 0, 0, 0.23); }
+    .slider-nav button.slick-next:focus {
+      outline: none; }
 
 .slick-track {
   display: -webkit-box;
