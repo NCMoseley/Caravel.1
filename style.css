@@ -697,7 +697,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #f7f7f7;
+  background-color: #fff;
   color: #404040;
   position: relative;
   z-index: 2; }
