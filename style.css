@@ -1319,7 +1319,7 @@ div.tile {
     @media all and (min-width: 1440px) {
       .our-work-right p {
         padding-right: 0px;
-        width: 100%; } }
+        width: 85%; } }
   .our-work-right a {
     text-decoration: none;
     position: relative;
