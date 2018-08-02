@@ -152,7 +152,7 @@ textarea {
   margin: 0; }
 
 button {
-  overflow: visible; }
+  overflow: hidden; }
 
 button,
 select {
@@ -237,14 +237,22 @@ textarea {
   line-height: 1.5; }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both; }
 
 /* Copy */
 p {
   margin-bottom: 1.5rem; }
 
-dfn, cite, em, i {
+dfn,
+cite,
+em,
+i {
   font-style: italic; }
 
 blockquote {
@@ -261,19 +269,24 @@ pre {
   line-height: 1.6;
   margin-bottom: 1.6rem;
   max-width: 100%;
-  overflow: auto;
+  overflow: hidden;
   padding: 1.6rem; }
 
-code, kbd, tt, var {
+code,
+kbd,
+tt,
+var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem; }
 
-abbr, acronym {
+abbr,
+acronym {
   border-bottom: 1px dotted #666;
   cursor: help; }
 
-mark, ins {
+mark,
+ins {
   background: #fff9c0;
   text-decoration: none; }
 
@@ -289,7 +302,8 @@ html {
   font-size: 16px;
   font-size: 1rem;
   font-family: "nlicons", sans-serif;
-  background: #E96D65; }
+  background: #E96D65;
+  overflow-x: hidden !important; }
 
 *,
 *:before,
@@ -304,7 +318,8 @@ body {
   margin: 0 auto;
   opacity: 1;
   -webkit-transition: 3s opacity;
-  transition: 3s opacity; }
+  transition: 3s opacity;
+  overflow-x: hidden !important; }
 
 body.fade-out {
   opacity: 0;
