@@ -410,7 +410,7 @@
 .work-wrapper {
   height: 400px;
   width: 400px;
-  margin-left: 10px;
+  margin-left: -5px;
   @media all and (min-width: 1000px) {
     margin-left: calc(95px + 550 * ((100vw - 1000px) / 1440));
   }
