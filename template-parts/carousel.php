@@ -10,10 +10,17 @@
 
   <div class="responsive">
 
+     <div class="tile portfolio">
+      <a href="https://portfolio-home.herokuapp.com/" target="_blank">
+        <img class="tile__img" alt="portfolio-photo" src="<?php echo get_template_directory_uri() . '/assets/Portfolio-Blur.jpg'?>" data-src="<?php echo get_template_directory_uri() . '/assets/Portfolio.jpg'?>"
+        />
+      </a>
+    </div>
+
     <div class="tile pacwest">
       <a href="https://pacwestcanopy.com/" target="_blank">
         <img class="tile__img" alt="pacwest-photo" src="<?php echo get_template_directory_uri() . '/assets/PacWest-Blur.jpg'?>"
-          data-src="<?php echo get_template_directory_uri() . '/assets/PacWest.png'?>" />
+          data-src="<?php echo get_template_directory_uri() . '/assets/PacWest.jpg'?>" />
       </a>
     </div>
 
@@ -24,16 +31,9 @@
       </a>
     </div>
 
-    <div class="tile valo">
-      <a href="https://valosmartcity.com/" target="_blank">
-        <img class="tile__img" alt="valo-photo" src="<?php echo get_template_directory_uri() . '/assets/Valo-Blur.jpg'?>" data-src="<?php echo get_template_directory_uri() . '/assets/Valo.jpg'?>"
-        />
-      </a>
-    </div>
-
-    <div class="tile wolfcircus">
-      <a href="https://www.wolfcircus.com/pages/feels" target="_blank">
-        <img class="tile__img" alt="wolfcircus-photo" src="<?php echo get_template_directory_uri() . '/assets/WolfCircus Blur.jpg'?>" data-src="<?php echo get_template_directory_uri() . '/assets/WolfCircus.png'?>"
+    <div class="tile hi-jane">
+      <a href="https://play.google.com/store/search?q=Hi-Jane&c=apps" target="_blank">
+        <img class="tile__img" alt="Hj-App-photo" src="<?php echo get_template_directory_uri() . '/assets/Hj-App-Blur.jpg'?>" data-src="<?php echo get_template_directory_uri() . '/assets/Hj-App.jpg'?>"
         />
       </a>
     </div>
