@@ -32,7 +32,7 @@
     </div>
 
     <div class="tile hi-jane">
-      <a href="https://play.google.com/store/search?q=Hi-Jane&c=apps" target="_blank">
+      <a href="https://portfolio-home.herokuapp.com/" target="_blank">
         <img class="tile__img" alt="Hj-App-photo" src="<?php echo get_template_directory_uri() . '/assets/Hj-App-Blur.jpg'?>" data-src="<?php echo get_template_directory_uri() . '/assets/Hj-App.jpg'?>"
         />
       </a>
