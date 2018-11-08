@@ -1112,6 +1112,9 @@ object {
     z-index: 9 !important;
     position: relative;
     color: #E96D65 !important; }
+    @media all and (max-width: 700px) {
+      .sm-links a {
+        display: none; } }
     @media all and (min-width: 1550px) {
       .sm-links a {
         color: #404040 !important; } }
@@ -1156,6 +1159,14 @@ object {
 .pong embed {
   height: 600px;
   width: 100%; }
+
+.resume-visible {
+  display: inline;
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -320px; }
 
 .our-work-section {
   display: -webkit-box;

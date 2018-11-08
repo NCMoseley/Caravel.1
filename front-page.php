@@ -30,6 +30,8 @@
 				</div>
 			</section>
 
+			<iframe class="none" src="https://drive.google.com/file/d/1GBsHDo1hasNgiU2QgaFKdg-clvSwxDJd/preview" width="640" height="900"><span>X</span></iframe>
+
 			<section class="second-container">
 				<div class="header-container services-container">
 					<div class="sm-links fade-out">
@@ -45,7 +47,7 @@
 						<a href="https://github.com/NCMoseley " target="_blank">
 							<i class="link fab fa-github fa-3x"></i>
 						</a>
-						<a href="https://docs.google.com/document/d/1rW9swk1o43r1VrdnI9WjfuDmu6zGHfXfAH0c3N0krRQ/edit?usp=sharing" target="_blank">
+						<a id="click-for-resume">
 							<i class="link fas fa-paper-plane fa-3x" title="Resume"></i>
 						</a>
 					</div>

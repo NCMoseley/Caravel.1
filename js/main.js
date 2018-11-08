@@ -16,6 +16,10 @@ jQuery(document).ready(function($) {
     slidesToScroll: 1,
     asNavFor: '.responsive'
   });
+  $('#click-for-resume').click(function() {
+    $('iframe').toggleClass('resume-visible');
+    $('iframe').toggleClass('none');
+  });
 
   var nlform = new NLForm(document.getElementById('nl-form'));
 });
