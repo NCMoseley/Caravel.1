@@ -434,12 +434,20 @@
 }
 
 .resume-visible {
-  display: inline;
+  display: block;
   z-index: 999;
   position: absolute;
+  height: calc(450px + 850 * ((100vw - 320px) / 700));
+  width: -webkit-fill-available;
   top: 50%;
-  left: 50%;
-  margin-left: -320px
+
+  @media all and (min-width: 700px) {
+    width: 640px;
+    height: 900px;
+    top: 50%;
+    left: 50%;
+    margin-left: -320px;
+  }
 }
 
 .our-work-section {

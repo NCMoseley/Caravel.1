@@ -30,7 +30,7 @@
 				</div>
 			</section>
 
-			<iframe class="none" src="https://drive.google.com/file/d/1GBsHDo1hasNgiU2QgaFKdg-clvSwxDJd/preview" width="640" height="900"><span>X</span></iframe>
+			<iframe class="none" src="https://drive.google.com/file/d/1GBsHDo1hasNgiU2QgaFKdg-clvSwxDJd/preview" ></iframe>
 
 			<section class="second-container">
 				<div class="header-container services-container">

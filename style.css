@@ -1161,12 +1161,19 @@ object {
   width: 100%; }
 
 .resume-visible {
-  display: inline;
+  display: block;
   z-index: 999;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -320px; }
+  height: calc(450px + 850 * ((100vw - 320px) / 700));
+  width: -webkit-fill-available;
+  top: 50%; }
+  @media all and (min-width: 700px) {
+    .resume-visible {
+      width: 640px;
+      height: 900px;
+      top: 50%;
+      left: 50%;
+      margin-left: -320px; } }
 
 .our-work-section {
   display: -webkit-box;
