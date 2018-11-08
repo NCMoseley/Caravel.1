@@ -1167,13 +1167,13 @@ object {
   height: calc(450px + 850 * ((100vw - 320px) / 700));
   width: -webkit-fill-available;
   top: 50%; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 1000px) {
     .resume-visible {
-      width: 640px;
-      height: 900px;
+      width: 1000px;
+      height: 1100px;
       top: 50%;
       left: 50%;
-      margin-left: -320px; } }
+      margin-left: -500px; } }
 
 .our-work-section {
   display: -webkit-box;

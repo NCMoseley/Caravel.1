@@ -441,12 +441,12 @@
   width: -webkit-fill-available;
   top: 50%;
 
-  @media all and (min-width: 700px) {
-    width: 640px;
-    height: 900px;
+  @media all and (min-width: 1000px) {
+    width: 1000px;
+    height: 1100px;
     top: 50%;
     left: 50%;
-    margin-left: -320px;
+    margin-left: -500px;
   }
 }
 
